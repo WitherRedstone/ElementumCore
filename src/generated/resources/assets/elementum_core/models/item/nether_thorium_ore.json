@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "elementum_core:block/elements/thorium/nether_thorium_ore"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "zirconium",
+  "ingredient": {
+    "tag": "c:raw_materials/zirconium"
+  },
+  "result": {
+    "count": 1,
+    "id": "elementum_core:zirconium_ingot"
+  }
+}

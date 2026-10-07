@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "elementum_core:block_elementum_core_vanadium_block_from_smelting_vanadium_raw_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_vanadium_raw_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "elementum_core:vanadium_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_vanadium_raw_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "elementum_core:block_elementum_core_vanadium_block_from_smelting_vanadium_raw_block"
+    ]
+  }
+}

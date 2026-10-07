@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_erbium": {
+      "conditions": {
+        "items": [
+          {
+            "items": "elementum_core:erbium_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "elementum_core:elementum_core_erbium_ingot_from_smelting_erbium"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_erbium"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "elementum_core:elementum_core_erbium_ingot_from_smelting_erbium"
+    ]
+  }
+}

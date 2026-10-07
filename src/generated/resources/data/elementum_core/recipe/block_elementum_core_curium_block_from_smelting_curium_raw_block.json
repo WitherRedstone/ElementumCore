@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "curium_raw_block",
+  "ingredient": {
+    "tag": "c:storage_blocks/raw_curium"
+  },
+  "result": {
+    "count": 1,
+    "id": "elementum_core:curium_block"
+  }
+}

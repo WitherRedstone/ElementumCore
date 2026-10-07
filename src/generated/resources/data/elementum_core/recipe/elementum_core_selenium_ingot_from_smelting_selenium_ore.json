@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "selenium_ore",
+  "ingredient": {
+    "tag": "c:ores/selenium"
+  },
+  "result": {
+    "count": 1,
+    "id": "elementum_core:selenium_ingot"
+  }
+}

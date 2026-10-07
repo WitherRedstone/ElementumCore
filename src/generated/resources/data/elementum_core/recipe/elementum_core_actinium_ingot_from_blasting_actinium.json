@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "actinium",
+  "ingredient": {
+    "tag": "c:raw_materials/actinium"
+  },
+  "result": {
+    "count": 1,
+    "id": "elementum_core:actinium_ingot"
+  }
+}

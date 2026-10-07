@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "elementum_core:elementum_core_thulium_ingot_from_blasting_thulium"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_thulium": {
+      "conditions": {
+        "items": [
+          {
+            "items": "elementum_core:thulium_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_thulium"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "elementum_core:elementum_core_thulium_ingot_from_blasting_thulium"
+    ]
+  }
+}

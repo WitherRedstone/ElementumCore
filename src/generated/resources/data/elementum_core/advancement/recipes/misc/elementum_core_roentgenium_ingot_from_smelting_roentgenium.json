@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_roentgenium": {
+      "conditions": {
+        "items": [
+          {
+            "items": "elementum_core:roentgenium_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "elementum_core:elementum_core_roentgenium_ingot_from_smelting_roentgenium"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_roentgenium"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "elementum_core:elementum_core_roentgenium_ingot_from_smelting_roentgenium"
+    ]
+  }
+}

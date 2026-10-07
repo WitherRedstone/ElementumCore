@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "terbium",
+  "ingredient": {
+    "tag": "c:raw_materials/terbium"
+  },
+  "result": {
+    "count": 1,
+    "id": "elementum_core:terbium_ingot"
+  }
+}

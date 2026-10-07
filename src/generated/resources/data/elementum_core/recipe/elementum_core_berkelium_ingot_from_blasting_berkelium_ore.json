@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "berkelium_ore",
+  "ingredient": {
+    "tag": "c:ores/berkelium"
+  },
+  "result": {
+    "count": 1,
+    "id": "elementum_core:berkelium_ingot"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "actinium_ore",
+  "ingredient": {
+    "tag": "c:ores/actinium"
+  },
+  "result": {
+    "count": 1,
+    "id": "elementum_core:actinium_ingot"
+  }
+}

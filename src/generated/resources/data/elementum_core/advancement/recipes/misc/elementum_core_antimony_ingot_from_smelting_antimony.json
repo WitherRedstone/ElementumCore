@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_antimony": {
+      "conditions": {
+        "items": [
+          {
+            "items": "elementum_core:antimony_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "elementum_core:elementum_core_antimony_ingot_from_smelting_antimony"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_antimony"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "elementum_core:elementum_core_antimony_ingot_from_smelting_antimony"
+    ]
+  }
+}

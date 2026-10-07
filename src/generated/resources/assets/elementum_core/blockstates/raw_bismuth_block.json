@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "elementum_core:block/raw_bismuth_block"
+    }
+  }
+}

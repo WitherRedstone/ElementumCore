@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_mysterium_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "elementum_core:mysterium_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "elementum_core:elementum_core_mysterium_ingot_from_blasting_mysterium_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_mysterium_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "elementum_core:elementum_core_mysterium_ingot_from_blasting_mysterium_ore"
+    ]
+  }
+}

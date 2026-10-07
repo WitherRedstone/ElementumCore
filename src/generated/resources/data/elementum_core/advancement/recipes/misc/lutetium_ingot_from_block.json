@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_block_elementum_core_lutetium_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:storage_blocks/lutetium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "elementum_core:lutetium_ingot_from_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_block_elementum_core_lutetium_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "elementum_core:lutetium_ingot_from_block"
+    ]
+  }
+}

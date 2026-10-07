@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "gold",
+  "ingredient": {
+    "tag": "c:raw_materials/gold"
+  },
+  "result": {
+    "count": 1,
+    "id": "elementum_core:gold_ingot"
+  }
+}

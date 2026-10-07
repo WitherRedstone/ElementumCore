@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "elementum_core:block_elementum_core_tin_block_from_smelting_tin_raw_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tin_raw_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "elementum_core:tin_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_tin_raw_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "elementum_core:block_elementum_core_tin_block_from_smelting_tin_raw_block"
+    ]
+  }
+}

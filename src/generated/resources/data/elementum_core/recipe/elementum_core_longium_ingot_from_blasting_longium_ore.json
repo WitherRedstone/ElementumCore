@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "longium_ore",
+  "ingredient": {
+    "tag": "c:ores/longium"
+  },
+  "result": {
+    "count": 1,
+    "id": "elementum_core:longium_ingot"
+  }
+}

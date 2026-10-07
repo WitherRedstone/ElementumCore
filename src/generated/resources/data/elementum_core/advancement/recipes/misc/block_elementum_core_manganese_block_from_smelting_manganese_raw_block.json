@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_manganese_raw_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "elementum_core:manganese_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "elementum_core:block_elementum_core_manganese_block_from_smelting_manganese_raw_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_manganese_raw_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "elementum_core:block_elementum_core_manganese_block_from_smelting_manganese_raw_block"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "thallium_raw_block",
+  "ingredient": {
+    "tag": "c:storage_blocks/raw_thallium"
+  },
+  "result": {
+    "count": 1,
+    "id": "elementum_core:thallium_block"
+  }
+}

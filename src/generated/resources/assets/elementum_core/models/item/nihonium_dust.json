@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "elementum_core:item/elements/nihonium/nihonium_dust"
+  }
+}

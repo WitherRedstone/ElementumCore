@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "elementum_core:elementum_core_uranium_ingot_from_smelting_uranium_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_uranium_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "elementum_core:uranium_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_uranium_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "elementum_core:elementum_core_uranium_ingot_from_smelting_uranium_ore"
+    ]
+  }
+}

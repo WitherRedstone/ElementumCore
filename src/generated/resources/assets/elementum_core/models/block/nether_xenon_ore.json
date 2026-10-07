@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "elementum_core:block/elements/xenon/nether_xenon_ore"
+  }
+}

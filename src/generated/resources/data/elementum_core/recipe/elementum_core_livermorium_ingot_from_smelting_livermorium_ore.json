@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "livermorium_ore",
+  "ingredient": {
+    "tag": "c:ores/livermorium"
+  },
+  "result": {
+    "count": 1,
+    "id": "elementum_core:livermorium_ingot"
+  }
+}

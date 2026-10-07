@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "blocks",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "praseodymium_raw_block",
+  "ingredient": {
+    "tag": "c:storage_blocks/raw_praseodymium"
+  },
+  "result": {
+    "count": 1,
+    "id": "elementum_core:praseodymium_block"
+  }
+}

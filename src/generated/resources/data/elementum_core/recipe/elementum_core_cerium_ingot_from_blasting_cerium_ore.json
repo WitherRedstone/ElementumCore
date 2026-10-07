@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "cerium_ore",
+  "ingredient": {
+    "tag": "c:ores/cerium"
+  },
+  "result": {
+    "count": 1,
+    "id": "elementum_core:cerium_ingot"
+  }
+}

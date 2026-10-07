@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "iridium_ore",
+  "ingredient": {
+    "tag": "c:ores/iridium"
+  },
+  "result": {
+    "count": 1,
+    "id": "elementum_core:iridium_ingot"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "argon_ore",
+  "ingredient": {
+    "tag": "c:ores/argon"
+  },
+  "result": {
+    "count": 1,
+    "id": "elementum_core:argon_ingot"
+  }
+}

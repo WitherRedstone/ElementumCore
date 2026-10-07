@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "elementum_core:block/elements/cerium/deepslate_cerium_ore"
+  }
+}

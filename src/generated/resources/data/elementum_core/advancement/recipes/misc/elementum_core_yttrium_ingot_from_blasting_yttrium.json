@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "elementum_core:elementum_core_yttrium_ingot_from_blasting_yttrium"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_yttrium": {
+      "conditions": {
+        "items": [
+          {
+            "items": "elementum_core:yttrium_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_yttrium"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "elementum_core:elementum_core_yttrium_ingot_from_blasting_yttrium"
+    ]
+  }
+}

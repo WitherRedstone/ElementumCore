@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_elementum_core_iron_nugget": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:nuggets/iron"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "elementum_core:iron_ingot_from_nugget"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_elementum_core_iron_nugget"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "elementum_core:iron_ingot_from_nugget"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "elementum_core:elementum_core_vanadium_ingot_from_smelting_vanadium"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_vanadium": {
+      "conditions": {
+        "items": [
+          {
+            "items": "elementum_core:vanadium_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_vanadium"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "elementum_core:elementum_core_vanadium_ingot_from_smelting_vanadium"
+    ]
+  }
+}

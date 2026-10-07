@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "sulfur",
+  "ingredient": {
+    "tag": "c:raw_materials/sulfur"
+  },
+  "result": {
+    "count": 1,
+    "id": "elementum_core:sulfur_ingot"
+  }
+}

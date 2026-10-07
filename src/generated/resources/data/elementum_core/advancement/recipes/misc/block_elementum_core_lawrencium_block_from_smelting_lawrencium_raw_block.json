@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_lawrencium_raw_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "elementum_core:lawrencium_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "elementum_core:block_elementum_core_lawrencium_block_from_smelting_lawrencium_raw_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_lawrencium_raw_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "elementum_core:block_elementum_core_lawrencium_block_from_smelting_lawrencium_raw_block"
+    ]
+  }
+}

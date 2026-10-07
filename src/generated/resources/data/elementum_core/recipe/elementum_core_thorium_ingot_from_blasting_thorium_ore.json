@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "thorium_ore",
+  "ingredient": {
+    "tag": "c:ores/thorium"
+  },
+  "result": {
+    "count": 1,
+    "id": "elementum_core:thorium_ingot"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "einsteinium",
+  "ingredient": {
+    "tag": "c:raw_materials/einsteinium"
+  },
+  "result": {
+    "count": 1,
+    "id": "elementum_core:einsteinium_ingot"
+  }
+}

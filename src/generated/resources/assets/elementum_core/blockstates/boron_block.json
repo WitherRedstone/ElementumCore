@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "elementum_core:block/boron_block"
+    }
+  }
+}

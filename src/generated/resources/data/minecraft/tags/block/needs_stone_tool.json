@@ -1,0 +1,12 @@
+{
+  "values": [
+    "elementum_core:iron_block",
+    "elementum_core:raw_iron_block",
+    "elementum_core:iron_ore",
+    "elementum_core:deepslate_iron_ore",
+    "elementum_core:copper_block",
+    "elementum_core:raw_copper_block",
+    "elementum_core:copper_ore",
+    "elementum_core:deepslate_copper_ore"
+  ]
+}

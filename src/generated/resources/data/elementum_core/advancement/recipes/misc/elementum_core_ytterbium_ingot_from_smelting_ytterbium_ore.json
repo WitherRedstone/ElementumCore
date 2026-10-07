@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "elementum_core:elementum_core_ytterbium_ingot_from_smelting_ytterbium_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_ytterbium_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "elementum_core:ytterbium_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_ytterbium_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "elementum_core:elementum_core_ytterbium_ingot_from_smelting_ytterbium_ore"
+    ]
+  }
+}

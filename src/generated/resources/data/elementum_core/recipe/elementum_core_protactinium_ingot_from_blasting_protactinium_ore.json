@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "protactinium_ore",
+  "ingredient": {
+    "tag": "c:ores/protactinium"
+  },
+  "result": {
+    "count": 1,
+    "id": "elementum_core:protactinium_ingot"
+  }
+}

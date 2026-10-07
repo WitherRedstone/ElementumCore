@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "lanthanum_ore",
+  "ingredient": {
+    "tag": "c:ores/lanthanum"
+  },
+  "result": {
+    "count": 1,
+    "id": "elementum_core:lanthanum_ingot"
+  }
+}

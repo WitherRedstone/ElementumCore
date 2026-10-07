@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_elementum_core_thallium_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:ingots/thallium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "elementum_core:thallium_block_from_ingot"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_elementum_core_thallium_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "elementum_core:thallium_block_from_ingot"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "potassium",
+  "ingredient": {
+    "tag": "c:raw_materials/potassium"
+  },
+  "result": {
+    "count": 1,
+    "id": "elementum_core:potassium_ingot"
+  }
+}

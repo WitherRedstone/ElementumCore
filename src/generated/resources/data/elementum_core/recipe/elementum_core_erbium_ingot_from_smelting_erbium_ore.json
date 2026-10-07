@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "erbium_ore",
+  "ingredient": {
+    "tag": "c:ores/erbium"
+  },
+  "result": {
+    "count": 1,
+    "id": "elementum_core:erbium_ingot"
+  }
+}

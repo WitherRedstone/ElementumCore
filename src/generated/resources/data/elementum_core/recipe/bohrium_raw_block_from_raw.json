@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "R": {
+      "tag": "c:raw_materials/bohrium"
+    }
+  },
+  "pattern": [
+    "RRR",
+    "RRR",
+    "RRR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "elementum_core:raw_bohrium_block"
+  }
+}

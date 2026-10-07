@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:storage_blocks/lutetium"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "elementum_core:lutetium_ingot"
+  }
+}

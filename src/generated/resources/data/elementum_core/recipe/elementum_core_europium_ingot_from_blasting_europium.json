@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "europium",
+  "ingredient": {
+    "tag": "c:raw_materials/europium"
+  },
+  "result": {
+    "count": 1,
+    "id": "elementum_core:europium_ingot"
+  }
+}

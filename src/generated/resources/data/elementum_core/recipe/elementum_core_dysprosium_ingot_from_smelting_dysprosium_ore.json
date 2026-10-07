@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "dysprosium_ore",
+  "ingredient": {
+    "tag": "c:ores/dysprosium"
+  },
+  "result": {
+    "count": 1,
+    "id": "elementum_core:dysprosium_ingot"
+  }
+}

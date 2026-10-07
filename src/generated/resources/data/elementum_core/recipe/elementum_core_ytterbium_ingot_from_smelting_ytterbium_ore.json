@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "ytterbium_ore",
+  "ingredient": {
+    "tag": "c:ores/ytterbium"
+  },
+  "result": {
+    "count": 1,
+    "id": "elementum_core:ytterbium_ingot"
+  }
+}

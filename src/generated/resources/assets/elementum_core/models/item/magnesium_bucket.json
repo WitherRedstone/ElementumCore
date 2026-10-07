@@ -1,0 +1,6 @@
+{
+  "parent": "neoforge:item/bucket",
+  "flip_gas": false,
+  "fluid": "elementum_core:magnesium",
+  "loader": "neoforge:fluid_container"
+}

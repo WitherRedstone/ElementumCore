@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_block_elementum_core_raw_radium_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:storage_blocks/raw_radium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "elementum_core:radium_raw_from_raw_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_block_elementum_core_raw_radium_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "elementum_core:radium_raw_from_raw_block"
+    ]
+  }
+}

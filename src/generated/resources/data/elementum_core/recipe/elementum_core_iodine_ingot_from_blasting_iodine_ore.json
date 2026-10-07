@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "iodine_ore",
+  "ingredient": {
+    "tag": "c:ores/iodine"
+  },
+  "result": {
+    "count": 1,
+    "id": "elementum_core:iodine_ingot"
+  }
+}

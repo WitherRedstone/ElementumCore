@@ -1,0 +1,6 @@
+{
+  "parent": "neoforge:item/bucket",
+  "flip_gas": false,
+  "fluid": "elementum_core:phosphorus",
+  "loader": "neoforge:fluid_container"
+}

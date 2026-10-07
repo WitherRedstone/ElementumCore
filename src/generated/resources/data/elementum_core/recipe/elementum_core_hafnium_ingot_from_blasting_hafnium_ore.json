@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "hafnium_ore",
+  "ingredient": {
+    "tag": "c:ores/hafnium"
+  },
+  "result": {
+    "count": 1,
+    "id": "elementum_core:hafnium_ingot"
+  }
+}

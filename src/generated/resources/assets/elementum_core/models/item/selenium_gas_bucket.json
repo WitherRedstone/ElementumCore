@@ -1,0 +1,6 @@
+{
+  "parent": "neoforge:item/bucket_drip",
+  "flip_gas": true,
+  "fluid": "elementum_core:selenium_gas",
+  "loader": "neoforge:fluid_container"
+}

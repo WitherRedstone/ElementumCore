@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "cadmium_ore",
+  "ingredient": {
+    "tag": "c:ores/cadmium"
+  },
+  "result": {
+    "count": 1,
+    "id": "elementum_core:cadmium_ingot"
+  }
+}
