@@ -18,8 +18,8 @@ public class ModEnUsLangProvider extends ModLangProvider {
     }
 
     // ==================== 翻译模板 ====================
-    @Override protected String liquidFluidPrefix() { return "liquid "; }
-    @Override protected String vaporSuffix()    { return "vapor"; }
+    @Override protected String liquidFluidPrefix() { return "Liquid "; }
+    @Override protected String vaporSuffix()    { return "Vapor"; }
 
     @Override protected String gasCylinder()    { return "Gas Cylinder"; }
     @Override protected String ingot(String e)  { return e + " Ingot"; }

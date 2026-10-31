@@ -1,0 +1,6 @@
+{
+  "parent": "neoforge:item/bucket_drip",
+  "flip_gas": true,
+  "fluid": "elementum_core:samarium_vapor",
+  "loader": "neoforge:fluid_container"
+}

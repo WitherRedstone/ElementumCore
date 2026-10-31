@@ -261,259 +261,259 @@ public class ECMaterialItems {
 
     // ==================== 120个元素的流体桶 ====================
     /** 氢桶 */
-    public static final DeferredItem<BucketItem> HYDROGEN_BUCKET = ITEMS_REGISTER.register("hydrogen_bucket", () -> new BucketItem(ECFluids.HYDROGEN.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_HYDROGEN_BUCKET = ITEMS_REGISTER.register("liquid_hydrogen_bucket", () -> new BucketItem(ECFluids.LIQUID_HYDROGEN.source.get(), BUCKET));
     /** 氦桶 */
-    public static final DeferredItem<BucketItem> HELIUM_BUCKET = ITEMS_REGISTER.register("helium_bucket", () -> new BucketItem(ECFluids.HELIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_HELIUM_BUCKET = ITEMS_REGISTER.register("liquid_helium_bucket", () -> new BucketItem(ECFluids.LIQUID_HELIUM.source.get(), BUCKET));
     /** 锂桶 */
-    public static final DeferredItem<BucketItem> LITHIUM_BUCKET = ITEMS_REGISTER.register("lithium_bucket", () -> new BucketItem(ECFluids.LITHIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_LITHIUM_BUCKET = ITEMS_REGISTER.register("liquid_lithium_bucket", () -> new BucketItem(ECFluids.LIQUID_LITHIUM.source.get(), BUCKET));
     /** 铍桶 */
-    public static final DeferredItem<BucketItem> BERYLLIUM_BUCKET = ITEMS_REGISTER.register("beryllium_bucket", () -> new BucketItem(ECFluids.BERYLLIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_BERYLLIUM_BUCKET = ITEMS_REGISTER.register("liquid_beryllium_bucket", () -> new BucketItem(ECFluids.LIQUID_BERYLLIUM.source.get(), BUCKET));
     /** 硼桶 */
-    public static final DeferredItem<BucketItem> BORON_BUCKET = ITEMS_REGISTER.register("boron_bucket", () -> new BucketItem(ECFluids.BORON.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_BORON_BUCKET = ITEMS_REGISTER.register("liquid_boron_bucket", () -> new BucketItem(ECFluids.LIQUID_BORON.source.get(), BUCKET));
     /** 碳桶 */
-    public static final DeferredItem<BucketItem> CARBON_BUCKET = ITEMS_REGISTER.register("carbon_bucket", () -> new BucketItem(ECFluids.CARBON.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_CARBON_BUCKET = ITEMS_REGISTER.register("liquid_carbon_bucket", () -> new BucketItem(ECFluids.LIQUID_CARBON.source.get(), BUCKET));
     /** 氮桶 */
-    public static final DeferredItem<BucketItem> NITROGEN_BUCKET = ITEMS_REGISTER.register("nitrogen_bucket", () -> new BucketItem(ECFluids.NITROGEN.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_NITROGEN_BUCKET = ITEMS_REGISTER.register("liquid_nitrogen_bucket", () -> new BucketItem(ECFluids.LIQUID_NITROGEN.source.get(), BUCKET));
     /** 氧桶 */
-    public static final DeferredItem<BucketItem> OXYGEN_BUCKET = ITEMS_REGISTER.register("oxygen_bucket", () -> new BucketItem(ECFluids.OXYGEN.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_OXYGEN_BUCKET = ITEMS_REGISTER.register("liquid_oxygen_bucket", () -> new BucketItem(ECFluids.LIQUID_OXYGEN.source.get(), BUCKET));
     /** 氟桶 */
-    public static final DeferredItem<BucketItem> FLUORINE_BUCKET = ITEMS_REGISTER.register("fluorine_bucket", () -> new BucketItem(ECFluids.FLUORINE.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_FLUORINE_BUCKET = ITEMS_REGISTER.register("liquid_fluorine_bucket", () -> new BucketItem(ECFluids.LIQUID_FLUORINE.source.get(), BUCKET));
     /** 氖桶 */
-    public static final DeferredItem<BucketItem> NEON_BUCKET = ITEMS_REGISTER.register("neon_bucket", () -> new BucketItem(ECFluids.NEON.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_NEON_BUCKET = ITEMS_REGISTER.register("liquid_neon_bucket", () -> new BucketItem(ECFluids.LIQUID_NEON.source.get(), BUCKET));
     /** 钠桶 */
-    public static final DeferredItem<BucketItem> SODIUM_BUCKET = ITEMS_REGISTER.register("sodium_bucket", () -> new BucketItem(ECFluids.SODIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_SODIUM_BUCKET = ITEMS_REGISTER.register("liquid_sodium_bucket", () -> new BucketItem(ECFluids.LIQUID_SODIUM.source.get(), BUCKET));
     /** 镁桶 */
-    public static final DeferredItem<BucketItem> MAGNESIUM_BUCKET = ITEMS_REGISTER.register("magnesium_bucket", () -> new BucketItem(ECFluids.MAGNESIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_MAGNESIUM_BUCKET = ITEMS_REGISTER.register("liquid_magnesium_bucket", () -> new BucketItem(ECFluids.LIQUID_MAGNESIUM.source.get(), BUCKET));
     /** 铝桶 */
-    public static final DeferredItem<BucketItem> ALUMINUM_BUCKET = ITEMS_REGISTER.register("aluminum_bucket", () -> new BucketItem(ECFluids.ALUMINUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_ALUMINUM_BUCKET = ITEMS_REGISTER.register("liquid_aluminum_bucket", () -> new BucketItem(ECFluids.LIQUID_ALUMINUM.source.get(), BUCKET));
     /** 硅桶 */
-    public static final DeferredItem<BucketItem> SILICON_BUCKET = ITEMS_REGISTER.register("silicon_bucket", () -> new BucketItem(ECFluids.SILICON.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_SILICON_BUCKET = ITEMS_REGISTER.register("liquid_silicon_bucket", () -> new BucketItem(ECFluids.LIQUID_SILICON.source.get(), BUCKET));
     /** 磷桶 */
-    public static final DeferredItem<BucketItem> PHOSPHORUS_BUCKET = ITEMS_REGISTER.register("phosphorus_bucket", () -> new BucketItem(ECFluids.PHOSPHORUS.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_PHOSPHORUS_BUCKET = ITEMS_REGISTER.register("liquid_phosphorus_bucket", () -> new BucketItem(ECFluids.LIQUID_PHOSPHORUS.source.get(), BUCKET));
     /** 硫桶 */
-    public static final DeferredItem<BucketItem> SULFUR_BUCKET = ITEMS_REGISTER.register("sulfur_bucket", () -> new BucketItem(ECFluids.SULFUR.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_SULFUR_BUCKET = ITEMS_REGISTER.register("liquid_sulfur_bucket", () -> new BucketItem(ECFluids.LIQUID_SULFUR.source.get(), BUCKET));
     /** 氯桶 */
-    public static final DeferredItem<BucketItem> CHLORINE_BUCKET = ITEMS_REGISTER.register("chlorine_bucket", () -> new BucketItem(ECFluids.CHLORINE.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_CHLORINE_BUCKET = ITEMS_REGISTER.register("liquid_chlorine_bucket", () -> new BucketItem(ECFluids.LIQUID_CHLORINE.source.get(), BUCKET));
     /** 氩桶 */
-    public static final DeferredItem<BucketItem> ARGON_BUCKET = ITEMS_REGISTER.register("argon_bucket", () -> new BucketItem(ECFluids.ARGON.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_ARGON_BUCKET = ITEMS_REGISTER.register("liquid_argon_bucket", () -> new BucketItem(ECFluids.LIQUID_ARGON.source.get(), BUCKET));
     /** 钾桶 */
-    public static final DeferredItem<BucketItem> POTASSIUM_BUCKET = ITEMS_REGISTER.register("potassium_bucket", () -> new BucketItem(ECFluids.POTASSIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_POTASSIUM_BUCKET = ITEMS_REGISTER.register("liquid_potassium_bucket", () -> new BucketItem(ECFluids.LIQUID_POTASSIUM.source.get(), BUCKET));
     /** 钙桶 */
-    public static final DeferredItem<BucketItem> CALCIUM_BUCKET = ITEMS_REGISTER.register("calcium_bucket", () -> new BucketItem(ECFluids.CALCIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_CALCIUM_BUCKET = ITEMS_REGISTER.register("liquid_calcium_bucket", () -> new BucketItem(ECFluids.LIQUID_CALCIUM.source.get(), BUCKET));
     /** 钪桶 */
-    public static final DeferredItem<BucketItem> SCANDIUM_BUCKET = ITEMS_REGISTER.register("scandium_bucket", () -> new BucketItem(ECFluids.SCANDIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_SCANDIUM_BUCKET = ITEMS_REGISTER.register("liquid_scandium_bucket", () -> new BucketItem(ECFluids.LIQUID_SCANDIUM.source.get(), BUCKET));
     /** 钛桶 */
-    public static final DeferredItem<BucketItem> TITANIUM_BUCKET = ITEMS_REGISTER.register("titanium_bucket", () -> new BucketItem(ECFluids.TITANIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_TITANIUM_BUCKET = ITEMS_REGISTER.register("liquid_titanium_bucket", () -> new BucketItem(ECFluids.LIQUID_TITANIUM.source.get(), BUCKET));
     /** 钒桶 */
-    public static final DeferredItem<BucketItem> VANADIUM_BUCKET = ITEMS_REGISTER.register("vanadium_bucket", () -> new BucketItem(ECFluids.VANADIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_VANADIUM_BUCKET = ITEMS_REGISTER.register("liquid_vanadium_bucket", () -> new BucketItem(ECFluids.LIQUID_VANADIUM.source.get(), BUCKET));
     /** 铬桶 */
-    public static final DeferredItem<BucketItem> CHROMIUM_BUCKET = ITEMS_REGISTER.register("chromium_bucket", () -> new BucketItem(ECFluids.CHROMIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_CHROMIUM_BUCKET = ITEMS_REGISTER.register("liquid_chromium_bucket", () -> new BucketItem(ECFluids.LIQUID_CHROMIUM.source.get(), BUCKET));
     /** 锰桶 */
-    public static final DeferredItem<BucketItem> MANGANESE_BUCKET = ITEMS_REGISTER.register("manganese_bucket", () -> new BucketItem(ECFluids.MANGANESE.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_MANGANESE_BUCKET = ITEMS_REGISTER.register("liquid_manganese_bucket", () -> new BucketItem(ECFluids.LIQUID_MANGANESE.source.get(), BUCKET));
     /** 铁桶 */
-    public static final DeferredItem<BucketItem> IRON_BUCKET = ITEMS_REGISTER.register("iron_bucket", () -> new BucketItem(ECFluids.IRON.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_IRON_BUCKET = ITEMS_REGISTER.register("liquid_iron_bucket", () -> new BucketItem(ECFluids.LIQUID_IRON.source.get(), BUCKET));
     /** 钴桶 */
-    public static final DeferredItem<BucketItem> COBALT_BUCKET = ITEMS_REGISTER.register("cobalt_bucket", () -> new BucketItem(ECFluids.COBALT.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_COBALT_BUCKET = ITEMS_REGISTER.register("liquid_cobalt_bucket", () -> new BucketItem(ECFluids.LIQUID_COBALT.source.get(), BUCKET));
     /** 镍桶 */
-    public static final DeferredItem<BucketItem> NICKEL_BUCKET = ITEMS_REGISTER.register("nickel_bucket", () -> new BucketItem(ECFluids.NICKEL.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_NICKEL_BUCKET = ITEMS_REGISTER.register("liquid_nickel_bucket", () -> new BucketItem(ECFluids.LIQUID_NICKEL.source.get(), BUCKET));
     /** 铜桶 */
-    public static final DeferredItem<BucketItem> COPPER_BUCKET = ITEMS_REGISTER.register("copper_bucket", () -> new BucketItem(ECFluids.COPPER.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_COPPER_BUCKET = ITEMS_REGISTER.register("liquid_copper_bucket", () -> new BucketItem(ECFluids.LIQUID_COPPER.source.get(), BUCKET));
     /** 锌桶 */
-    public static final DeferredItem<BucketItem> ZINC_BUCKET = ITEMS_REGISTER.register("zinc_bucket", () -> new BucketItem(ECFluids.ZINC.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_ZINC_BUCKET = ITEMS_REGISTER.register("liquid_zinc_bucket", () -> new BucketItem(ECFluids.LIQUID_ZINC.source.get(), BUCKET));
     /** 镓桶 */
-    public static final DeferredItem<BucketItem> GALLIUM_BUCKET = ITEMS_REGISTER.register("gallium_bucket", () -> new BucketItem(ECFluids.GALLIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_GALLIUM_BUCKET = ITEMS_REGISTER.register("liquid_gallium_bucket", () -> new BucketItem(ECFluids.LIQUID_GALLIUM.source.get(), BUCKET));
     /** 锗桶 */
-    public static final DeferredItem<BucketItem> GERMANIUM_BUCKET = ITEMS_REGISTER.register("germanium_bucket", () -> new BucketItem(ECFluids.GERMANIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_GERMANIUM_BUCKET = ITEMS_REGISTER.register("liquid_germanium_bucket", () -> new BucketItem(ECFluids.LIQUID_GERMANIUM.source.get(), BUCKET));
     /** 砷桶 */
-    public static final DeferredItem<BucketItem> ARSENIC_BUCKET = ITEMS_REGISTER.register("arsenic_bucket", () -> new BucketItem(ECFluids.ARSENIC.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_ARSENIC_BUCKET = ITEMS_REGISTER.register("liquid_arsenic_bucket", () -> new BucketItem(ECFluids.LIQUID_ARSENIC.source.get(), BUCKET));
     /** 硒桶 */
-    public static final DeferredItem<BucketItem> SELENIUM_BUCKET = ITEMS_REGISTER.register("selenium_bucket", () -> new BucketItem(ECFluids.SELENIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_SELENIUM_BUCKET = ITEMS_REGISTER.register("liquid_selenium_bucket", () -> new BucketItem(ECFluids.LIQUID_SELENIUM.source.get(), BUCKET));
     /** 溴桶 */
     public static final DeferredItem<BucketItem> BROMINE_BUCKET = ITEMS_REGISTER.register("bromine_bucket", () -> new BucketItem(ECFluids.BROMINE.source.get(), BUCKET));
     /** 氪桶 */
-    public static final DeferredItem<BucketItem> KRYPTON_BUCKET = ITEMS_REGISTER.register("krypton_bucket", () -> new BucketItem(ECFluids.KRYPTON.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_KRYPTON_BUCKET = ITEMS_REGISTER.register("liquid_krypton_bucket", () -> new BucketItem(ECFluids.LIQUID_KRYPTON.source.get(), BUCKET));
     /** 铷桶 */
-    public static final DeferredItem<BucketItem> RUBIDIUM_BUCKET = ITEMS_REGISTER.register("rubidium_bucket", () -> new BucketItem(ECFluids.RUBIDIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_RUBIDIUM_BUCKET = ITEMS_REGISTER.register("liquid_rubidium_bucket", () -> new BucketItem(ECFluids.LIQUID_RUBIDIUM.source.get(), BUCKET));
     /** 锶桶 */
-    public static final DeferredItem<BucketItem> STRONTIUM_BUCKET = ITEMS_REGISTER.register("strontium_bucket", () -> new BucketItem(ECFluids.STRONTIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_STRONTIUM_BUCKET = ITEMS_REGISTER.register("liquid_strontium_bucket", () -> new BucketItem(ECFluids.LIQUID_STRONTIUM.source.get(), BUCKET));
     /** 钇桶 */
-    public static final DeferredItem<BucketItem> YTTRIUM_BUCKET = ITEMS_REGISTER.register("yttrium_bucket", () -> new BucketItem(ECFluids.YTTRIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_YTTRIUM_BUCKET = ITEMS_REGISTER.register("liquid_yttrium_bucket", () -> new BucketItem(ECFluids.LIQUID_YTTRIUM.source.get(), BUCKET));
     /** 锆桶 */
-    public static final DeferredItem<BucketItem> ZIRCONIUM_BUCKET = ITEMS_REGISTER.register("zirconium_bucket", () -> new BucketItem(ECFluids.ZIRCONIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_ZIRCONIUM_BUCKET = ITEMS_REGISTER.register("liquid_zirconium_bucket", () -> new BucketItem(ECFluids.LIQUID_ZIRCONIUM.source.get(), BUCKET));
     /** 铌桶 */
-    public static final DeferredItem<BucketItem> NIOBIUM_BUCKET = ITEMS_REGISTER.register("niobium_bucket", () -> new BucketItem(ECFluids.NIOBIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_NIOBIUM_BUCKET = ITEMS_REGISTER.register("liquid_niobium_bucket", () -> new BucketItem(ECFluids.LIQUID_NIOBIUM.source.get(), BUCKET));
     /** 钼桶 */
-    public static final DeferredItem<BucketItem> MOLYBDENUM_BUCKET = ITEMS_REGISTER.register("molybdenum_bucket", () -> new BucketItem(ECFluids.MOLYBDENUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_MOLYBDENUM_BUCKET = ITEMS_REGISTER.register("liquid_molybdenum_bucket", () -> new BucketItem(ECFluids.LIQUID_MOLYBDENUM.source.get(), BUCKET));
     /** 锝桶 */
-    public static final DeferredItem<BucketItem> TECHNETIUM_BUCKET = ITEMS_REGISTER.register("technetium_bucket", () -> new BucketItem(ECFluids.TECHNETIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_TECHNETIUM_BUCKET = ITEMS_REGISTER.register("liquid_technetium_bucket", () -> new BucketItem(ECFluids.LIQUID_TECHNETIUM.source.get(), BUCKET));
     /** 钌桶 */
-    public static final DeferredItem<BucketItem> RUTHENIUM_BUCKET = ITEMS_REGISTER.register("ruthenium_bucket", () -> new BucketItem(ECFluids.RUTHENIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_RUTHENIUM_BUCKET = ITEMS_REGISTER.register("liquid_ruthenium_bucket", () -> new BucketItem(ECFluids.LIQUID_RUTHENIUM.source.get(), BUCKET));
     /** 铑桶 */
-    public static final DeferredItem<BucketItem> RHODIUM_BUCKET = ITEMS_REGISTER.register("rhodium_bucket", () -> new BucketItem(ECFluids.RHODIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_RHODIUM_BUCKET = ITEMS_REGISTER.register("liquid_rhodium_bucket", () -> new BucketItem(ECFluids.LIQUID_RHODIUM.source.get(), BUCKET));
     /** 钯桶 */
-    public static final DeferredItem<BucketItem> PALLADIUM_BUCKET = ITEMS_REGISTER.register("palladium_bucket", () -> new BucketItem(ECFluids.PALLADIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_PALLADIUM_BUCKET = ITEMS_REGISTER.register("liquid_palladium_bucket", () -> new BucketItem(ECFluids.LIQUID_PALLADIUM.source.get(), BUCKET));
     /** 银桶 */
-    public static final DeferredItem<BucketItem> SILVER_BUCKET = ITEMS_REGISTER.register("silver_bucket", () -> new BucketItem(ECFluids.SILVER.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_SILVER_BUCKET = ITEMS_REGISTER.register("liquid_silver_bucket", () -> new BucketItem(ECFluids.LIQUID_SILVER.source.get(), BUCKET));
     /** 镉桶 */
-    public static final DeferredItem<BucketItem> CADMIUM_BUCKET = ITEMS_REGISTER.register("cadmium_bucket", () -> new BucketItem(ECFluids.CADMIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_CADMIUM_BUCKET = ITEMS_REGISTER.register("liquid_cadmium_bucket", () -> new BucketItem(ECFluids.LIQUID_CADMIUM.source.get(), BUCKET));
     /** 铟桶 */
-    public static final DeferredItem<BucketItem> INDIUM_BUCKET = ITEMS_REGISTER.register("indium_bucket", () -> new BucketItem(ECFluids.INDIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_INDIUM_BUCKET = ITEMS_REGISTER.register("liquid_indium_bucket", () -> new BucketItem(ECFluids.LIQUID_INDIUM.source.get(), BUCKET));
     /** 锡桶 */
-    public static final DeferredItem<BucketItem> TIN_BUCKET = ITEMS_REGISTER.register("tin_bucket", () -> new BucketItem(ECFluids.TIN.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_TIN_BUCKET = ITEMS_REGISTER.register("liquid_tin_bucket", () -> new BucketItem(ECFluids.LIQUID_TIN.source.get(), BUCKET));
     /** 锑桶 */
-    public static final DeferredItem<BucketItem> ANTIMONY_BUCKET = ITEMS_REGISTER.register("antimony_bucket", () -> new BucketItem(ECFluids.ANTIMONY.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_ANTIMONY_BUCKET = ITEMS_REGISTER.register("liquid_antimony_bucket", () -> new BucketItem(ECFluids.LIQUID_ANTIMONY.source.get(), BUCKET));
     /** 碲桶 */
-    public static final DeferredItem<BucketItem> TELLURIUM_BUCKET = ITEMS_REGISTER.register("tellurium_bucket", () -> new BucketItem(ECFluids.TELLURIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_TELLURIUM_BUCKET = ITEMS_REGISTER.register("liquid_tellurium_bucket", () -> new BucketItem(ECFluids.LIQUID_TELLURIUM.source.get(), BUCKET));
     /** 碘桶 */
-    public static final DeferredItem<BucketItem> IODINE_BUCKET = ITEMS_REGISTER.register("iodine_bucket", () -> new BucketItem(ECFluids.IODINE.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_IODINE_BUCKET = ITEMS_REGISTER.register("liquid_iodine_bucket", () -> new BucketItem(ECFluids.LIQUID_IODINE.source.get(), BUCKET));
     /** 氙桶 */
-    public static final DeferredItem<BucketItem> XENON_BUCKET = ITEMS_REGISTER.register("xenon_bucket", () -> new BucketItem(ECFluids.XENON.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_XENON_BUCKET = ITEMS_REGISTER.register("liquid_xenon_bucket", () -> new BucketItem(ECFluids.LIQUID_XENON.source.get(), BUCKET));
     /** 铯桶 */
-    public static final DeferredItem<BucketItem> CESIUM_BUCKET = ITEMS_REGISTER.register("cesium_bucket", () -> new BucketItem(ECFluids.CESIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_CESIUM_BUCKET = ITEMS_REGISTER.register("liquid_cesium_bucket", () -> new BucketItem(ECFluids.LIQUID_CESIUM.source.get(), BUCKET));
     /** 钡桶 */
-    public static final DeferredItem<BucketItem> BARIUM_BUCKET = ITEMS_REGISTER.register("barium_bucket", () -> new BucketItem(ECFluids.BARIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_BARIUM_BUCKET = ITEMS_REGISTER.register("liquid_barium_bucket", () -> new BucketItem(ECFluids.LIQUID_BARIUM.source.get(), BUCKET));
     /** 镧桶 */
-    public static final DeferredItem<BucketItem> LANTHANUM_BUCKET = ITEMS_REGISTER.register("lanthanum_bucket", () -> new BucketItem(ECFluids.LANTHANUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_LANTHANUM_BUCKET = ITEMS_REGISTER.register("liquid_lanthanum_bucket", () -> new BucketItem(ECFluids.LIQUID_LANTHANUM.source.get(), BUCKET));
     /** 铈桶 */
-    public static final DeferredItem<BucketItem> CERIUM_BUCKET = ITEMS_REGISTER.register("cerium_bucket", () -> new BucketItem(ECFluids.CERIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_CERIUM_BUCKET = ITEMS_REGISTER.register("liquid_cerium_bucket", () -> new BucketItem(ECFluids.LIQUID_CERIUM.source.get(), BUCKET));
     /** 镨桶 */
-    public static final DeferredItem<BucketItem> PRASEODYMIUM_BUCKET = ITEMS_REGISTER.register("praseodymium_bucket", () -> new BucketItem(ECFluids.PRASEODYMIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_PRASEODYMIUM_BUCKET = ITEMS_REGISTER.register("liquid_praseodymium_bucket", () -> new BucketItem(ECFluids.LIQUID_PRASEODYMIUM.source.get(), BUCKET));
     /** 钕桶 */
-    public static final DeferredItem<BucketItem> NEODYMIUM_BUCKET = ITEMS_REGISTER.register("neodymium_bucket", () -> new BucketItem(ECFluids.NEODYMIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_NEODYMIUM_BUCKET = ITEMS_REGISTER.register("liquid_neodymium_bucket", () -> new BucketItem(ECFluids.LIQUID_NEODYMIUM.source.get(), BUCKET));
     /** 钷桶 */
-    public static final DeferredItem<BucketItem> PROMETHIUM_BUCKET = ITEMS_REGISTER.register("promethium_bucket", () -> new BucketItem(ECFluids.PROMETHIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_PROMETHIUM_BUCKET = ITEMS_REGISTER.register("liquid_promethium_bucket", () -> new BucketItem(ECFluids.LIQUID_PROMETHIUM.source.get(), BUCKET));
     /** 钐桶 */
-    public static final DeferredItem<BucketItem> SAMARIUM_BUCKET = ITEMS_REGISTER.register("samarium_bucket", () -> new BucketItem(ECFluids.SAMARIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_SAMARIUM_BUCKET = ITEMS_REGISTER.register("liquid_samarium_bucket", () -> new BucketItem(ECFluids.LIQUID_SAMARIUM.source.get(), BUCKET));
     /** 铕桶 */
-    public static final DeferredItem<BucketItem> EUROPIUM_BUCKET = ITEMS_REGISTER.register("europium_bucket", () -> new BucketItem(ECFluids.EUROPIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_EUROPIUM_BUCKET = ITEMS_REGISTER.register("liquid_europium_bucket", () -> new BucketItem(ECFluids.LIQUID_EUROPIUM.source.get(), BUCKET));
     /** 钆桶 */
-    public static final DeferredItem<BucketItem> GADOLINIUM_BUCKET = ITEMS_REGISTER.register("gadolinium_bucket", () -> new BucketItem(ECFluids.GADOLINIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_GADOLINIUM_BUCKET = ITEMS_REGISTER.register("liquid_gadolinium_bucket", () -> new BucketItem(ECFluids.LIQUID_GADOLINIUM.source.get(), BUCKET));
     /** 铽桶 */
-    public static final DeferredItem<BucketItem> TERBIUM_BUCKET = ITEMS_REGISTER.register("terbium_bucket", () -> new BucketItem(ECFluids.TERBIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_TERBIUM_BUCKET = ITEMS_REGISTER.register("liquid_terbium_bucket", () -> new BucketItem(ECFluids.LIQUID_TERBIUM.source.get(), BUCKET));
     /** 镝桶 */
-    public static final DeferredItem<BucketItem> DYSPROSIUM_BUCKET = ITEMS_REGISTER.register("dysprosium_bucket", () -> new BucketItem(ECFluids.DYSPROSIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_DYSPROSIUM_BUCKET = ITEMS_REGISTER.register("liquid_dysprosium_bucket", () -> new BucketItem(ECFluids.LIQUID_DYSPROSIUM.source.get(), BUCKET));
     /** 钬桶 */
-    public static final DeferredItem<BucketItem> HOLMIUM_BUCKET = ITEMS_REGISTER.register("holmium_bucket", () -> new BucketItem(ECFluids.HOLMIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_HOLMIUM_BUCKET = ITEMS_REGISTER.register("liquid_holmium_bucket", () -> new BucketItem(ECFluids.LIQUID_HOLMIUM.source.get(), BUCKET));
     /** 铒桶 */
-    public static final DeferredItem<BucketItem> ERBIUM_BUCKET = ITEMS_REGISTER.register("erbium_bucket", () -> new BucketItem(ECFluids.ERBIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_ERBIUM_BUCKET = ITEMS_REGISTER.register("liquid_erbium_bucket", () -> new BucketItem(ECFluids.LIQUID_ERBIUM.source.get(), BUCKET));
     /** 铥桶 */
-    public static final DeferredItem<BucketItem> THULIUM_BUCKET = ITEMS_REGISTER.register("thulium_bucket", () -> new BucketItem(ECFluids.THULIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_THULIUM_BUCKET = ITEMS_REGISTER.register("liquid_thulium_bucket", () -> new BucketItem(ECFluids.LIQUID_THULIUM.source.get(), BUCKET));
     /** 镱桶 */
-    public static final DeferredItem<BucketItem> YTTERBIUM_BUCKET = ITEMS_REGISTER.register("ytterbium_bucket", () -> new BucketItem(ECFluids.YTTERBIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_YTTERBIUM_BUCKET = ITEMS_REGISTER.register("liquid_ytterbium_bucket", () -> new BucketItem(ECFluids.LIQUID_YTTERBIUM.source.get(), BUCKET));
     /** 镥桶 */
-    public static final DeferredItem<BucketItem> LUTETIUM_BUCKET = ITEMS_REGISTER.register("lutetium_bucket", () -> new BucketItem(ECFluids.LUTETIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_LUTETIUM_BUCKET = ITEMS_REGISTER.register("liquid_lutetium_bucket", () -> new BucketItem(ECFluids.LIQUID_LUTETIUM.source.get(), BUCKET));
     /** 铪桶 */
-    public static final DeferredItem<BucketItem> HAFNIUM_BUCKET = ITEMS_REGISTER.register("hafnium_bucket", () -> new BucketItem(ECFluids.HAFNIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_HAFNIUM_BUCKET = ITEMS_REGISTER.register("liquid_hafnium_bucket", () -> new BucketItem(ECFluids.LIQUID_HAFNIUM.source.get(), BUCKET));
     /** 钽桶 */
-    public static final DeferredItem<BucketItem> TANTALUM_BUCKET = ITEMS_REGISTER.register("tantalum_bucket", () -> new BucketItem(ECFluids.TANTALUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_TANTALUM_BUCKET = ITEMS_REGISTER.register("liquid_tantalum_bucket", () -> new BucketItem(ECFluids.LIQUID_TANTALUM.source.get(), BUCKET));
     /** 钨桶 */
-    public static final DeferredItem<BucketItem> TUNGSTEN_BUCKET = ITEMS_REGISTER.register("tungsten_bucket", () -> new BucketItem(ECFluids.TUNGSTEN.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_TUNGSTEN_BUCKET = ITEMS_REGISTER.register("liquid_tungsten_bucket", () -> new BucketItem(ECFluids.LIQUID_TUNGSTEN.source.get(), BUCKET));
     /** 铼桶 */
-    public static final DeferredItem<BucketItem> RHENIUM_BUCKET = ITEMS_REGISTER.register("rhenium_bucket", () -> new BucketItem(ECFluids.RHENIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_RHENIUM_BUCKET = ITEMS_REGISTER.register("liquid_rhenium_bucket", () -> new BucketItem(ECFluids.LIQUID_RHENIUM.source.get(), BUCKET));
     /** 锇桶 */
-    public static final DeferredItem<BucketItem> OSMIUM_BUCKET = ITEMS_REGISTER.register("osmium_bucket", () -> new BucketItem(ECFluids.OSMIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_OSMIUM_BUCKET = ITEMS_REGISTER.register("liquid_osmium_bucket", () -> new BucketItem(ECFluids.LIQUID_OSMIUM.source.get(), BUCKET));
     /** 铱桶 */
-    public static final DeferredItem<BucketItem> IRIDIUM_BUCKET = ITEMS_REGISTER.register("iridium_bucket", () -> new BucketItem(ECFluids.IRIDIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_IRIDIUM_BUCKET = ITEMS_REGISTER.register("liquid_iridium_bucket", () -> new BucketItem(ECFluids.LIQUID_IRIDIUM.source.get(), BUCKET));
     /** 铂桶 */
-    public static final DeferredItem<BucketItem> PLATINUM_BUCKET = ITEMS_REGISTER.register("platinum_bucket", () -> new BucketItem(ECFluids.PLATINUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_PLATINUM_BUCKET = ITEMS_REGISTER.register("liquid_platinum_bucket", () -> new BucketItem(ECFluids.LIQUID_PLATINUM.source.get(), BUCKET));
     /** 金桶 */
-    public static final DeferredItem<BucketItem> GOLD_BUCKET = ITEMS_REGISTER.register("gold_bucket", () -> new BucketItem(ECFluids.GOLD.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_GOLD_BUCKET = ITEMS_REGISTER.register("liquid_gold_bucket", () -> new BucketItem(ECFluids.LIQUID_GOLD.source.get(), BUCKET));
     /** 汞桶 */
     public static final DeferredItem<BucketItem> MERCURY_BUCKET = ITEMS_REGISTER.register("mercury_bucket", () -> new BucketItem(ECFluids.MERCURY.source.get(), BUCKET));
     /** 铊桶 */
-    public static final DeferredItem<BucketItem> THALLIUM_BUCKET = ITEMS_REGISTER.register("thallium_bucket", () -> new BucketItem(ECFluids.THALLIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_THALLIUM_BUCKET = ITEMS_REGISTER.register("liquid_thallium_bucket", () -> new BucketItem(ECFluids.LIQUID_THALLIUM.source.get(), BUCKET));
     /** 铅桶 */
-    public static final DeferredItem<BucketItem> LEAD_BUCKET = ITEMS_REGISTER.register("lead_bucket", () -> new BucketItem(ECFluids.LEAD.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_LEAD_BUCKET = ITEMS_REGISTER.register("liquid_lead_bucket", () -> new BucketItem(ECFluids.LIQUID_LEAD.source.get(), BUCKET));
     /** 铋桶 */
-    public static final DeferredItem<BucketItem> BISMUTH_BUCKET = ITEMS_REGISTER.register("bismuth_bucket", () -> new BucketItem(ECFluids.BISMUTH.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_BISMUTH_BUCKET = ITEMS_REGISTER.register("liquid_bismuth_bucket", () -> new BucketItem(ECFluids.LIQUID_BISMUTH.source.get(), BUCKET));
     /** 钋桶 */
-    public static final DeferredItem<BucketItem> POLONIUM_BUCKET = ITEMS_REGISTER.register("polonium_bucket", () -> new BucketItem(ECFluids.POLONIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_POLONIUM_BUCKET = ITEMS_REGISTER.register("liquid_polonium_bucket", () -> new BucketItem(ECFluids.LIQUID_POLONIUM.source.get(), BUCKET));
     /** 砹桶 */
-    public static final DeferredItem<BucketItem> ASTATINE_BUCKET = ITEMS_REGISTER.register("astatine_bucket", () -> new BucketItem(ECFluids.ASTATINE.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_ASTATINE_BUCKET = ITEMS_REGISTER.register("liquid_astatine_bucket", () -> new BucketItem(ECFluids.LIQUID_ASTATINE.source.get(), BUCKET));
     /** 氡桶 */
-    public static final DeferredItem<BucketItem> RADON_BUCKET = ITEMS_REGISTER.register("radon_bucket", () -> new BucketItem(ECFluids.RADON.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_RADON_BUCKET = ITEMS_REGISTER.register("liquid_radon_bucket", () -> new BucketItem(ECFluids.LIQUID_RADON.source.get(), BUCKET));
     /** 钫桶 */
-    public static final DeferredItem<BucketItem> FRANCIUM_BUCKET = ITEMS_REGISTER.register("francium_bucket", () -> new BucketItem(ECFluids.FRANCIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_FRANCIUM_BUCKET = ITEMS_REGISTER.register("liquid_francium_bucket", () -> new BucketItem(ECFluids.LIQUID_FRANCIUM.source.get(), BUCKET));
     /** 镭桶 */
-    public static final DeferredItem<BucketItem> RADIUM_BUCKET = ITEMS_REGISTER.register("radium_bucket", () -> new BucketItem(ECFluids.RADIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_RADIUM_BUCKET = ITEMS_REGISTER.register("liquid_radium_bucket", () -> new BucketItem(ECFluids.LIQUID_RADIUM.source.get(), BUCKET));
     /** 锕桶 */
-    public static final DeferredItem<BucketItem> ACTINIUM_BUCKET = ITEMS_REGISTER.register("actinium_bucket", () -> new BucketItem(ECFluids.ACTINIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_ACTINIUM_BUCKET = ITEMS_REGISTER.register("liquid_actinium_bucket", () -> new BucketItem(ECFluids.LIQUID_ACTINIUM.source.get(), BUCKET));
     /** 钍桶 */
-    public static final DeferredItem<BucketItem> THORIUM_BUCKET = ITEMS_REGISTER.register("thorium_bucket", () -> new BucketItem(ECFluids.THORIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_THORIUM_BUCKET = ITEMS_REGISTER.register("liquid_thorium_bucket", () -> new BucketItem(ECFluids.LIQUID_THORIUM.source.get(), BUCKET));
     /** 镤桶 */
-    public static final DeferredItem<BucketItem> PROTACTINIUM_BUCKET = ITEMS_REGISTER.register("protactinium_bucket", () -> new BucketItem(ECFluids.PROTACTINIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_PROTACTINIUM_BUCKET = ITEMS_REGISTER.register("liquid_protactinium_bucket", () -> new BucketItem(ECFluids.LIQUID_PROTACTINIUM.source.get(), BUCKET));
     /** 铀桶 */
-    public static final DeferredItem<BucketItem> URANIUM_BUCKET = ITEMS_REGISTER.register("uranium_bucket", () -> new BucketItem(ECFluids.URANIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_URANIUM_BUCKET = ITEMS_REGISTER.register("liquid_uranium_bucket", () -> new BucketItem(ECFluids.LIQUID_URANIUM.source.get(), BUCKET));
     /** 镎桶 */
-    public static final DeferredItem<BucketItem> NEPTUNIUM_BUCKET = ITEMS_REGISTER.register("neptunium_bucket", () -> new BucketItem(ECFluids.NEPTUNIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_NEPTUNIUM_BUCKET = ITEMS_REGISTER.register("liquid_neptunium_bucket", () -> new BucketItem(ECFluids.LIQUID_NEPTUNIUM.source.get(), BUCKET));
     /** 钚桶 */
-    public static final DeferredItem<BucketItem> PLUTONIUM_BUCKET = ITEMS_REGISTER.register("plutonium_bucket", () -> new BucketItem(ECFluids.PLUTONIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_PLUTONIUM_BUCKET = ITEMS_REGISTER.register("liquid_plutonium_bucket", () -> new BucketItem(ECFluids.LIQUID_PLUTONIUM.source.get(), BUCKET));
     /** 镅桶 */
-    public static final DeferredItem<BucketItem> AMERICIUM_BUCKET = ITEMS_REGISTER.register("americium_bucket", () -> new BucketItem(ECFluids.AMERICIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_AMERICIUM_BUCKET = ITEMS_REGISTER.register("liquid_americium_bucket", () -> new BucketItem(ECFluids.LIQUID_AMERICIUM.source.get(), BUCKET));
     /** 锔桶 */
-    public static final DeferredItem<BucketItem> CURIUM_BUCKET = ITEMS_REGISTER.register("curium_bucket", () -> new BucketItem(ECFluids.CURIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_CURIUM_BUCKET = ITEMS_REGISTER.register("liquid_curium_bucket", () -> new BucketItem(ECFluids.LIQUID_CURIUM.source.get(), BUCKET));
     /** 锫桶 */
-    public static final DeferredItem<BucketItem> BERKELIUM_BUCKET = ITEMS_REGISTER.register("berkelium_bucket", () -> new BucketItem(ECFluids.BERKELIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_BERKELIUM_BUCKET = ITEMS_REGISTER.register("liquid_berkelium_bucket", () -> new BucketItem(ECFluids.LIQUID_BERKELIUM.source.get(), BUCKET));
     /** 锎桶 */
-    public static final DeferredItem<BucketItem> CALIFORNIUM_BUCKET = ITEMS_REGISTER.register("californium_bucket", () -> new BucketItem(ECFluids.CALIFORNIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_CALIFORNIUM_BUCKET = ITEMS_REGISTER.register("liquid_californium_bucket", () -> new BucketItem(ECFluids.LIQUID_CALIFORNIUM.source.get(), BUCKET));
     /** 锿桶 */
-    public static final DeferredItem<BucketItem> EINSTEINIUM_BUCKET = ITEMS_REGISTER.register("einsteinium_bucket", () -> new BucketItem(ECFluids.EINSTEINIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_EINSTEINIUM_BUCKET = ITEMS_REGISTER.register("liquid_einsteinium_bucket", () -> new BucketItem(ECFluids.LIQUID_EINSTEINIUM.source.get(), BUCKET));
     /** 镄桶 */
-    public static final DeferredItem<BucketItem> FERMIUM_BUCKET = ITEMS_REGISTER.register("fermium_bucket", () -> new BucketItem(ECFluids.FERMIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_FERMIUM_BUCKET = ITEMS_REGISTER.register("liquid_fermium_bucket", () -> new BucketItem(ECFluids.LIQUID_FERMIUM.source.get(), BUCKET));
     /** 钔桶 */
-    public static final DeferredItem<BucketItem> MENDELEVIUM_BUCKET = ITEMS_REGISTER.register("mendelevium_bucket", () -> new BucketItem(ECFluids.MENDELEVIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_MENDELEVIUM_BUCKET = ITEMS_REGISTER.register("liquid_mendelevium_bucket", () -> new BucketItem(ECFluids.LIQUID_MENDELEVIUM.source.get(), BUCKET));
     /** 锘桶 */
-    public static final DeferredItem<BucketItem> NOBELIUM_BUCKET = ITEMS_REGISTER.register("nobelium_bucket", () -> new BucketItem(ECFluids.NOBELIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_NOBELIUM_BUCKET = ITEMS_REGISTER.register("liquid_nobelium_bucket", () -> new BucketItem(ECFluids.LIQUID_NOBELIUM.source.get(), BUCKET));
     /** 铹桶 */
-    public static final DeferredItem<BucketItem> LAWRENCIUM_BUCKET = ITEMS_REGISTER.register("lawrencium_bucket", () -> new BucketItem(ECFluids.LAWRENCIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_LAWRENCIUM_BUCKET = ITEMS_REGISTER.register("liquid_lawrencium_bucket", () -> new BucketItem(ECFluids.LIQUID_LAWRENCIUM.source.get(), BUCKET));
     /** 𬬻桶 */
-    public static final DeferredItem<BucketItem> RUTHERFORDIUM_BUCKET = ITEMS_REGISTER.register("rutherfordium_bucket", () -> new BucketItem(ECFluids.RUTHERFORDIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_RUTHERFORDIUM_BUCKET = ITEMS_REGISTER.register("liquid_rutherfordium_bucket", () -> new BucketItem(ECFluids.LIQUID_RUTHERFORDIUM.source.get(), BUCKET));
     /** 𬭊桶 */
-    public static final DeferredItem<BucketItem> DUBNIUM_BUCKET = ITEMS_REGISTER.register("dubnium_bucket", () -> new BucketItem(ECFluids.DUBNIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_DUBNIUM_BUCKET = ITEMS_REGISTER.register("liquid_dubnium_bucket", () -> new BucketItem(ECFluids.LIQUID_DUBNIUM.source.get(), BUCKET));
     /** 𬭳桶 */
-    public static final DeferredItem<BucketItem> SEABORGIUM_BUCKET = ITEMS_REGISTER.register("seaborgium_bucket", () -> new BucketItem(ECFluids.SEABORGIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_SEABORGIUM_BUCKET = ITEMS_REGISTER.register("liquid_seaborgium_bucket", () -> new BucketItem(ECFluids.LIQUID_SEABORGIUM.source.get(), BUCKET));
     /** 𬭛桶 */
-    public static final DeferredItem<BucketItem> BOHRIUM_BUCKET = ITEMS_REGISTER.register("bohrium_bucket", () -> new BucketItem(ECFluids.BOHRIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_BOHRIUM_BUCKET = ITEMS_REGISTER.register("liquid_bohrium_bucket", () -> new BucketItem(ECFluids.LIQUID_BOHRIUM.source.get(), BUCKET));
     /** 𬭶桶 */
-    public static final DeferredItem<BucketItem> HASSIUM_BUCKET = ITEMS_REGISTER.register("hassium_bucket", () -> new BucketItem(ECFluids.HASSIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_HASSIUM_BUCKET = ITEMS_REGISTER.register("liquid_hassium_bucket", () -> new BucketItem(ECFluids.LIQUID_HASSIUM.source.get(), BUCKET));
     /** 鿏桶 */
-    public static final DeferredItem<BucketItem> MEITNERIUM_BUCKET = ITEMS_REGISTER.register("meitnerium_bucket", () -> new BucketItem(ECFluids.MEITNERIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_MEITNERIUM_BUCKET = ITEMS_REGISTER.register("liquid_meitnerium_bucket", () -> new BucketItem(ECFluids.LIQUID_MEITNERIUM.source.get(), BUCKET));
     /** 𫟼桶 */
-    public static final DeferredItem<BucketItem> DARMSTADTIUM_BUCKET = ITEMS_REGISTER.register("darmstadtium_bucket", () -> new BucketItem(ECFluids.DARMSTADTIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_DARMSTADTIUM_BUCKET = ITEMS_REGISTER.register("liquid_darmstadtium_bucket", () -> new BucketItem(ECFluids.LIQUID_DARMSTADTIUM.source.get(), BUCKET));
     /** 𬬭桶 */
-    public static final DeferredItem<BucketItem> ROENTGENIUM_BUCKET = ITEMS_REGISTER.register("roentgenium_bucket", () -> new BucketItem(ECFluids.ROENTGENIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_ROENTGENIUM_BUCKET = ITEMS_REGISTER.register("liquid_roentgenium_bucket", () -> new BucketItem(ECFluids.LIQUID_ROENTGENIUM.source.get(), BUCKET));
     /** 鿔桶 */
-    public static final DeferredItem<BucketItem> COPERNICIUM_BUCKET = ITEMS_REGISTER.register("copernicium_bucket", () -> new BucketItem(ECFluids.COPERNICIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_COPERNICIUM_BUCKET = ITEMS_REGISTER.register("liquid_copernicium_bucket", () -> new BucketItem(ECFluids.LIQUID_COPERNICIUM.source.get(), BUCKET));
     /** 鿭桶 */
-    public static final DeferredItem<BucketItem> NIHONIUM_BUCKET = ITEMS_REGISTER.register("nihonium_bucket", () -> new BucketItem(ECFluids.NIHONIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_NIHONIUM_BUCKET = ITEMS_REGISTER.register("liquid_nihonium_bucket", () -> new BucketItem(ECFluids.LIQUID_NIHONIUM.source.get(), BUCKET));
     /** 𫓧桶 */
-    public static final DeferredItem<BucketItem> FLEROVIUM_BUCKET = ITEMS_REGISTER.register("flerovium_bucket", () -> new BucketItem(ECFluids.FLEROVIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_FLEROVIUM_BUCKET = ITEMS_REGISTER.register("liquid_flerovium_bucket", () -> new BucketItem(ECFluids.LIQUID_FLEROVIUM.source.get(), BUCKET));
     /** 镆桶 */
-    public static final DeferredItem<BucketItem> MOSCOVIUM_BUCKET = ITEMS_REGISTER.register("moscovium_bucket", () -> new BucketItem(ECFluids.MOSCOVIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_MOSCOVIUM_BUCKET = ITEMS_REGISTER.register("liquid_moscovium_bucket", () -> new BucketItem(ECFluids.LIQUID_MOSCOVIUM.source.get(), BUCKET));
     /** 𫟷桶 */
-    public static final DeferredItem<BucketItem> LIVERMORIUM_BUCKET = ITEMS_REGISTER.register("livermorium_bucket", () -> new BucketItem(ECFluids.LIVERMORIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_LIVERMORIUM_BUCKET = ITEMS_REGISTER.register("liquid_livermorium_bucket", () -> new BucketItem(ECFluids.LIQUID_LIVERMORIUM.source.get(), BUCKET));
     /** 鿬桶 */
-    public static final DeferredItem<BucketItem> TENNESSINE_BUCKET = ITEMS_REGISTER.register("tennessine_bucket", () -> new BucketItem(ECFluids.TENNESSINE.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_TENNESSINE_BUCKET = ITEMS_REGISTER.register("liquid_tennessine_bucket", () -> new BucketItem(ECFluids.LIQUID_TENNESSINE.source.get(), BUCKET));
     /** 鿫桶 */
-    public static final DeferredItem<BucketItem> OGANESSON_BUCKET = ITEMS_REGISTER.register("oganesson_bucket", () -> new BucketItem(ECFluids.OGANESSON.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_OGANESSON_BUCKET = ITEMS_REGISTER.register("liquid_oganesson_bucket", () -> new BucketItem(ECFluids.LIQUID_OGANESSON.source.get(), BUCKET));
     /** 鑨桶 */
-    public static final DeferredItem<BucketItem> LONGIUM_BUCKET = ITEMS_REGISTER.register("longium_bucket", () -> new BucketItem(ECFluids.LONGIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_LONGIUM_BUCKET = ITEMS_REGISTER.register("liquid_longium_bucket", () -> new BucketItem(ECFluids.LIQUID_LONGIUM.source.get(), BUCKET));
     /** 镾桶 */
-    public static final DeferredItem<BucketItem> MYSTERIUM_BUCKET = ITEMS_REGISTER.register("mysterium_bucket", () -> new BucketItem(ECFluids.MYSTERIUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> LIQUID_MYSTERIUM_BUCKET = ITEMS_REGISTER.register("liquid_mysterium_bucket", () -> new BucketItem(ECFluids.LIQUID_MYSTERIUM.source.get(), BUCKET));
 
-    // ==================== 120个元素的气体桶 ====================
+    // ==================== 120个元素的气体/蒸气桶 ====================
     /** 氢气桶 */
     public static final DeferredItem<GasBucketItem> HYDROGEN_GAS_BUCKET = ITEMS_REGISTER.register("hydrogen_gas_bucket", () -> new GasBucketItem(ECGases.HYDROGEN_GAS.get(), BUCKET));
     /** 氦气桶 */
     public static final DeferredItem<GasBucketItem> HELIUM_GAS_BUCKET = ITEMS_REGISTER.register("helium_gas_bucket", () -> new GasBucketItem(ECGases.HELIUM_GAS.get(), BUCKET));
-    /** 锂气桶 */
-    public static final DeferredItem<GasBucketItem> LITHIUM_GAS_BUCKET = ITEMS_REGISTER.register("lithium_gas_bucket", () -> new GasBucketItem(ECGases.LITHIUM_GAS.get(), BUCKET));
-    /** 铍气桶 */
-    public static final DeferredItem<GasBucketItem> BERYLLIUM_GAS_BUCKET = ITEMS_REGISTER.register("beryllium_gas_bucket", () -> new GasBucketItem(ECGases.BERYLLIUM_GAS.get(), BUCKET));
-    /** 硼气桶 */
-    public static final DeferredItem<GasBucketItem> BORON_GAS_BUCKET = ITEMS_REGISTER.register("boron_gas_bucket", () -> new GasBucketItem(ECGases.BORON_GAS.get(), BUCKET));
-    /** 碳气桶 */
-    public static final DeferredItem<GasBucketItem> CARBON_GAS_BUCKET = ITEMS_REGISTER.register("carbon_gas_bucket", () -> new GasBucketItem(ECGases.CARBON_GAS.get(), BUCKET));
+    /** 锂蒸气桶 */
+    public static final DeferredItem<GasBucketItem> LITHIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("lithium_vapor_bucket", () -> new GasBucketItem(ECGases.LITHIUM_VAPOR.get(), BUCKET));
+    /** 铍蒸气桶 */
+    public static final DeferredItem<GasBucketItem> BERYLLIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("beryllium_vapor_bucket", () -> new GasBucketItem(ECGases.BERYLLIUM_VAPOR.get(), BUCKET));
+    /** 硼蒸气桶 */
+    public static final DeferredItem<GasBucketItem> BORON_VAPOR_BUCKET = ITEMS_REGISTER.register("boron_vapor_bucket", () -> new GasBucketItem(ECGases.BORON_VAPOR.get(), BUCKET));
+    /** 碳蒸气桶 */
+    public static final DeferredItem<GasBucketItem> CARBON_VAPOR_BUCKET = ITEMS_REGISTER.register("carbon_vapor_bucket", () -> new GasBucketItem(ECGases.CARBON_VAPOR.get(), BUCKET));
     /** 氮气桶 */
     public static final DeferredItem<GasBucketItem> NITROGEN_GAS_BUCKET = ITEMS_REGISTER.register("nitrogen_gas_bucket", () -> new GasBucketItem(ECGases.NITROGEN_GAS.get(), BUCKET));
     /** 氧气桶 */
@@ -522,226 +522,226 @@ public class ECMaterialItems {
     public static final DeferredItem<GasBucketItem> FLUORINE_GAS_BUCKET = ITEMS_REGISTER.register("fluorine_gas_bucket", () -> new GasBucketItem(ECGases.FLUORINE_GAS.get(), BUCKET));
     /** 氖气桶 */
     public static final DeferredItem<GasBucketItem> NEON_GAS_BUCKET = ITEMS_REGISTER.register("neon_gas_bucket", () -> new GasBucketItem(ECGases.NEON_GAS.get(), BUCKET));
-    /** 钠气桶 */
-    public static final DeferredItem<GasBucketItem> SODIUM_GAS_BUCKET = ITEMS_REGISTER.register("sodium_gas_bucket", () -> new GasBucketItem(ECGases.SODIUM_GAS.get(), BUCKET));
-    /** 镁气桶 */
-    public static final DeferredItem<GasBucketItem> MAGNESIUM_GAS_BUCKET = ITEMS_REGISTER.register("magnesium_gas_bucket", () -> new GasBucketItem(ECGases.MAGNESIUM_GAS.get(), BUCKET));
-    /** 铝气桶 */
-    public static final DeferredItem<GasBucketItem> ALUMINUM_GAS_BUCKET = ITEMS_REGISTER.register("aluminum_gas_bucket", () -> new GasBucketItem(ECGases.ALUMINUM_GAS.get(), BUCKET));
-    /** 硅气桶 */
-    public static final DeferredItem<GasBucketItem> SILICON_GAS_BUCKET = ITEMS_REGISTER.register("silicon_gas_bucket", () -> new GasBucketItem(ECGases.SILICON_GAS.get(), BUCKET));
-    /** 磷气桶 */
-    public static final DeferredItem<GasBucketItem> PHOSPHORUS_GAS_BUCKET = ITEMS_REGISTER.register("phosphorus_gas_bucket", () -> new GasBucketItem(ECGases.PHOSPHORUS_GAS.get(), BUCKET));
-    /** 硫气桶 */
-    public static final DeferredItem<GasBucketItem> SULFUR_GAS_BUCKET = ITEMS_REGISTER.register("sulfur_gas_bucket", () -> new GasBucketItem(ECGases.SULFUR_GAS.get(), BUCKET));
+    /** 钠蒸气桶 */
+    public static final DeferredItem<GasBucketItem> SODIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("sodium_vapor_bucket", () -> new GasBucketItem(ECGases.SODIUM_VAPOR.get(), BUCKET));
+    /** 镁蒸气桶 */
+    public static final DeferredItem<GasBucketItem> MAGNESIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("magnesium_vapor_bucket", () -> new GasBucketItem(ECGases.MAGNESIUM_VAPOR.get(), BUCKET));
+    /** 铝蒸气桶 */
+    public static final DeferredItem<GasBucketItem> ALUMINUM_VAPOR_BUCKET = ITEMS_REGISTER.register("aluminum_vapor_bucket", () -> new GasBucketItem(ECGases.ALUMINUM_VAPOR.get(), BUCKET));
+    /** 硅蒸气桶 */
+    public static final DeferredItem<GasBucketItem> SILICON_VAPOR_BUCKET = ITEMS_REGISTER.register("silicon_vapor_bucket", () -> new GasBucketItem(ECGases.SILICON_VAPOR.get(), BUCKET));
+    /** 磷蒸气桶 */
+    public static final DeferredItem<GasBucketItem> PHOSPHORUS_VAPOR_BUCKET = ITEMS_REGISTER.register("phosphorus_vapor_bucket", () -> new GasBucketItem(ECGases.PHOSPHORUS_VAPOR.get(), BUCKET));
+    /** 硫蒸气桶 */
+    public static final DeferredItem<GasBucketItem> SULFUR_VAPOR_BUCKET = ITEMS_REGISTER.register("sulfur_vapor_bucket", () -> new GasBucketItem(ECGases.SULFUR_VAPOR.get(), BUCKET));
     /** 氯气桶 */
     public static final DeferredItem<GasBucketItem> CHLORINE_GAS_BUCKET = ITEMS_REGISTER.register("chlorine_gas_bucket", () -> new GasBucketItem(ECGases.CHLORINE_GAS.get(), BUCKET));
     /** 氩气桶 */
     public static final DeferredItem<GasBucketItem> ARGON_GAS_BUCKET = ITEMS_REGISTER.register("argon_gas_bucket", () -> new GasBucketItem(ECGases.ARGON_GAS.get(), BUCKET));
-    /** 钾气桶 */
-    public static final DeferredItem<GasBucketItem> POTASSIUM_GAS_BUCKET = ITEMS_REGISTER.register("potassium_gas_bucket", () -> new GasBucketItem(ECGases.POTASSIUM_GAS.get(), BUCKET));
-    /** 钙气桶 */
-    public static final DeferredItem<GasBucketItem> CALCIUM_GAS_BUCKET = ITEMS_REGISTER.register("calcium_gas_bucket", () -> new GasBucketItem(ECGases.CALCIUM_GAS.get(), BUCKET));
-    /** 钪气桶 */
-    public static final DeferredItem<GasBucketItem> SCANDIUM_GAS_BUCKET = ITEMS_REGISTER.register("scandium_gas_bucket", () -> new GasBucketItem(ECGases.SCANDIUM_GAS.get(), BUCKET));
-    /** 钛气桶 */
-    public static final DeferredItem<GasBucketItem> TITANIUM_GAS_BUCKET = ITEMS_REGISTER.register("titanium_gas_bucket", () -> new GasBucketItem(ECGases.TITANIUM_GAS.get(), BUCKET));
-    /** 钒气桶 */
-    public static final DeferredItem<GasBucketItem> VANADIUM_GAS_BUCKET = ITEMS_REGISTER.register("vanadium_gas_bucket", () -> new GasBucketItem(ECGases.VANADIUM_GAS.get(), BUCKET));
-    /** 铬气桶 */
-    public static final DeferredItem<GasBucketItem> CHROMIUM_GAS_BUCKET = ITEMS_REGISTER.register("chromium_gas_bucket", () -> new GasBucketItem(ECGases.CHROMIUM_GAS.get(), BUCKET));
-    /** 锰气桶 */
-    public static final DeferredItem<GasBucketItem> MANGANESE_GAS_BUCKET = ITEMS_REGISTER.register("manganese_gas_bucket", () -> new GasBucketItem(ECGases.MANGANESE_GAS.get(), BUCKET));
-    /** 铁气桶 */
-    public static final DeferredItem<GasBucketItem> IRON_GAS_BUCKET = ITEMS_REGISTER.register("iron_gas_bucket", () -> new GasBucketItem(ECGases.IRON_GAS.get(), BUCKET));
-    /** 钴气桶 */
-    public static final DeferredItem<GasBucketItem> COBALT_GAS_BUCKET = ITEMS_REGISTER.register("cobalt_gas_bucket", () -> new GasBucketItem(ECGases.COBALT_GAS.get(), BUCKET));
-    /** 镍气桶 */
-    public static final DeferredItem<GasBucketItem> NICKEL_GAS_BUCKET = ITEMS_REGISTER.register("nickel_gas_bucket", () -> new GasBucketItem(ECGases.NICKEL_GAS.get(), BUCKET));
-    /** 铜气桶 */
-    public static final DeferredItem<GasBucketItem> COPPER_GAS_BUCKET = ITEMS_REGISTER.register("copper_gas_bucket", () -> new GasBucketItem(ECGases.COPPER_GAS.get(), BUCKET));
-    /** 锌气桶 */
-    public static final DeferredItem<GasBucketItem> ZINC_GAS_BUCKET = ITEMS_REGISTER.register("zinc_gas_bucket", () -> new GasBucketItem(ECGases.ZINC_GAS.get(), BUCKET));
-    /** 镓气桶 */
-    public static final DeferredItem<GasBucketItem> GALLIUM_GAS_BUCKET = ITEMS_REGISTER.register("gallium_gas_bucket", () -> new GasBucketItem(ECGases.GALLIUM_GAS.get(), BUCKET));
-    /** 锗气桶 */
-    public static final DeferredItem<GasBucketItem> GERMANIUM_GAS_BUCKET = ITEMS_REGISTER.register("germanium_gas_bucket", () -> new GasBucketItem(ECGases.GERMANIUM_GAS.get(), BUCKET));
-    /** 砷气桶 */
-    public static final DeferredItem<GasBucketItem> ARSENIC_GAS_BUCKET = ITEMS_REGISTER.register("arsenic_gas_bucket", () -> new GasBucketItem(ECGases.ARSENIC_GAS.get(), BUCKET));
-    /** 硒气桶 */
-    public static final DeferredItem<GasBucketItem> SELENIUM_GAS_BUCKET = ITEMS_REGISTER.register("selenium_gas_bucket", () -> new GasBucketItem(ECGases.SELENIUM_GAS.get(), BUCKET));
-    /** 溴气桶 */
-    public static final DeferredItem<GasBucketItem> BROMINE_GAS_BUCKET = ITEMS_REGISTER.register("bromine_gas_bucket", () -> new GasBucketItem(ECGases.BROMINE_GAS.get(), BUCKET));
+    /** 钾蒸气桶 */
+    public static final DeferredItem<GasBucketItem> POTASSIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("potassium_vapor_bucket", () -> new GasBucketItem(ECGases.POTASSIUM_VAPOR.get(), BUCKET));
+    /** 钙蒸气桶 */
+    public static final DeferredItem<GasBucketItem> CALCIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("calcium_vapor_bucket", () -> new GasBucketItem(ECGases.CALCIUM_VAPOR.get(), BUCKET));
+    /** 钪蒸气桶 */
+    public static final DeferredItem<GasBucketItem> SCANDIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("scandium_vapor_bucket", () -> new GasBucketItem(ECGases.SCANDIUM_VAPOR.get(), BUCKET));
+    /** 钛蒸气桶 */
+    public static final DeferredItem<GasBucketItem> TITANIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("titanium_vapor_bucket", () -> new GasBucketItem(ECGases.TITANIUM_VAPOR.get(), BUCKET));
+    /** 钒蒸气桶 */
+    public static final DeferredItem<GasBucketItem> VANADIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("vanadium_vapor_bucket", () -> new GasBucketItem(ECGases.VANADIUM_VAPOR.get(), BUCKET));
+    /** 铬蒸气桶 */
+    public static final DeferredItem<GasBucketItem> CHROMIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("chromium_vapor_bucket", () -> new GasBucketItem(ECGases.CHROMIUM_VAPOR.get(), BUCKET));
+    /** 锰蒸气桶 */
+    public static final DeferredItem<GasBucketItem> MANGANESE_VAPOR_BUCKET = ITEMS_REGISTER.register("manganese_vapor_bucket", () -> new GasBucketItem(ECGases.MANGANESE_VAPOR.get(), BUCKET));
+    /** 铁蒸气桶 */
+    public static final DeferredItem<GasBucketItem> IRON_VAPOR_BUCKET = ITEMS_REGISTER.register("iron_vapor_bucket", () -> new GasBucketItem(ECGases.IRON_VAPOR.get(), BUCKET));
+    /** 钴蒸气桶 */
+    public static final DeferredItem<GasBucketItem> COBALT_VAPOR_BUCKET = ITEMS_REGISTER.register("cobalt_vapor_bucket", () -> new GasBucketItem(ECGases.COBALT_VAPOR.get(), BUCKET));
+    /** 镍蒸气桶 */
+    public static final DeferredItem<GasBucketItem> NICKEL_VAPOR_BUCKET = ITEMS_REGISTER.register("nickel_vapor_bucket", () -> new GasBucketItem(ECGases.NICKEL_VAPOR.get(), BUCKET));
+    /** 铜蒸气桶 */
+    public static final DeferredItem<GasBucketItem> COPPER_VAPOR_BUCKET = ITEMS_REGISTER.register("copper_vapor_bucket", () -> new GasBucketItem(ECGases.COPPER_VAPOR.get(), BUCKET));
+    /** 锌蒸气桶 */
+    public static final DeferredItem<GasBucketItem> ZINC_VAPOR_BUCKET = ITEMS_REGISTER.register("zinc_vapor_bucket", () -> new GasBucketItem(ECGases.ZINC_VAPOR.get(), BUCKET));
+    /** 镓蒸气桶 */
+    public static final DeferredItem<GasBucketItem> GALLIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("gallium_vapor_bucket", () -> new GasBucketItem(ECGases.GALLIUM_VAPOR.get(), BUCKET));
+    /** 锗蒸气桶 */
+    public static final DeferredItem<GasBucketItem> GERMANIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("germanium_vapor_bucket", () -> new GasBucketItem(ECGases.GERMANIUM_VAPOR.get(), BUCKET));
+    /** 砷蒸气桶 */
+    public static final DeferredItem<GasBucketItem> ARSENIC_VAPOR_BUCKET = ITEMS_REGISTER.register("arsenic_vapor_bucket", () -> new GasBucketItem(ECGases.ARSENIC_VAPOR.get(), BUCKET));
+    /** 硒蒸气桶 */
+    public static final DeferredItem<GasBucketItem> SELENIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("selenium_vapor_bucket", () -> new GasBucketItem(ECGases.SELENIUM_VAPOR.get(), BUCKET));
+    /** 溴蒸气桶 */
+    public static final DeferredItem<GasBucketItem> BROMINE_VAPOR_BUCKET = ITEMS_REGISTER.register("bromine_vapor_bucket", () -> new GasBucketItem(ECGases.BROMINE_VAPOR.get(), BUCKET));
     /** 氪气桶 */
     public static final DeferredItem<GasBucketItem> KRYPTON_GAS_BUCKET = ITEMS_REGISTER.register("krypton_gas_bucket", () -> new GasBucketItem(ECGases.KRYPTON_GAS.get(), BUCKET));
-    /** 铷气桶 */
-    public static final DeferredItem<GasBucketItem> RUBIDIUM_GAS_BUCKET = ITEMS_REGISTER.register("rubidium_gas_bucket", () -> new GasBucketItem(ECGases.RUBIDIUM_GAS.get(), BUCKET));
-    /** 锶气桶 */
-    public static final DeferredItem<GasBucketItem> STRONTIUM_GAS_BUCKET = ITEMS_REGISTER.register("strontium_gas_bucket", () -> new GasBucketItem(ECGases.STRONTIUM_GAS.get(), BUCKET));
-    /** 钇气桶 */
-    public static final DeferredItem<GasBucketItem> YTTRIUM_GAS_BUCKET = ITEMS_REGISTER.register("yttrium_gas_bucket", () -> new GasBucketItem(ECGases.YTTRIUM_GAS.get(), BUCKET));
-    /** 锆气桶 */
-    public static final DeferredItem<GasBucketItem> ZIRCONIUM_GAS_BUCKET = ITEMS_REGISTER.register("zirconium_gas_bucket", () -> new GasBucketItem(ECGases.ZIRCONIUM_GAS.get(), BUCKET));
-    /** 铌气桶 */
-    public static final DeferredItem<GasBucketItem> NIOBIUM_GAS_BUCKET = ITEMS_REGISTER.register("niobium_gas_bucket", () -> new GasBucketItem(ECGases.NIOBIUM_GAS.get(), BUCKET));
-    /** 钼气桶 */
-    public static final DeferredItem<GasBucketItem> MOLYBDENUM_GAS_BUCKET = ITEMS_REGISTER.register("molybdenum_gas_bucket", () -> new GasBucketItem(ECGases.MOLYBDENUM_GAS.get(), BUCKET));
-    /** 锝气桶 */
-    public static final DeferredItem<GasBucketItem> TECHNETIUM_GAS_BUCKET = ITEMS_REGISTER.register("technetium_gas_bucket", () -> new GasBucketItem(ECGases.TECHNETIUM_GAS.get(), BUCKET));
-    /** 钌气桶 */
-    public static final DeferredItem<GasBucketItem> RUTHENIUM_GAS_BUCKET = ITEMS_REGISTER.register("ruthenium_gas_bucket", () -> new GasBucketItem(ECGases.RUTHENIUM_GAS.get(), BUCKET));
-    /** 铑气桶 */
-    public static final DeferredItem<GasBucketItem> RHODIUM_GAS_BUCKET = ITEMS_REGISTER.register("rhodium_gas_bucket", () -> new GasBucketItem(ECGases.RHODIUM_GAS.get(), BUCKET));
-    /** 钯气桶 */
-    public static final DeferredItem<GasBucketItem> PALLADIUM_GAS_BUCKET = ITEMS_REGISTER.register("palladium_gas_bucket", () -> new GasBucketItem(ECGases.PALLADIUM_GAS.get(), BUCKET));
-    /** 银气桶 */
-    public static final DeferredItem<GasBucketItem> SILVER_GAS_BUCKET = ITEMS_REGISTER.register("silver_gas_bucket", () -> new GasBucketItem(ECGases.SILVER_GAS.get(), BUCKET));
-    /** 镉气桶 */
-    public static final DeferredItem<GasBucketItem> CADMIUM_GAS_BUCKET = ITEMS_REGISTER.register("cadmium_gas_bucket", () -> new GasBucketItem(ECGases.CADMIUM_GAS.get(), BUCKET));
-    /** 铟气桶 */
-    public static final DeferredItem<GasBucketItem> INDIUM_GAS_BUCKET = ITEMS_REGISTER.register("indium_gas_bucket", () -> new GasBucketItem(ECGases.INDIUM_GAS.get(), BUCKET));
-    /** 锡气桶 */
-    public static final DeferredItem<GasBucketItem> TIN_GAS_BUCKET = ITEMS_REGISTER.register("tin_gas_bucket", () -> new GasBucketItem(ECGases.TIN_GAS.get(), BUCKET));
-    /** 锑气桶 */
-    public static final DeferredItem<GasBucketItem> ANTIMONY_GAS_BUCKET = ITEMS_REGISTER.register("antimony_gas_bucket", () -> new GasBucketItem(ECGases.ANTIMONY_GAS.get(), BUCKET));
-    /** 碲气桶 */
-    public static final DeferredItem<GasBucketItem> TELLURIUM_GAS_BUCKET = ITEMS_REGISTER.register("tellurium_gas_bucket", () -> new GasBucketItem(ECGases.TELLURIUM_GAS.get(), BUCKET));
-    /** 碘气桶 */
-    public static final DeferredItem<GasBucketItem> IODINE_GAS_BUCKET = ITEMS_REGISTER.register("iodine_gas_bucket", () -> new GasBucketItem(ECGases.IODINE_GAS.get(), BUCKET));
+    /** 铷蒸气桶 */
+    public static final DeferredItem<GasBucketItem> RUBIDIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("rubidium_vapor_bucket", () -> new GasBucketItem(ECGases.RUBIDIUM_VAPOR.get(), BUCKET));
+    /** 锶蒸气桶 */
+    public static final DeferredItem<GasBucketItem> STRONTIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("strontium_vapor_bucket", () -> new GasBucketItem(ECGases.STRONTIUM_VAPOR.get(), BUCKET));
+    /** 钇蒸气桶 */
+    public static final DeferredItem<GasBucketItem> YTTRIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("yttrium_vapor_bucket", () -> new GasBucketItem(ECGases.YTTRIUM_VAPOR.get(), BUCKET));
+    /** 锆蒸气桶 */
+    public static final DeferredItem<GasBucketItem> ZIRCONIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("zirconium_vapor_bucket", () -> new GasBucketItem(ECGases.ZIRCONIUM_VAPOR.get(), BUCKET));
+    /** 铌蒸气桶 */
+    public static final DeferredItem<GasBucketItem> NIOBIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("niobium_vapor_bucket", () -> new GasBucketItem(ECGases.NIOBIUM_VAPOR.get(), BUCKET));
+    /** 钼蒸气桶 */
+    public static final DeferredItem<GasBucketItem> MOLYBDENUM_VAPOR_BUCKET = ITEMS_REGISTER.register("molybdenum_vapor_bucket", () -> new GasBucketItem(ECGases.MOLYBDENUM_VAPOR.get(), BUCKET));
+    /** 锝蒸气桶 */
+    public static final DeferredItem<GasBucketItem> TECHNETIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("technetium_vapor_bucket", () -> new GasBucketItem(ECGases.TECHNETIUM_VAPOR.get(), BUCKET));
+    /** 钌蒸气桶 */
+    public static final DeferredItem<GasBucketItem> RUTHENIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("ruthenium_vapor_bucket", () -> new GasBucketItem(ECGases.RUTHENIUM_VAPOR.get(), BUCKET));
+    /** 铑蒸气桶 */
+    public static final DeferredItem<GasBucketItem> RHODIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("rhodium_vapor_bucket", () -> new GasBucketItem(ECGases.RHODIUM_VAPOR.get(), BUCKET));
+    /** 钯蒸气桶 */
+    public static final DeferredItem<GasBucketItem> PALLADIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("palladium_vapor_bucket", () -> new GasBucketItem(ECGases.PALLADIUM_VAPOR.get(), BUCKET));
+    /** 银蒸气桶 */
+    public static final DeferredItem<GasBucketItem> SILVER_VAPOR_BUCKET = ITEMS_REGISTER.register("silver_vapor_bucket", () -> new GasBucketItem(ECGases.SILVER_VAPOR.get(), BUCKET));
+    /** 镉蒸气桶 */
+    public static final DeferredItem<GasBucketItem> CADMIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("cadmium_vapor_bucket", () -> new GasBucketItem(ECGases.CADMIUM_VAPOR.get(), BUCKET));
+    /** 铟蒸气桶 */
+    public static final DeferredItem<GasBucketItem> INDIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("indium_vapor_bucket", () -> new GasBucketItem(ECGases.INDIUM_VAPOR.get(), BUCKET));
+    /** 锡蒸气桶 */
+    public static final DeferredItem<GasBucketItem> TIN_VAPOR_BUCKET = ITEMS_REGISTER.register("tin_vapor_bucket", () -> new GasBucketItem(ECGases.TIN_VAPOR.get(), BUCKET));
+    /** 锑蒸气桶 */
+    public static final DeferredItem<GasBucketItem> ANTIMONY_VAPOR_BUCKET = ITEMS_REGISTER.register("antimony_vapor_bucket", () -> new GasBucketItem(ECGases.ANTIMONY_VAPOR.get(), BUCKET));
+    /** 碲蒸气桶 */
+    public static final DeferredItem<GasBucketItem> TELLURIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("tellurium_vapor_bucket", () -> new GasBucketItem(ECGases.TELLURIUM_VAPOR.get(), BUCKET));
+    /** 碘蒸气桶 */
+    public static final DeferredItem<GasBucketItem> IODINE_VAPOR_BUCKET = ITEMS_REGISTER.register("iodine_vapor_bucket", () -> new GasBucketItem(ECGases.IODINE_VAPOR.get(), BUCKET));
     /** 氙气桶 */
     public static final DeferredItem<GasBucketItem> XENON_GAS_BUCKET = ITEMS_REGISTER.register("xenon_gas_bucket", () -> new GasBucketItem(ECGases.XENON_GAS.get(), BUCKET));
-    /** 铯气桶 */
-    public static final DeferredItem<GasBucketItem> CESIUM_GAS_BUCKET = ITEMS_REGISTER.register("cesium_gas_bucket", () -> new GasBucketItem(ECGases.CESIUM_GAS.get(), BUCKET));
-    /** 钡气桶 */
-    public static final DeferredItem<GasBucketItem> BARIUM_GAS_BUCKET = ITEMS_REGISTER.register("barium_gas_bucket", () -> new GasBucketItem(ECGases.BARIUM_GAS.get(), BUCKET));
-    /** 镧气桶 */
-    public static final DeferredItem<GasBucketItem> LANTHANUM_GAS_BUCKET = ITEMS_REGISTER.register("lanthanum_gas_bucket", () -> new GasBucketItem(ECGases.LANTHANUM_GAS.get(), BUCKET));
-    /** 铈气桶 */
-    public static final DeferredItem<GasBucketItem> CERIUM_GAS_BUCKET = ITEMS_REGISTER.register("cerium_gas_bucket", () -> new GasBucketItem(ECGases.CERIUM_GAS.get(), BUCKET));
-    /** 镨气桶 */
-    public static final DeferredItem<GasBucketItem> PRASEODYMIUM_GAS_BUCKET = ITEMS_REGISTER.register("praseodymium_gas_bucket", () -> new GasBucketItem(ECGases.PRASEODYMIUM_GAS.get(), BUCKET));
-    /** 钕气桶 */
-    public static final DeferredItem<GasBucketItem> NEODYMIUM_GAS_BUCKET = ITEMS_REGISTER.register("neodymium_gas_bucket", () -> new GasBucketItem(ECGases.NEODYMIUM_GAS.get(), BUCKET));
-    /** 钷气桶 */
-    public static final DeferredItem<GasBucketItem> PROMETHIUM_GAS_BUCKET = ITEMS_REGISTER.register("promethium_gas_bucket", () -> new GasBucketItem(ECGases.PROMETHIUM_GAS.get(), BUCKET));
-    /** 钐气桶 */
-    public static final DeferredItem<GasBucketItem> SAMARIUM_GAS_BUCKET = ITEMS_REGISTER.register("samarium_gas_bucket", () -> new GasBucketItem(ECGases.SAMARIUM_GAS.get(), BUCKET));
-    /** 铕气桶 */
-    public static final DeferredItem<GasBucketItem> EUROPIUM_GAS_BUCKET = ITEMS_REGISTER.register("europium_gas_bucket", () -> new GasBucketItem(ECGases.EUROPIUM_GAS.get(), BUCKET));
-    /** 钆气桶 */
-    public static final DeferredItem<GasBucketItem> GADOLINIUM_GAS_BUCKET = ITEMS_REGISTER.register("gadolinium_gas_bucket", () -> new GasBucketItem(ECGases.GADOLINIUM_GAS.get(), BUCKET));
-    /** 铽气桶 */
-    public static final DeferredItem<GasBucketItem> TERBIUM_GAS_BUCKET = ITEMS_REGISTER.register("terbium_gas_bucket", () -> new GasBucketItem(ECGases.TERBIUM_GAS.get(), BUCKET));
-    /** 镝气桶 */
-    public static final DeferredItem<GasBucketItem> DYSPROSIUM_GAS_BUCKET = ITEMS_REGISTER.register("dysprosium_gas_bucket", () -> new GasBucketItem(ECGases.DYSPROSIUM_GAS.get(), BUCKET));
-    /** 钬气桶 */
-    public static final DeferredItem<GasBucketItem> HOLMIUM_GAS_BUCKET = ITEMS_REGISTER.register("holmium_gas_bucket", () -> new GasBucketItem(ECGases.HOLMIUM_GAS.get(), BUCKET));
-    /** 铒气桶 */
-    public static final DeferredItem<GasBucketItem> ERBIUM_GAS_BUCKET = ITEMS_REGISTER.register("erbium_gas_bucket", () -> new GasBucketItem(ECGases.ERBIUM_GAS.get(), BUCKET));
-    /** 铥气桶 */
-    public static final DeferredItem<GasBucketItem> THULIUM_GAS_BUCKET = ITEMS_REGISTER.register("thulium_gas_bucket", () -> new GasBucketItem(ECGases.THULIUM_GAS.get(), BUCKET));
-    /** 镱气桶 */
-    public static final DeferredItem<GasBucketItem> YTTERBIUM_GAS_BUCKET = ITEMS_REGISTER.register("ytterbium_gas_bucket", () -> new GasBucketItem(ECGases.YTTERBIUM_GAS.get(), BUCKET));
-    /** 镥气桶 */
-    public static final DeferredItem<GasBucketItem> LUTETIUM_GAS_BUCKET = ITEMS_REGISTER.register("lutetium_gas_bucket", () -> new GasBucketItem(ECGases.LUTETIUM_GAS.get(), BUCKET));
-    /** 铪气桶 */
-    public static final DeferredItem<GasBucketItem> HAFNIUM_GAS_BUCKET = ITEMS_REGISTER.register("hafnium_gas_bucket", () -> new GasBucketItem(ECGases.HAFNIUM_GAS.get(), BUCKET));
-    /** 钽气桶 */
-    public static final DeferredItem<GasBucketItem> TANTALUM_GAS_BUCKET = ITEMS_REGISTER.register("tantalum_gas_bucket", () -> new GasBucketItem(ECGases.TANTALUM_GAS.get(), BUCKET));
-    /** 钨气桶 */
-    public static final DeferredItem<GasBucketItem> TUNGSTEN_GAS_BUCKET = ITEMS_REGISTER.register("tungsten_gas_bucket", () -> new GasBucketItem(ECGases.TUNGSTEN_GAS.get(), BUCKET));
-    /** 铼气桶 */
-    public static final DeferredItem<GasBucketItem> RHENIUM_GAS_BUCKET = ITEMS_REGISTER.register("rhenium_gas_bucket", () -> new GasBucketItem(ECGases.RHENIUM_GAS.get(), BUCKET));
-    /** 锇气桶 */
-    public static final DeferredItem<GasBucketItem> OSMIUM_GAS_BUCKET = ITEMS_REGISTER.register("osmium_gas_bucket", () -> new GasBucketItem(ECGases.OSMIUM_GAS.get(), BUCKET));
-    /** 铱气桶 */
-    public static final DeferredItem<GasBucketItem> IRIDIUM_GAS_BUCKET = ITEMS_REGISTER.register("iridium_gas_bucket", () -> new GasBucketItem(ECGases.IRIDIUM_GAS.get(), BUCKET));
-    /** 铂气桶 */
-    public static final DeferredItem<GasBucketItem> PLATINUM_GAS_BUCKET = ITEMS_REGISTER.register("platinum_gas_bucket", () -> new GasBucketItem(ECGases.PLATINUM_GAS.get(), BUCKET));
-    /** 金气桶 */
-    public static final DeferredItem<GasBucketItem> GOLD_GAS_BUCKET = ITEMS_REGISTER.register("gold_gas_bucket", () -> new GasBucketItem(ECGases.GOLD_GAS.get(), BUCKET));
-    /** 汞气桶 */
-    public static final DeferredItem<GasBucketItem> MERCURY_GAS_BUCKET = ITEMS_REGISTER.register("mercury_gas_bucket", () -> new GasBucketItem(ECGases.MERCURY_GAS.get(), BUCKET));
-    /** 铊气桶 */
-    public static final DeferredItem<GasBucketItem> THALLIUM_GAS_BUCKET = ITEMS_REGISTER.register("thallium_gas_bucket", () -> new GasBucketItem(ECGases.THALLIUM_GAS.get(), BUCKET));
-    /** 铅气桶 */
-    public static final DeferredItem<GasBucketItem> LEAD_GAS_BUCKET = ITEMS_REGISTER.register("lead_gas_bucket", () -> new GasBucketItem(ECGases.LEAD_GAS.get(), BUCKET));
-    /** 铋气桶 */
-    public static final DeferredItem<GasBucketItem> BISMUTH_GAS_BUCKET = ITEMS_REGISTER.register("bismuth_gas_bucket", () -> new GasBucketItem(ECGases.BISMUTH_GAS.get(), BUCKET));
-    /** 钋气桶 */
-    public static final DeferredItem<GasBucketItem> POLONIUM_GAS_BUCKET = ITEMS_REGISTER.register("polonium_gas_bucket", () -> new GasBucketItem(ECGases.POLONIUM_GAS.get(), BUCKET));
-    /** 砹气桶 */
-    public static final DeferredItem<GasBucketItem> ASTATINE_GAS_BUCKET = ITEMS_REGISTER.register("astatine_gas_bucket", () -> new GasBucketItem(ECGases.ASTATINE_GAS.get(), BUCKET));
+    /** 铯蒸气桶 */
+    public static final DeferredItem<GasBucketItem> CESIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("cesium_vapor_bucket", () -> new GasBucketItem(ECGases.CESIUM_VAPOR.get(), BUCKET));
+    /** 钡蒸气桶 */
+    public static final DeferredItem<GasBucketItem> BARIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("barium_vapor_bucket", () -> new GasBucketItem(ECGases.BARIUM_VAPOR.get(), BUCKET));
+    /** 镧蒸气桶 */
+    public static final DeferredItem<GasBucketItem> LANTHANUM_VAPOR_BUCKET = ITEMS_REGISTER.register("lanthanum_vapor_bucket", () -> new GasBucketItem(ECGases.LANTHANUM_VAPOR.get(), BUCKET));
+    /** 铈蒸气桶 */
+    public static final DeferredItem<GasBucketItem> CERIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("cerium_vapor_bucket", () -> new GasBucketItem(ECGases.CERIUM_VAPOR.get(), BUCKET));
+    /** 镨蒸气桶 */
+    public static final DeferredItem<GasBucketItem> PRASEODYMIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("praseodymium_vapor_bucket", () -> new GasBucketItem(ECGases.PRASEODYMIUM_VAPOR.get(), BUCKET));
+    /** 钕蒸气桶 */
+    public static final DeferredItem<GasBucketItem> NEODYMIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("neodymium_vapor_bucket", () -> new GasBucketItem(ECGases.NEODYMIUM_VAPOR.get(), BUCKET));
+    /** 钷蒸气桶 */
+    public static final DeferredItem<GasBucketItem> PROMETHIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("promethium_vapor_bucket", () -> new GasBucketItem(ECGases.PROMETHIUM_VAPOR.get(), BUCKET));
+    /** 钐蒸气桶 */
+    public static final DeferredItem<GasBucketItem> SAMARIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("samarium_vapor_bucket", () -> new GasBucketItem(ECGases.SAMARIUM_VAPOR.get(), BUCKET));
+    /** 铕蒸气桶 */
+    public static final DeferredItem<GasBucketItem> EUROPIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("europium_vapor_bucket", () -> new GasBucketItem(ECGases.EUROPIUM_VAPOR.get(), BUCKET));
+    /** 钆蒸气桶 */
+    public static final DeferredItem<GasBucketItem> GADOLINIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("gadolinium_vapor_bucket", () -> new GasBucketItem(ECGases.GADOLINIUM_VAPOR.get(), BUCKET));
+    /** 铽蒸气桶 */
+    public static final DeferredItem<GasBucketItem> TERBIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("terbium_vapor_bucket", () -> new GasBucketItem(ECGases.TERBIUM_VAPOR.get(), BUCKET));
+    /** 镝蒸气桶 */
+    public static final DeferredItem<GasBucketItem> DYSPROSIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("dysprosium_vapor_bucket", () -> new GasBucketItem(ECGases.DYSPROSIUM_VAPOR.get(), BUCKET));
+    /** 钬蒸气桶 */
+    public static final DeferredItem<GasBucketItem> HOLMIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("holmium_vapor_bucket", () -> new GasBucketItem(ECGases.HOLMIUM_VAPOR.get(), BUCKET));
+    /** 铒蒸气桶 */
+    public static final DeferredItem<GasBucketItem> ERBIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("erbium_vapor_bucket", () -> new GasBucketItem(ECGases.ERBIUM_VAPOR.get(), BUCKET));
+    /** 铥蒸气桶 */
+    public static final DeferredItem<GasBucketItem> THULIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("thulium_vapor_bucket", () -> new GasBucketItem(ECGases.THULIUM_VAPOR.get(), BUCKET));
+    /** 镱蒸气桶 */
+    public static final DeferredItem<GasBucketItem> YTTERBIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("ytterbium_vapor_bucket", () -> new GasBucketItem(ECGases.YTTERBIUM_VAPOR.get(), BUCKET));
+    /** 镥蒸气桶 */
+    public static final DeferredItem<GasBucketItem> LUTETIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("lutetium_vapor_bucket", () -> new GasBucketItem(ECGases.LUTETIUM_VAPOR.get(), BUCKET));
+    /** 铪蒸气桶 */
+    public static final DeferredItem<GasBucketItem> HAFNIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("hafnium_vapor_bucket", () -> new GasBucketItem(ECGases.HAFNIUM_VAPOR.get(), BUCKET));
+    /** 钽蒸气桶 */
+    public static final DeferredItem<GasBucketItem> TANTALUM_VAPOR_BUCKET = ITEMS_REGISTER.register("tantalum_vapor_bucket", () -> new GasBucketItem(ECGases.TANTALUM_VAPOR.get(), BUCKET));
+    /** 钨蒸气桶 */
+    public static final DeferredItem<GasBucketItem> TUNGSTEN_VAPOR_BUCKET = ITEMS_REGISTER.register("tungsten_vapor_bucket", () -> new GasBucketItem(ECGases.TUNGSTEN_VAPOR.get(), BUCKET));
+    /** 铼蒸气桶 */
+    public static final DeferredItem<GasBucketItem> RHENIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("rhenium_vapor_bucket", () -> new GasBucketItem(ECGases.RHENIUM_VAPOR.get(), BUCKET));
+    /** 锇蒸气桶 */
+    public static final DeferredItem<GasBucketItem> OSMIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("osmium_vapor_bucket", () -> new GasBucketItem(ECGases.OSMIUM_VAPOR.get(), BUCKET));
+    /** 铱蒸气桶 */
+    public static final DeferredItem<GasBucketItem> IRIDIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("iridium_vapor_bucket", () -> new GasBucketItem(ECGases.IRIDIUM_VAPOR.get(), BUCKET));
+    /** 铂蒸气桶 */
+    public static final DeferredItem<GasBucketItem> PLATINUM_VAPOR_BUCKET = ITEMS_REGISTER.register("platinum_vapor_bucket", () -> new GasBucketItem(ECGases.PLATINUM_VAPOR.get(), BUCKET));
+    /** 金蒸气桶 */
+    public static final DeferredItem<GasBucketItem> GOLD_VAPOR_BUCKET = ITEMS_REGISTER.register("gold_vapor_bucket", () -> new GasBucketItem(ECGases.GOLD_VAPOR.get(), BUCKET));
+    /** 汞蒸气桶 */
+    public static final DeferredItem<GasBucketItem> MERCURY_VAPOR_BUCKET = ITEMS_REGISTER.register("mercury_vapor_bucket", () -> new GasBucketItem(ECGases.MERCURY_VAPOR.get(), BUCKET));
+    /** 铊蒸气桶 */
+    public static final DeferredItem<GasBucketItem> THALLIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("thallium_vapor_bucket", () -> new GasBucketItem(ECGases.THALLIUM_VAPOR.get(), BUCKET));
+    /** 铅蒸气桶 */
+    public static final DeferredItem<GasBucketItem> LEAD_VAPOR_BUCKET = ITEMS_REGISTER.register("lead_vapor_bucket", () -> new GasBucketItem(ECGases.LEAD_VAPOR.get(), BUCKET));
+    /** 铋蒸气桶 */
+    public static final DeferredItem<GasBucketItem> BISMUTH_VAPOR_BUCKET = ITEMS_REGISTER.register("bismuth_vapor_bucket", () -> new GasBucketItem(ECGases.BISMUTH_VAPOR.get(), BUCKET));
+    /** 钋蒸气桶 */
+    public static final DeferredItem<GasBucketItem> POLONIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("polonium_vapor_bucket", () -> new GasBucketItem(ECGases.POLONIUM_VAPOR.get(), BUCKET));
+    /** 砹蒸气桶 */
+    public static final DeferredItem<GasBucketItem> ASTATINE_VAPOR_BUCKET = ITEMS_REGISTER.register("astatine_vapor_bucket", () -> new GasBucketItem(ECGases.ASTATINE_VAPOR.get(), BUCKET));
     /** 氡气桶 */
     public static final DeferredItem<GasBucketItem> RADON_GAS_BUCKET = ITEMS_REGISTER.register("radon_gas_bucket", () -> new GasBucketItem(ECGases.RADON_GAS.get(), BUCKET));
-    /** 钫气桶 */
-    public static final DeferredItem<GasBucketItem> FRANCIUM_GAS_BUCKET = ITEMS_REGISTER.register("francium_gas_bucket", () -> new GasBucketItem(ECGases.FRANCIUM_GAS.get(), BUCKET));
-    /** 镭气桶 */
-    public static final DeferredItem<GasBucketItem> RADIUM_GAS_BUCKET = ITEMS_REGISTER.register("radium_gas_bucket", () -> new GasBucketItem(ECGases.RADIUM_GAS.get(), BUCKET));
-    /** 锕气桶 */
-    public static final DeferredItem<GasBucketItem> ACTINIUM_GAS_BUCKET = ITEMS_REGISTER.register("actinium_gas_bucket", () -> new GasBucketItem(ECGases.ACTINIUM_GAS.get(), BUCKET));
-    /** 钍气桶 */
-    public static final DeferredItem<GasBucketItem> THORIUM_GAS_BUCKET = ITEMS_REGISTER.register("thorium_gas_bucket", () -> new GasBucketItem(ECGases.THORIUM_GAS.get(), BUCKET));
-    /** 镤气桶 */
-    public static final DeferredItem<GasBucketItem> PROTACTINIUM_GAS_BUCKET = ITEMS_REGISTER.register("protactinium_gas_bucket", () -> new GasBucketItem(ECGases.PROTACTINIUM_GAS.get(), BUCKET));
-    /** 铀气桶 */
-    public static final DeferredItem<GasBucketItem> URANIUM_GAS_BUCKET = ITEMS_REGISTER.register("uranium_gas_bucket", () -> new GasBucketItem(ECGases.URANIUM_GAS.get(), BUCKET));
-    /** 镎气桶 */
-    public static final DeferredItem<GasBucketItem> NEPTUNIUM_GAS_BUCKET = ITEMS_REGISTER.register("neptunium_gas_bucket", () -> new GasBucketItem(ECGases.NEPTUNIUM_GAS.get(), BUCKET));
-    /** 钚气桶 */
-    public static final DeferredItem<GasBucketItem> PLUTONIUM_GAS_BUCKET = ITEMS_REGISTER.register("plutonium_gas_bucket", () -> new GasBucketItem(ECGases.PLUTONIUM_GAS.get(), BUCKET));
-    /** 镅气桶 */
-    public static final DeferredItem<GasBucketItem> AMERICIUM_GAS_BUCKET = ITEMS_REGISTER.register("americium_gas_bucket", () -> new GasBucketItem(ECGases.AMERICIUM_GAS.get(), BUCKET));
-    /** 锔气桶 */
-    public static final DeferredItem<GasBucketItem> CURIUM_GAS_BUCKET = ITEMS_REGISTER.register("curium_gas_bucket", () -> new GasBucketItem(ECGases.CURIUM_GAS.get(), BUCKET));
-    /** 锫气桶 */
-    public static final DeferredItem<GasBucketItem> BERKELIUM_GAS_BUCKET = ITEMS_REGISTER.register("berkelium_gas_bucket", () -> new GasBucketItem(ECGases.BERKELIUM_GAS.get(), BUCKET));
-    /** 锎气桶 */
-    public static final DeferredItem<GasBucketItem> CALIFORNIUM_GAS_BUCKET = ITEMS_REGISTER.register("californium_gas_bucket", () -> new GasBucketItem(ECGases.CALIFORNIUM_GAS.get(), BUCKET));
-    /** 锿气桶 */
-    public static final DeferredItem<GasBucketItem> EINSTEINIUM_GAS_BUCKET = ITEMS_REGISTER.register("einsteinium_gas_bucket", () -> new GasBucketItem(ECGases.EINSTEINIUM_GAS.get(), BUCKET));
-    /** 镄气桶 */
-    public static final DeferredItem<GasBucketItem> FERMIUM_GAS_BUCKET = ITEMS_REGISTER.register("fermium_gas_bucket", () -> new GasBucketItem(ECGases.FERMIUM_GAS.get(), BUCKET));
-    /** 钔气桶 */
-    public static final DeferredItem<GasBucketItem> MENDELEVIUM_GAS_BUCKET = ITEMS_REGISTER.register("mendelevium_gas_bucket", () -> new GasBucketItem(ECGases.MENDELEVIUM_GAS.get(), BUCKET));
-    /** 锘气桶 */
-    public static final DeferredItem<GasBucketItem> NOBELIUM_GAS_BUCKET = ITEMS_REGISTER.register("nobelium_gas_bucket", () -> new GasBucketItem(ECGases.NOBELIUM_GAS.get(), BUCKET));
-    /** 铹气桶 */
-    public static final DeferredItem<GasBucketItem> LAWRENCIUM_GAS_BUCKET = ITEMS_REGISTER.register("lawrencium_gas_bucket", () -> new GasBucketItem(ECGases.LAWRENCIUM_GAS.get(), BUCKET));
-    /** 𬬻气桶 */
-    public static final DeferredItem<GasBucketItem> RUTHERFORDIUM_GAS_BUCKET = ITEMS_REGISTER.register("rutherfordium_gas_bucket", () -> new GasBucketItem(ECGases.RUTHERFORDIUM_GAS.get(), BUCKET));
-    /** 𬭊气桶 */
-    public static final DeferredItem<GasBucketItem> DUBNIUM_GAS_BUCKET = ITEMS_REGISTER.register("dubnium_gas_bucket", () -> new GasBucketItem(ECGases.DUBNIUM_GAS.get(), BUCKET));
-    /** 𬭳气桶 */
-    public static final DeferredItem<GasBucketItem> SEABORGIUM_GAS_BUCKET = ITEMS_REGISTER.register("seaborgium_gas_bucket", () -> new GasBucketItem(ECGases.SEABORGIUM_GAS.get(), BUCKET));
-    /** 𬭛气桶 */
-    public static final DeferredItem<GasBucketItem> BOHRIUM_GAS_BUCKET = ITEMS_REGISTER.register("bohrium_gas_bucket", () -> new GasBucketItem(ECGases.BOHRIUM_GAS.get(), BUCKET));
-    /** 𬭶气桶 */
-    public static final DeferredItem<GasBucketItem> HASSIUM_GAS_BUCKET = ITEMS_REGISTER.register("hassium_gas_bucket", () -> new GasBucketItem(ECGases.HASSIUM_GAS.get(), BUCKET));
-    /** 鿏气桶 */
-    public static final DeferredItem<GasBucketItem> MEITNERIUM_GAS_BUCKET = ITEMS_REGISTER.register("meitnerium_gas_bucket", () -> new GasBucketItem(ECGases.MEITNERIUM_GAS.get(), BUCKET));
-    /** 𫟼气桶 */
-    public static final DeferredItem<GasBucketItem> DARMSTADTIUM_GAS_BUCKET = ITEMS_REGISTER.register("darmstadtium_gas_bucket", () -> new GasBucketItem(ECGases.DARMSTADTIUM_GAS.get(), BUCKET));
-    /** 𬬭气桶 */
-    public static final DeferredItem<GasBucketItem> ROENTGENIUM_GAS_BUCKET = ITEMS_REGISTER.register("roentgenium_gas_bucket", () -> new GasBucketItem(ECGases.ROENTGENIUM_GAS.get(), BUCKET));
-    /** 鿔气桶 */
-    public static final DeferredItem<GasBucketItem> COPERNICIUM_GAS_BUCKET = ITEMS_REGISTER.register("copernicium_gas_bucket", () -> new GasBucketItem(ECGases.COPERNICIUM_GAS.get(), BUCKET));
-    /** 鿭气桶 */
-    public static final DeferredItem<GasBucketItem> NIHONIUM_GAS_BUCKET = ITEMS_REGISTER.register("nihonium_gas_bucket", () -> new GasBucketItem(ECGases.NIHONIUM_GAS.get(), BUCKET));
-    /** 𫓧气桶 */
-    public static final DeferredItem<GasBucketItem> FLEROVIUM_GAS_BUCKET = ITEMS_REGISTER.register("flerovium_gas_bucket", () -> new GasBucketItem(ECGases.FLEROVIUM_GAS.get(), BUCKET));
-    /** 镆气桶 */
-    public static final DeferredItem<GasBucketItem> MOSCOVIUM_GAS_BUCKET = ITEMS_REGISTER.register("moscovium_gas_bucket", () -> new GasBucketItem(ECGases.MOSCOVIUM_GAS.get(), BUCKET));
-    /** 𫟷气桶 */
-    public static final DeferredItem<GasBucketItem> LIVERMORIUM_GAS_BUCKET = ITEMS_REGISTER.register("livermorium_gas_bucket", () -> new GasBucketItem(ECGases.LIVERMORIUM_GAS.get(), BUCKET));
-    /** 鿬气桶 */
-    public static final DeferredItem<GasBucketItem> TENNESSINE_GAS_BUCKET = ITEMS_REGISTER.register("tennessine_gas_bucket", () -> new GasBucketItem(ECGases.TENNESSINE_GAS.get(), BUCKET));
+    /** 钫蒸气桶 */
+    public static final DeferredItem<GasBucketItem> FRANCIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("francium_vapor_bucket", () -> new GasBucketItem(ECGases.FRANCIUM_VAPOR.get(), BUCKET));
+    /** 镭蒸气桶 */
+    public static final DeferredItem<GasBucketItem> RADIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("radium_vapor_bucket", () -> new GasBucketItem(ECGases.RADIUM_VAPOR.get(), BUCKET));
+    /** 锕蒸气桶 */
+    public static final DeferredItem<GasBucketItem> ACTINIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("actinium_vapor_bucket", () -> new GasBucketItem(ECGases.ACTINIUM_VAPOR.get(), BUCKET));
+    /** 钍蒸气桶 */
+    public static final DeferredItem<GasBucketItem> THORIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("thorium_vapor_bucket", () -> new GasBucketItem(ECGases.THORIUM_VAPOR.get(), BUCKET));
+    /** 镤蒸气桶 */
+    public static final DeferredItem<GasBucketItem> PROTACTINIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("protactinium_vapor_bucket", () -> new GasBucketItem(ECGases.PROTACTINIUM_VAPOR.get(), BUCKET));
+    /** 铀蒸气桶 */
+    public static final DeferredItem<GasBucketItem> URANIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("uranium_vapor_bucket", () -> new GasBucketItem(ECGases.URANIUM_VAPOR.get(), BUCKET));
+    /** 镎蒸气桶 */
+    public static final DeferredItem<GasBucketItem> NEPTUNIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("neptunium_vapor_bucket", () -> new GasBucketItem(ECGases.NEPTUNIUM_VAPOR.get(), BUCKET));
+    /** 钚蒸气桶 */
+    public static final DeferredItem<GasBucketItem> PLUTONIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("plutonium_vapor_bucket", () -> new GasBucketItem(ECGases.PLUTONIUM_VAPOR.get(), BUCKET));
+    /** 镅蒸气桶 */
+    public static final DeferredItem<GasBucketItem> AMERICIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("americium_vapor_bucket", () -> new GasBucketItem(ECGases.AMERICIUM_VAPOR.get(), BUCKET));
+    /** 锔蒸气桶 */
+    public static final DeferredItem<GasBucketItem> CURIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("curium_vapor_bucket", () -> new GasBucketItem(ECGases.CURIUM_VAPOR.get(), BUCKET));
+    /** 锫蒸气桶 */
+    public static final DeferredItem<GasBucketItem> BERKELIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("berkelium_vapor_bucket", () -> new GasBucketItem(ECGases.BERKELIUM_VAPOR.get(), BUCKET));
+    /** 锎蒸气桶 */
+    public static final DeferredItem<GasBucketItem> CALIFORNIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("californium_vapor_bucket", () -> new GasBucketItem(ECGases.CALIFORNIUM_VAPOR.get(), BUCKET));
+    /** 锿蒸气桶 */
+    public static final DeferredItem<GasBucketItem> EINSTEINIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("einsteinium_vapor_bucket", () -> new GasBucketItem(ECGases.EINSTEINIUM_VAPOR.get(), BUCKET));
+    /** 镄蒸气桶 */
+    public static final DeferredItem<GasBucketItem> FERMIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("fermium_vapor_bucket", () -> new GasBucketItem(ECGases.FERMIUM_VAPOR.get(), BUCKET));
+    /** 钔蒸气桶 */
+    public static final DeferredItem<GasBucketItem> MENDELEVIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("mendelevium_vapor_bucket", () -> new GasBucketItem(ECGases.MENDELEVIUM_VAPOR.get(), BUCKET));
+    /** 锘蒸气桶 */
+    public static final DeferredItem<GasBucketItem> NOBELIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("nobelium_vapor_bucket", () -> new GasBucketItem(ECGases.NOBELIUM_VAPOR.get(), BUCKET));
+    /** 铹蒸气桶 */
+    public static final DeferredItem<GasBucketItem> LAWRENCIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("lawrencium_vapor_bucket", () -> new GasBucketItem(ECGases.LAWRENCIUM_VAPOR.get(), BUCKET));
+    /** 𬬻蒸气桶 */
+    public static final DeferredItem<GasBucketItem> RUTHERFORDIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("rutherfordium_vapor_bucket", () -> new GasBucketItem(ECGases.RUTHERFORDIUM_VAPOR.get(), BUCKET));
+    /** 𬭊蒸气桶 */
+    public static final DeferredItem<GasBucketItem> DUBNIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("dubnium_vapor_bucket", () -> new GasBucketItem(ECGases.DUBNIUM_VAPOR.get(), BUCKET));
+    /** 𬭳蒸气桶 */
+    public static final DeferredItem<GasBucketItem> SEABORGIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("seaborgium_vapor_bucket", () -> new GasBucketItem(ECGases.SEABORGIUM_VAPOR.get(), BUCKET));
+    /** 𬭛蒸气桶 */
+    public static final DeferredItem<GasBucketItem> BOHRIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("bohrium_vapor_bucket", () -> new GasBucketItem(ECGases.BOHRIUM_VAPOR.get(), BUCKET));
+    /** 𬭶蒸气桶 */
+    public static final DeferredItem<GasBucketItem> HASSIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("hassium_vapor_bucket", () -> new GasBucketItem(ECGases.HASSIUM_VAPOR.get(), BUCKET));
+    /** 鿏蒸气桶 */
+    public static final DeferredItem<GasBucketItem> MEITNERIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("meitnerium_vapor_bucket", () -> new GasBucketItem(ECGases.MEITNERIUM_VAPOR.get(), BUCKET));
+    /** 𫟼蒸气桶 */
+    public static final DeferredItem<GasBucketItem> DARMSTADTIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("darmstadtium_vapor_bucket", () -> new GasBucketItem(ECGases.DARMSTADTIUM_VAPOR.get(), BUCKET));
+    /** 𬬭蒸气桶 */
+    public static final DeferredItem<GasBucketItem> ROENTGENIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("roentgenium_vapor_bucket", () -> new GasBucketItem(ECGases.ROENTGENIUM_VAPOR.get(), BUCKET));
+    /** 鿔蒸气桶 */
+    public static final DeferredItem<GasBucketItem> COPERNICIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("copernicium_vapor_bucket", () -> new GasBucketItem(ECGases.COPERNICIUM_VAPOR.get(), BUCKET));
+    /** 鿭蒸气桶 */
+    public static final DeferredItem<GasBucketItem> NIHONIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("nihonium_vapor_bucket", () -> new GasBucketItem(ECGases.NIHONIUM_VAPOR.get(), BUCKET));
+    /** 𫓧蒸气桶 */
+    public static final DeferredItem<GasBucketItem> FLEROVIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("flerovium_vapor_bucket", () -> new GasBucketItem(ECGases.FLEROVIUM_VAPOR.get(), BUCKET));
+    /** 镆蒸气桶 */
+    public static final DeferredItem<GasBucketItem> MOSCOVIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("moscovium_vapor_bucket", () -> new GasBucketItem(ECGases.MOSCOVIUM_VAPOR.get(), BUCKET));
+    /** 𫟷蒸气桶 */
+    public static final DeferredItem<GasBucketItem> LIVERMORIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("livermorium_vapor_bucket", () -> new GasBucketItem(ECGases.LIVERMORIUM_VAPOR.get(), BUCKET));
+    /** 鿬蒸气桶 */
+    public static final DeferredItem<GasBucketItem> TENNESSINE_VAPOR_BUCKET = ITEMS_REGISTER.register("tennessine_vapor_bucket", () -> new GasBucketItem(ECGases.TENNESSINE_VAPOR.get(), BUCKET));
     /** 鿫气桶 */
     public static final DeferredItem<GasBucketItem> OGANESSON_GAS_BUCKET = ITEMS_REGISTER.register("oganesson_gas_bucket", () -> new GasBucketItem(ECGases.OGANESSON_GAS.get(), BUCKET));
-    /** 鑨气桶 */
-    public static final DeferredItem<GasBucketItem> LONGIUM_GAS_BUCKET = ITEMS_REGISTER.register("longium_gas_bucket", () -> new GasBucketItem(ECGases.LONGIUM_GAS.get(), BUCKET));
-    /** 镾气桶 */
-    public static final DeferredItem<GasBucketItem> MYSTERIUM_GAS_BUCKET = ITEMS_REGISTER.register("mysterium_gas_bucket", () -> new GasBucketItem(ECGases.MYSTERIUM_GAS.get(), BUCKET));
+    /** 鑨蒸气桶 */
+    public static final DeferredItem<GasBucketItem> LONGIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("longium_vapor_bucket", () -> new GasBucketItem(ECGases.LONGIUM_VAPOR.get(), BUCKET));
+    /** 镾蒸气桶 */
+    public static final DeferredItem<GasBucketItem> MYSTERIUM_VAPOR_BUCKET = ITEMS_REGISTER.register("mysterium_vapor_bucket", () -> new GasBucketItem(ECGases.MYSTERIUM_VAPOR.get(), BUCKET));
 
     // ==================== 批量注册 矿锭/粒/齿轮/板/粉/棍/线/粉碎粗矿/粗矿 ====================
     public static final class OreItems {

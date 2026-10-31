@@ -1,0 +1,6 @@
+{
+  "parent": "neoforge:item/bucket",
+  "flip_gas": false,
+  "fluid": "elementum_core:liquid_titanium",
+  "loader": "neoforge:fluid_container"
+}

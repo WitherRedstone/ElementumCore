@@ -1,0 +1,6 @@
+{
+  "parent": "neoforge:item/bucket_drip",
+  "flip_gas": true,
+  "fluid": "elementum_core:lanthanum_vapor",
+  "loader": "neoforge:fluid_container"
+}

@@ -333,130 +333,130 @@ public class ECCreativeTabs {
     // 化学元素核心：元素流体
     public static final Supplier<CreativeModeTab> RCE_ELEMENT_FLUID_TAB =
             CREATIVE_MODE_TAB.register("rce_element_fluid_tab", () -> CreativeModeTab.builder()
-                    .icon(() -> new ItemStack(ECMaterialItems.NEODYMIUM_BUCKET.get()))
+                    .icon(() -> new ItemStack(ECMaterialItems.LIQUID_NEODYMIUM_BUCKET.get()))
                     .title(Component.translatable("itemGroup.elementum_core.rce_element_fluid_tab"))
                     .displayItems((parameters, output) -> {
 
-                        output.accept(ECMaterialItems.HYDROGEN_BUCKET.get()); // 氢桶
-                        output.accept(ECMaterialItems.HELIUM_BUCKET.get()); // 氦桶
-                        output.accept(ECMaterialItems.LITHIUM_BUCKET.get()); // 锂桶
-                        output.accept(ECMaterialItems.BERYLLIUM_BUCKET.get()); // 铍桶
-                        output.accept(ECMaterialItems.BORON_BUCKET.get()); // 硼桶
-                        output.accept(ECMaterialItems.CARBON_BUCKET.get()); // 碳桶
-                        output.accept(ECMaterialItems.NITROGEN_BUCKET.get()); // 氮桶
-                        output.accept(ECMaterialItems.OXYGEN_BUCKET.get()); // 氧桶
-                        output.accept(ECMaterialItems.FLUORINE_BUCKET.get()); // 氟桶
-                        output.accept(ECMaterialItems.NEON_BUCKET.get()); // 氖桶
-                        output.accept(ECMaterialItems.SODIUM_BUCKET.get()); // 钠桶
-                        output.accept(ECMaterialItems.MAGNESIUM_BUCKET.get()); // 镁桶
-                        output.accept(ECMaterialItems.ALUMINUM_BUCKET.get()); // 铝桶
-                        output.accept(ECMaterialItems.SILICON_BUCKET.get()); // 硅桶
-                        output.accept(ECMaterialItems.PHOSPHORUS_BUCKET.get()); // 磷桶
-                        output.accept(ECMaterialItems.SULFUR_BUCKET.get()); // 硫桶
-                        output.accept(ECMaterialItems.CHLORINE_BUCKET.get()); // 氯桶
-                        output.accept(ECMaterialItems.ARGON_BUCKET.get()); // 氩桶
-                        output.accept(ECMaterialItems.POTASSIUM_BUCKET.get()); // 钾桶
-                        output.accept(ECMaterialItems.CALCIUM_BUCKET.get()); // 钙桶
-                        output.accept(ECMaterialItems.SCANDIUM_BUCKET.get()); // 钪桶
-                        output.accept(ECMaterialItems.TITANIUM_BUCKET.get()); // 钛桶
-                        output.accept(ECMaterialItems.VANADIUM_BUCKET.get()); // 钒桶
-                        output.accept(ECMaterialItems.CHROMIUM_BUCKET.get()); // 铬桶
-                        output.accept(ECMaterialItems.MANGANESE_BUCKET.get()); // 锰桶
-                        output.accept(ECMaterialItems.IRON_BUCKET.get()); // 铁桶
-                        output.accept(ECMaterialItems.COBALT_BUCKET.get()); // 钴桶
-                        output.accept(ECMaterialItems.NICKEL_BUCKET.get()); // 镍桶
-                        output.accept(ECMaterialItems.COPPER_BUCKET.get()); // 铜桶
-                        output.accept(ECMaterialItems.ZINC_BUCKET.get()); // 锌桶
-                        output.accept(ECMaterialItems.GALLIUM_BUCKET.get()); // 镓桶
-                        output.accept(ECMaterialItems.GERMANIUM_BUCKET.get()); // 锗桶
-                        output.accept(ECMaterialItems.ARSENIC_BUCKET.get()); // 砷桶
-                        output.accept(ECMaterialItems.SELENIUM_BUCKET.get()); // 硒桶
+                        output.accept(ECMaterialItems.LIQUID_HYDROGEN_BUCKET.get()); // 氢桶
+                        output.accept(ECMaterialItems.LIQUID_HELIUM_BUCKET.get()); // 氦桶
+                        output.accept(ECMaterialItems.LIQUID_LITHIUM_BUCKET.get()); // 锂桶
+                        output.accept(ECMaterialItems.LIQUID_BERYLLIUM_BUCKET.get()); // 铍桶
+                        output.accept(ECMaterialItems.LIQUID_BORON_BUCKET.get()); // 硼桶
+                        output.accept(ECMaterialItems.LIQUID_CARBON_BUCKET.get()); // 碳桶
+                        output.accept(ECMaterialItems.LIQUID_NITROGEN_BUCKET.get()); // 氮桶
+                        output.accept(ECMaterialItems.LIQUID_OXYGEN_BUCKET.get()); // 氧桶
+                        output.accept(ECMaterialItems.LIQUID_FLUORINE_BUCKET.get()); // 氟桶
+                        output.accept(ECMaterialItems.LIQUID_NEON_BUCKET.get()); // 氖桶
+                        output.accept(ECMaterialItems.LIQUID_SODIUM_BUCKET.get()); // 钠桶
+                        output.accept(ECMaterialItems.LIQUID_MAGNESIUM_BUCKET.get()); // 镁桶
+                        output.accept(ECMaterialItems.LIQUID_ALUMINUM_BUCKET.get()); // 铝桶
+                        output.accept(ECMaterialItems.LIQUID_SILICON_BUCKET.get()); // 硅桶
+                        output.accept(ECMaterialItems.LIQUID_PHOSPHORUS_BUCKET.get()); // 磷桶
+                        output.accept(ECMaterialItems.LIQUID_SULFUR_BUCKET.get()); // 硫桶
+                        output.accept(ECMaterialItems.LIQUID_CHLORINE_BUCKET.get()); // 氯桶
+                        output.accept(ECMaterialItems.LIQUID_ARGON_BUCKET.get()); // 氩桶
+                        output.accept(ECMaterialItems.LIQUID_POTASSIUM_BUCKET.get()); // 钾桶
+                        output.accept(ECMaterialItems.LIQUID_CALCIUM_BUCKET.get()); // 钙桶
+                        output.accept(ECMaterialItems.LIQUID_SCANDIUM_BUCKET.get()); // 钪桶
+                        output.accept(ECMaterialItems.LIQUID_TITANIUM_BUCKET.get()); // 钛桶
+                        output.accept(ECMaterialItems.LIQUID_VANADIUM_BUCKET.get()); // 钒桶
+                        output.accept(ECMaterialItems.LIQUID_CHROMIUM_BUCKET.get()); // 铬桶
+                        output.accept(ECMaterialItems.LIQUID_MANGANESE_BUCKET.get()); // 锰桶
+                        output.accept(ECMaterialItems.LIQUID_IRON_BUCKET.get()); // 铁桶
+                        output.accept(ECMaterialItems.LIQUID_COBALT_BUCKET.get()); // 钴桶
+                        output.accept(ECMaterialItems.LIQUID_NICKEL_BUCKET.get()); // 镍桶
+                        output.accept(ECMaterialItems.LIQUID_COPPER_BUCKET.get()); // 铜桶
+                        output.accept(ECMaterialItems.LIQUID_ZINC_BUCKET.get()); // 锌桶
+                        output.accept(ECMaterialItems.LIQUID_GALLIUM_BUCKET.get()); // 镓桶
+                        output.accept(ECMaterialItems.LIQUID_GERMANIUM_BUCKET.get()); // 锗桶
+                        output.accept(ECMaterialItems.LIQUID_ARSENIC_BUCKET.get()); // 砷桶
+                        output.accept(ECMaterialItems.LIQUID_SELENIUM_BUCKET.get()); // 硒桶
                         output.accept(ECMaterialItems.BROMINE_BUCKET.get()); // 溴桶
-                        output.accept(ECMaterialItems.KRYPTON_BUCKET.get()); // 氪桶
-                        output.accept(ECMaterialItems.RUBIDIUM_BUCKET.get()); // 铷桶
-                        output.accept(ECMaterialItems.STRONTIUM_BUCKET.get()); // 锶桶
-                        output.accept(ECMaterialItems.YTTRIUM_BUCKET.get()); // 钇桶
-                        output.accept(ECMaterialItems.ZIRCONIUM_BUCKET.get()); // 锆桶
-                        output.accept(ECMaterialItems.NIOBIUM_BUCKET.get()); // 铌桶
-                        output.accept(ECMaterialItems.MOLYBDENUM_BUCKET.get()); // 钼桶
-                        output.accept(ECMaterialItems.TECHNETIUM_BUCKET.get()); // 锝桶
-                        output.accept(ECMaterialItems.RUTHENIUM_BUCKET.get()); // 钌桶
-                        output.accept(ECMaterialItems.RHODIUM_BUCKET.get()); // 铑桶
-                        output.accept(ECMaterialItems.PALLADIUM_BUCKET.get()); // 钯桶
-                        output.accept(ECMaterialItems.SILVER_BUCKET.get()); // 银桶
-                        output.accept(ECMaterialItems.CADMIUM_BUCKET.get()); // 镉桶
-                        output.accept(ECMaterialItems.INDIUM_BUCKET.get()); // 铟桶
-                        output.accept(ECMaterialItems.TIN_BUCKET.get()); // 锡桶
-                        output.accept(ECMaterialItems.ANTIMONY_BUCKET.get()); // 锑桶
-                        output.accept(ECMaterialItems.TELLURIUM_BUCKET.get()); // 碲桶
-                        output.accept(ECMaterialItems.IODINE_BUCKET.get()); // 碘桶
-                        output.accept(ECMaterialItems.XENON_BUCKET.get()); // 氙桶
-                        output.accept(ECMaterialItems.CESIUM_BUCKET.get()); // 铯桶
-                        output.accept(ECMaterialItems.BARIUM_BUCKET.get()); // 钡桶
-                        output.accept(ECMaterialItems.LANTHANUM_BUCKET.get()); // 镧桶
-                        output.accept(ECMaterialItems.CERIUM_BUCKET.get()); // 铈桶
-                        output.accept(ECMaterialItems.PRASEODYMIUM_BUCKET.get()); // 镨桶
-                        output.accept(ECMaterialItems.NEODYMIUM_BUCKET.get()); // 钕桶
-                        output.accept(ECMaterialItems.PROMETHIUM_BUCKET.get()); // 钷桶
-                        output.accept(ECMaterialItems.SAMARIUM_BUCKET.get()); // 钐桶
-                        output.accept(ECMaterialItems.EUROPIUM_BUCKET.get()); // 铕桶
-                        output.accept(ECMaterialItems.GADOLINIUM_BUCKET.get()); // 钆桶
-                        output.accept(ECMaterialItems.TERBIUM_BUCKET.get()); // 铽桶
-                        output.accept(ECMaterialItems.DYSPROSIUM_BUCKET.get()); // 镝桶
-                        output.accept(ECMaterialItems.HOLMIUM_BUCKET.get()); // 钬桶
-                        output.accept(ECMaterialItems.ERBIUM_BUCKET.get()); // 铒桶
-                        output.accept(ECMaterialItems.THULIUM_BUCKET.get()); // 铥桶
-                        output.accept(ECMaterialItems.YTTERBIUM_BUCKET.get()); // 镱桶
-                        output.accept(ECMaterialItems.LUTETIUM_BUCKET.get()); // 镥桶
-                        output.accept(ECMaterialItems.HAFNIUM_BUCKET.get()); // 铪桶
-                        output.accept(ECMaterialItems.TANTALUM_BUCKET.get()); // 钽桶
-                        output.accept(ECMaterialItems.TUNGSTEN_BUCKET.get()); // 钨桶
-                        output.accept(ECMaterialItems.RHENIUM_BUCKET.get()); // 铼桶
-                        output.accept(ECMaterialItems.OSMIUM_BUCKET.get()); // 锇桶
-                        output.accept(ECMaterialItems.IRIDIUM_BUCKET.get()); // 铱桶
-                        output.accept(ECMaterialItems.PLATINUM_BUCKET.get()); // 铂桶
-                        output.accept(ECMaterialItems.GOLD_BUCKET.get()); // 金桶
+                        output.accept(ECMaterialItems.LIQUID_KRYPTON_BUCKET.get()); // 氪桶
+                        output.accept(ECMaterialItems.LIQUID_RUBIDIUM_BUCKET.get()); // 铷桶
+                        output.accept(ECMaterialItems.LIQUID_STRONTIUM_BUCKET.get()); // 锶桶
+                        output.accept(ECMaterialItems.LIQUID_YTTRIUM_BUCKET.get()); // 钇桶
+                        output.accept(ECMaterialItems.LIQUID_ZIRCONIUM_BUCKET.get()); // 锆桶
+                        output.accept(ECMaterialItems.LIQUID_NIOBIUM_BUCKET.get()); // 铌桶
+                        output.accept(ECMaterialItems.LIQUID_MOLYBDENUM_BUCKET.get()); // 钼桶
+                        output.accept(ECMaterialItems.LIQUID_TECHNETIUM_BUCKET.get()); // 锝桶
+                        output.accept(ECMaterialItems.LIQUID_RUTHENIUM_BUCKET.get()); // 钌桶
+                        output.accept(ECMaterialItems.LIQUID_RHODIUM_BUCKET.get()); // 铑桶
+                        output.accept(ECMaterialItems.LIQUID_PALLADIUM_BUCKET.get()); // 钯桶
+                        output.accept(ECMaterialItems.LIQUID_SILVER_BUCKET.get()); // 银桶
+                        output.accept(ECMaterialItems.LIQUID_CADMIUM_BUCKET.get()); // 镉桶
+                        output.accept(ECMaterialItems.LIQUID_INDIUM_BUCKET.get()); // 铟桶
+                        output.accept(ECMaterialItems.LIQUID_TIN_BUCKET.get()); // 锡桶
+                        output.accept(ECMaterialItems.LIQUID_ANTIMONY_BUCKET.get()); // 锑桶
+                        output.accept(ECMaterialItems.LIQUID_TELLURIUM_BUCKET.get()); // 碲桶
+                        output.accept(ECMaterialItems.LIQUID_IODINE_BUCKET.get()); // 碘桶
+                        output.accept(ECMaterialItems.LIQUID_XENON_BUCKET.get()); // 氙桶
+                        output.accept(ECMaterialItems.LIQUID_CESIUM_BUCKET.get()); // 铯桶
+                        output.accept(ECMaterialItems.LIQUID_BARIUM_BUCKET.get()); // 钡桶
+                        output.accept(ECMaterialItems.LIQUID_LANTHANUM_BUCKET.get()); // 镧桶
+                        output.accept(ECMaterialItems.LIQUID_CERIUM_BUCKET.get()); // 铈桶
+                        output.accept(ECMaterialItems.LIQUID_PRASEODYMIUM_BUCKET.get()); // 镨桶
+                        output.accept(ECMaterialItems.LIQUID_NEODYMIUM_BUCKET.get()); // 钕桶
+                        output.accept(ECMaterialItems.LIQUID_PROMETHIUM_BUCKET.get()); // 钷桶
+                        output.accept(ECMaterialItems.LIQUID_SAMARIUM_BUCKET.get()); // 钐桶
+                        output.accept(ECMaterialItems.LIQUID_EUROPIUM_BUCKET.get()); // 铕桶
+                        output.accept(ECMaterialItems.LIQUID_GADOLINIUM_BUCKET.get()); // 钆桶
+                        output.accept(ECMaterialItems.LIQUID_TERBIUM_BUCKET.get()); // 铽桶
+                        output.accept(ECMaterialItems.LIQUID_DYSPROSIUM_BUCKET.get()); // 镝桶
+                        output.accept(ECMaterialItems.LIQUID_HOLMIUM_BUCKET.get()); // 钬桶
+                        output.accept(ECMaterialItems.LIQUID_ERBIUM_BUCKET.get()); // 铒桶
+                        output.accept(ECMaterialItems.LIQUID_THULIUM_BUCKET.get()); // 铥桶
+                        output.accept(ECMaterialItems.LIQUID_YTTERBIUM_BUCKET.get()); // 镱桶
+                        output.accept(ECMaterialItems.LIQUID_LUTETIUM_BUCKET.get()); // 镥桶
+                        output.accept(ECMaterialItems.LIQUID_HAFNIUM_BUCKET.get()); // 铪桶
+                        output.accept(ECMaterialItems.LIQUID_TANTALUM_BUCKET.get()); // 钽桶
+                        output.accept(ECMaterialItems.LIQUID_TUNGSTEN_BUCKET.get()); // 钨桶
+                        output.accept(ECMaterialItems.LIQUID_RHENIUM_BUCKET.get()); // 铼桶
+                        output.accept(ECMaterialItems.LIQUID_OSMIUM_BUCKET.get()); // 锇桶
+                        output.accept(ECMaterialItems.LIQUID_IRIDIUM_BUCKET.get()); // 铱桶
+                        output.accept(ECMaterialItems.LIQUID_PLATINUM_BUCKET.get()); // 铂桶
+                        output.accept(ECMaterialItems.LIQUID_GOLD_BUCKET.get()); // 金桶
                         output.accept(ECMaterialItems.MERCURY_BUCKET.get()); // 汞桶
-                        output.accept(ECMaterialItems.THALLIUM_BUCKET.get()); // 铊桶
-                        output.accept(ECMaterialItems.LEAD_BUCKET.get()); // 铅桶
-                        output.accept(ECMaterialItems.BISMUTH_BUCKET.get()); // 铋桶
-                        output.accept(ECMaterialItems.POLONIUM_BUCKET.get()); // 钋桶
-                        output.accept(ECMaterialItems.ASTATINE_BUCKET.get()); // 砹桶
-                        output.accept(ECMaterialItems.RADON_BUCKET.get()); // 氡桶
-                        output.accept(ECMaterialItems.FRANCIUM_BUCKET.get()); // 钫桶
-                        output.accept(ECMaterialItems.RADIUM_BUCKET.get()); // 镭桶
-                        output.accept(ECMaterialItems.ACTINIUM_BUCKET.get()); // 锕桶
-                        output.accept(ECMaterialItems.THORIUM_BUCKET.get()); // 钍桶
-                        output.accept(ECMaterialItems.PROTACTINIUM_BUCKET.get()); // 镤桶
-                        output.accept(ECMaterialItems.URANIUM_BUCKET.get()); // 铀桶
-                        output.accept(ECMaterialItems.NEPTUNIUM_BUCKET.get()); // 镎桶
-                        output.accept(ECMaterialItems.PLUTONIUM_BUCKET.get()); // 钚桶
-                        output.accept(ECMaterialItems.AMERICIUM_BUCKET.get()); // 镅桶
-                        output.accept(ECMaterialItems.CURIUM_BUCKET.get()); // 锔桶
-                        output.accept(ECMaterialItems.BERKELIUM_BUCKET.get()); // 锫桶
-                        output.accept(ECMaterialItems.CALIFORNIUM_BUCKET.get()); // 锎桶
-                        output.accept(ECMaterialItems.EINSTEINIUM_BUCKET.get()); // 锿桶
-                        output.accept(ECMaterialItems.FERMIUM_BUCKET.get()); // 镄桶
-                        output.accept(ECMaterialItems.MENDELEVIUM_BUCKET.get()); // 钔桶
-                        output.accept(ECMaterialItems.NOBELIUM_BUCKET.get()); // 锘桶
-                        output.accept(ECMaterialItems.LAWRENCIUM_BUCKET.get()); // 铹桶
-                        output.accept(ECMaterialItems.RUTHERFORDIUM_BUCKET.get()); // 𬬻桶
-                        output.accept(ECMaterialItems.DUBNIUM_BUCKET.get()); // 𬭊桶
-                        output.accept(ECMaterialItems.SEABORGIUM_BUCKET.get()); // 𬭳桶
-                        output.accept(ECMaterialItems.BOHRIUM_BUCKET.get()); // 𬭛桶
-                        output.accept(ECMaterialItems.HASSIUM_BUCKET.get()); // 𬭶桶
-                        output.accept(ECMaterialItems.MEITNERIUM_BUCKET.get()); // 鿏桶
-                        output.accept(ECMaterialItems.DARMSTADTIUM_BUCKET.get()); // 𫟼桶
-                        output.accept(ECMaterialItems.ROENTGENIUM_BUCKET.get()); // 𬬭桶
-                        output.accept(ECMaterialItems.COPERNICIUM_BUCKET.get()); // 鿔桶
-                        output.accept(ECMaterialItems.NIHONIUM_BUCKET.get()); // 鿭桶
-                        output.accept(ECMaterialItems.FLEROVIUM_BUCKET.get()); // 𫓧桶
-                        output.accept(ECMaterialItems.MOSCOVIUM_BUCKET.get()); // 镆桶
-                        output.accept(ECMaterialItems.LIVERMORIUM_BUCKET.get()); // 𫟷桶
-                        output.accept(ECMaterialItems.TENNESSINE_BUCKET.get()); // 鿬桶
-                        output.accept(ECMaterialItems.OGANESSON_BUCKET.get()); // 鿫桶
-                        output.accept(ECMaterialItems.LONGIUM_BUCKET.get()); // 鑨桶
-                        output.accept(ECMaterialItems.MYSTERIUM_BUCKET.get()); // 镾桶
+                        output.accept(ECMaterialItems.LIQUID_THALLIUM_BUCKET.get()); // 铊桶
+                        output.accept(ECMaterialItems.LIQUID_LEAD_BUCKET.get()); // 铅桶
+                        output.accept(ECMaterialItems.LIQUID_BISMUTH_BUCKET.get()); // 铋桶
+                        output.accept(ECMaterialItems.LIQUID_POLONIUM_BUCKET.get()); // 钋桶
+                        output.accept(ECMaterialItems.LIQUID_ASTATINE_BUCKET.get()); // 砹桶
+                        output.accept(ECMaterialItems.LIQUID_RADON_BUCKET.get()); // 氡桶
+                        output.accept(ECMaterialItems.LIQUID_FRANCIUM_BUCKET.get()); // 钫桶
+                        output.accept(ECMaterialItems.LIQUID_RADIUM_BUCKET.get()); // 镭桶
+                        output.accept(ECMaterialItems.LIQUID_ACTINIUM_BUCKET.get()); // 锕桶
+                        output.accept(ECMaterialItems.LIQUID_THORIUM_BUCKET.get()); // 钍桶
+                        output.accept(ECMaterialItems.LIQUID_PROTACTINIUM_BUCKET.get()); // 镤桶
+                        output.accept(ECMaterialItems.LIQUID_URANIUM_BUCKET.get()); // 铀桶
+                        output.accept(ECMaterialItems.LIQUID_NEPTUNIUM_BUCKET.get()); // 镎桶
+                        output.accept(ECMaterialItems.LIQUID_PLUTONIUM_BUCKET.get()); // 钚桶
+                        output.accept(ECMaterialItems.LIQUID_AMERICIUM_BUCKET.get()); // 镅桶
+                        output.accept(ECMaterialItems.LIQUID_CURIUM_BUCKET.get()); // 锔桶
+                        output.accept(ECMaterialItems.LIQUID_BERKELIUM_BUCKET.get()); // 锫桶
+                        output.accept(ECMaterialItems.LIQUID_CALIFORNIUM_BUCKET.get()); // 锎桶
+                        output.accept(ECMaterialItems.LIQUID_EINSTEINIUM_BUCKET.get()); // 锿桶
+                        output.accept(ECMaterialItems.LIQUID_FERMIUM_BUCKET.get()); // 镄桶
+                        output.accept(ECMaterialItems.LIQUID_MENDELEVIUM_BUCKET.get()); // 钔桶
+                        output.accept(ECMaterialItems.LIQUID_NOBELIUM_BUCKET.get()); // 锘桶
+                        output.accept(ECMaterialItems.LIQUID_LAWRENCIUM_BUCKET.get()); // 铹桶
+                        output.accept(ECMaterialItems.LIQUID_RUTHERFORDIUM_BUCKET.get()); // 𬬻桶
+                        output.accept(ECMaterialItems.LIQUID_DUBNIUM_BUCKET.get()); // 𬭊桶
+                        output.accept(ECMaterialItems.LIQUID_SEABORGIUM_BUCKET.get()); // 𬭳桶
+                        output.accept(ECMaterialItems.LIQUID_BOHRIUM_BUCKET.get()); // 𬭛桶
+                        output.accept(ECMaterialItems.LIQUID_HASSIUM_BUCKET.get()); // 𬭶桶
+                        output.accept(ECMaterialItems.LIQUID_MEITNERIUM_BUCKET.get()); // 鿏桶
+                        output.accept(ECMaterialItems.LIQUID_DARMSTADTIUM_BUCKET.get()); // 𫟼桶
+                        output.accept(ECMaterialItems.LIQUID_ROENTGENIUM_BUCKET.get()); // 𬬭桶
+                        output.accept(ECMaterialItems.LIQUID_COPERNICIUM_BUCKET.get()); // 鿔桶
+                        output.accept(ECMaterialItems.LIQUID_NIHONIUM_BUCKET.get()); // 鿭桶
+                        output.accept(ECMaterialItems.LIQUID_FLEROVIUM_BUCKET.get()); // 𫓧桶
+                        output.accept(ECMaterialItems.LIQUID_MOSCOVIUM_BUCKET.get()); // 镆桶
+                        output.accept(ECMaterialItems.LIQUID_LIVERMORIUM_BUCKET.get()); // 𫟷桶
+                        output.accept(ECMaterialItems.LIQUID_TENNESSINE_BUCKET.get()); // 鿬桶
+                        output.accept(ECMaterialItems.LIQUID_OGANESSON_BUCKET.get()); // 鿫桶
+                        output.accept(ECMaterialItems.LIQUID_LONGIUM_BUCKET.get()); // 鑨桶
+                        output.accept(ECMaterialItems.LIQUID_MYSTERIUM_BUCKET.get()); // 镾桶
 
                     })
                     .build());
@@ -465,130 +465,130 @@ public class ECCreativeTabs {
     // 化学元素核心：元素气体
     public static final Supplier<CreativeModeTab> RCE_ELEMENT_GAS_TAB =
             CREATIVE_MODE_TAB.register("rce_element_gas_tab", () -> CreativeModeTab.builder()
-                    .icon(() -> new ItemStack(ECMaterialItems.HYDROGEN_BUCKET.get()))
+                    .icon(() -> new ItemStack(ECMaterialItems.HYDROGEN_GAS_BUCKET.get()))
                     .title(Component.translatable("itemGroup.elementum_core.rce_element_gas_tab"))
                     .displayItems((parameters, output) -> {
 
                         output.accept(ECMaterialItems.HYDROGEN_GAS_BUCKET.get());
                         output.accept(ECMaterialItems.HELIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.LITHIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.BERYLLIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.BORON_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.CARBON_GAS_BUCKET.get());
+                        output.accept(ECMaterialItems.LITHIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.BERYLLIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.BORON_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.CARBON_VAPOR_BUCKET.get());
                         output.accept(ECMaterialItems.NITROGEN_GAS_BUCKET.get());
                         output.accept(ECMaterialItems.OXYGEN_GAS_BUCKET.get());
                         output.accept(ECMaterialItems.FLUORINE_GAS_BUCKET.get());
                         output.accept(ECMaterialItems.NEON_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.SODIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.MAGNESIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.ALUMINUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.SILICON_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.PHOSPHORUS_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.SULFUR_GAS_BUCKET.get());
+                        output.accept(ECMaterialItems.SODIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.MAGNESIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.ALUMINUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.SILICON_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.PHOSPHORUS_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.SULFUR_VAPOR_BUCKET.get());
                         output.accept(ECMaterialItems.CHLORINE_GAS_BUCKET.get());
                         output.accept(ECMaterialItems.ARGON_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.POTASSIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.CALCIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.SCANDIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.TITANIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.VANADIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.CHROMIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.MANGANESE_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.IRON_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.COBALT_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.NICKEL_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.COPPER_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.ZINC_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.GALLIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.GERMANIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.ARSENIC_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.SELENIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.BROMINE_GAS_BUCKET.get());
+                        output.accept(ECMaterialItems.POTASSIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.CALCIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.SCANDIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.TITANIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.VANADIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.CHROMIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.MANGANESE_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.IRON_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.COBALT_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.NICKEL_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.COPPER_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.ZINC_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.GALLIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.GERMANIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.ARSENIC_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.SELENIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.BROMINE_VAPOR_BUCKET.get());
                         output.accept(ECMaterialItems.KRYPTON_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.RUBIDIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.STRONTIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.YTTRIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.ZIRCONIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.NIOBIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.MOLYBDENUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.TECHNETIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.RUTHENIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.RHODIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.PALLADIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.SILVER_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.CADMIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.INDIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.TIN_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.ANTIMONY_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.TELLURIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.IODINE_GAS_BUCKET.get());
+                        output.accept(ECMaterialItems.RUBIDIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.STRONTIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.YTTRIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.ZIRCONIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.NIOBIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.MOLYBDENUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.TECHNETIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.RUTHENIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.RHODIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.PALLADIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.SILVER_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.CADMIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.INDIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.TIN_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.ANTIMONY_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.TELLURIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.IODINE_VAPOR_BUCKET.get());
                         output.accept(ECMaterialItems.XENON_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.CESIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.BARIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.LANTHANUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.CERIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.PRASEODYMIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.NEODYMIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.PROMETHIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.SAMARIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.EUROPIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.GADOLINIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.TERBIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.DYSPROSIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.HOLMIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.ERBIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.THULIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.YTTERBIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.LUTETIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.HAFNIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.TANTALUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.TUNGSTEN_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.RHENIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.OSMIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.IRIDIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.PLATINUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.GOLD_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.MERCURY_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.THALLIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.LEAD_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.BISMUTH_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.POLONIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.ASTATINE_GAS_BUCKET.get());
+                        output.accept(ECMaterialItems.CESIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.BARIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.LANTHANUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.CERIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.PRASEODYMIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.NEODYMIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.PROMETHIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.SAMARIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.EUROPIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.GADOLINIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.TERBIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.DYSPROSIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.HOLMIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.ERBIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.THULIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.YTTERBIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.LUTETIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.HAFNIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.TANTALUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.TUNGSTEN_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.RHENIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.OSMIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.IRIDIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.PLATINUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.GOLD_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.MERCURY_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.THALLIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.LEAD_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.BISMUTH_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.POLONIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.ASTATINE_VAPOR_BUCKET.get());
                         output.accept(ECMaterialItems.RADON_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.FRANCIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.RADIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.ACTINIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.THORIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.PROTACTINIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.URANIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.NEPTUNIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.PLUTONIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.AMERICIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.CURIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.BERKELIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.CALIFORNIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.EINSTEINIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.FERMIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.MENDELEVIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.NOBELIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.LAWRENCIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.RUTHERFORDIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.DUBNIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.SEABORGIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.BOHRIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.HASSIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.MEITNERIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.DARMSTADTIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.ROENTGENIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.COPERNICIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.NIHONIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.FLEROVIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.MOSCOVIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.LIVERMORIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.TENNESSINE_GAS_BUCKET.get());
+                        output.accept(ECMaterialItems.FRANCIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.RADIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.ACTINIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.THORIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.PROTACTINIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.URANIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.NEPTUNIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.PLUTONIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.AMERICIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.CURIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.BERKELIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.CALIFORNIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.EINSTEINIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.FERMIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.MENDELEVIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.NOBELIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.LAWRENCIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.RUTHERFORDIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.DUBNIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.SEABORGIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.BOHRIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.HASSIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.MEITNERIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.DARMSTADTIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.ROENTGENIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.COPERNICIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.NIHONIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.FLEROVIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.MOSCOVIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.LIVERMORIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.TENNESSINE_VAPOR_BUCKET.get());
                         output.accept(ECMaterialItems.OGANESSON_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.LONGIUM_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.MYSTERIUM_GAS_BUCKET.get());
+                        output.accept(ECMaterialItems.LONGIUM_VAPOR_BUCKET.get());
+                        output.accept(ECMaterialItems.MYSTERIUM_VAPOR_BUCKET.get());
 
                     })
                     .build());

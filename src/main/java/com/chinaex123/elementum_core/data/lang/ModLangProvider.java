@@ -120,17 +120,19 @@ public abstract class ModLangProvider extends LanguageProvider {
             String fluidLabel = fluidLabel(id, name);
             String fluidBlockLabel = fluidBlockLabel(id, name);
             String bucketLabel = bucketLabel(id, name);
-            add("fluid_type.elementum_core." + id, fluidLabel);
-            add("item.elementum_core." + id + "_bucket", bucketLabel);
-            add("block.elementum_core." + id, fluidBlockLabel);
+            String fluidId = liquidRegistryId(id);
+            add("fluid_type.elementum_core." + fluidId, fluidLabel);
+            add("item.elementum_core." + fluidId + "_bucket", bucketLabel);
+            add("block.elementum_core." + fluidId, fluidBlockLabel);
 
-            // --- 气体 --- //
+            // --- 气体 / 蒸气 --- //
             String gasLabel = gasLabel(id, name);
             String gasBlockLabel = gasBlockLabel(id, name);
             String gasBucketLabel = gasBucketLabel(id, name);
-            add("fluid_type.elementum_core." + id + "_gas", gasLabel);
-            add("item.elementum_core." + id + "_gas_bucket", gasBucketLabel);
-            add("block.elementum_core." + id + "_gas", gasBlockLabel);
+            String gasId = gasRegistryId(id);
+            add("fluid_type.elementum_core." + gasId, gasLabel);
+            add("item.elementum_core." + gasId + "_bucket", gasBucketLabel);
+            add("block.elementum_core." + gasId, gasBlockLabel);
         }
 
         for (String[] entry : minerals()) {
@@ -166,6 +168,20 @@ public abstract class ModLangProvider extends LanguageProvider {
         return false;
     }
 
+    /**
+     * 常温流体注册 id：常态液体（溴/汞）不加前缀，其余加 liquid_ 前缀。
+     */
+    private String liquidRegistryId(String id) {
+        return isLiquid(id) ? id : "liquid_" + id;
+    }
+
+    /**
+     * 气态注册 id：常温气体加 _gas 后缀，其余加 _vapor 后缀。
+     */
+    private String gasRegistryId(String id) {
+        return isGas(id) ? id + "_gas" : id + "_vapor";
+    }
+
     protected String fluidLabel(String id, String name) {
         if (isLiquid(id)) return fluid(name);   // 常态液体 → 直接叫
         return liquidFluidPrefix() + name;  // 非常态液态 → 加前缀
@@ -178,7 +194,7 @@ public abstract class ModLangProvider extends LanguageProvider {
 
     protected String bucketLabel(String id, String name) {
         if (isLiquid(id)) return bucket(name);
-        return bucket(liquidFluidPrefix() + name);  // "液态氢" + "桶" → "液态氢桶"
+        return bucket(liquidFluidPrefix() + name);
     }
 
     protected String gasLabel(String id, String name) {
@@ -192,8 +208,8 @@ public abstract class ModLangProvider extends LanguageProvider {
     }
 
     protected String gasBucketLabel(String id, String name) {
-        if (isGas(id)) return bucket(name);
-        return bucket(name + vaporSuffix());    // "铁蒸气" + "桶" → "铁蒸气桶"
+        if (isGas(id)) return gasBucket(name);
+        return bucket(name + vaporSuffix());
     }
 
     /**
@@ -204,7 +220,7 @@ public abstract class ModLangProvider extends LanguageProvider {
     }
 
     /**
-     * 非常态气态的后缀（液态元素蒸发 / 固态元素升华）。中文"蒸气"，英文" vapor"（含前置空格）。
+     * 非常态气态的后缀（液态元素蒸发 / 固态元素升华）。中文"蒸气"，英文"vapor"。
      */
     protected String vaporSuffix() {
         return "蒸气";

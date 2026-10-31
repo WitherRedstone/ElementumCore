@@ -1,6 +1,0 @@
-{
-  "parent": "neoforge:item/bucket",
-  "flip_gas": false,
-  "fluid": "elementum_core:longium",
-  "loader": "neoforge:fluid_container"
-}
