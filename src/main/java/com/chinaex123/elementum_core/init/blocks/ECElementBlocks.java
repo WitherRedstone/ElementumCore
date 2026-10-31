@@ -244,7 +244,7 @@ public class ECElementBlocks {
     public static final OreBlocks DARMSTADTIUM = new OreBlocks("darmstadtium", 2.4F, 6.0F, Rarity.EPIC);
     /** 𬬭 */
     public static final OreBlocks ROENTGENIUM = new OreBlocks("roentgenium", 2.4F, 6.0F, Rarity.EPIC);
-    /** 鎶 */
+    /** 鿔 */
     public static final OreBlocks COPERNICIUM = new OreBlocks("copernicium", 2.4F, 6.0F, Rarity.EPIC);
     /** 鿭 */
     public static final OreBlocks NIHONIUM = new OreBlocks("nihonium", 2.4F, 6.0F, Rarity.EPIC);
