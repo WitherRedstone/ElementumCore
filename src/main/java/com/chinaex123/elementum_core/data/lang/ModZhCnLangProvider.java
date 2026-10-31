@@ -85,8 +85,8 @@ public class ModZhCnLangProvider extends ModLangProvider {
             {"mendelevium", "钔"}, {"nobelium", "锘"}, {"lawrencium", "铹"},
             {"rutherfordium", "𬬻"}, {"dubnium", "𬭊"}, {"seaborgium", "𬭳"}, {"bohrium", "𬭛"},
             {"hassium", "𬭶"}, {"meitnerium", "鿏"}, {"darmstadtium", "𫟼"}, {"roentgenium", "𬬭"},
-            {"copernicium", "鿔"}, {"nihonium", "鉨"}, {"flerovium", "鈇"}, {"moscovium", "镆"},
-            {"livermorium", "鉝"}, {"tennessine", "鿬"}, {"oganesson", "鿫"}, {"longium", "鑨"},
+            {"copernicium", "鿔"}, {"nihonium", "鿭"}, {"flerovium", "𫓧"}, {"moscovium", "镆"},
+            {"livermorium", "𫟷"}, {"tennessine", "鿬"}, {"oganesson", "鿫"}, {"longium", "鑨"},
             {"mysterium", "镾"}
     };
 

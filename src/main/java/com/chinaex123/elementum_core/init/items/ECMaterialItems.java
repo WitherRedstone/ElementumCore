@@ -242,13 +242,13 @@ public class ECMaterialItems {
     public static final OreItems ROENTGENIUM = new OreItems("roentgenium", Rarity.EPIC);
     /** 鿔 */
     public static final OreItems COPERNICIUM = new OreItems("copernicium", Rarity.EPIC);
-    /** 鉨 */
+    /** 鿭 */
     public static final OreItems NIHONIUM = new OreItems("nihonium", Rarity.EPIC);
-    /** 鈇 */
+    /** 𫓧 */
     public static final OreItems FLEROVIUM = new OreItems("flerovium", Rarity.EPIC);
     /** 镆 */
     public static final OreItems MOSCOVIUM = new OreItems("moscovium", Rarity.EPIC);
-    /** 鉝 */
+    /** 𫟷 */
     public static final OreItems LIVERMORIUM = new OreItems("livermorium", Rarity.EPIC);
     /** 鿬 */
     public static final OreItems TENNESSINE = new OreItems("tennessine", Rarity.EPIC);
@@ -484,13 +484,13 @@ public class ECMaterialItems {
     public static final DeferredItem<BucketItem> ROENTGENIUM_BUCKET = ITEMS_REGISTER.register("roentgenium_bucket", () -> new BucketItem(ECFluids.ROENTGENIUM.source.get(), BUCKET));
     /** 鿔桶 */
     public static final DeferredItem<BucketItem> COPERNICIUM_BUCKET = ITEMS_REGISTER.register("copernicium_bucket", () -> new BucketItem(ECFluids.COPERNICIUM.source.get(), BUCKET));
-    /** 鉨桶 */
+    /** 鿭桶 */
     public static final DeferredItem<BucketItem> NIHONIUM_BUCKET = ITEMS_REGISTER.register("nihonium_bucket", () -> new BucketItem(ECFluids.NIHONIUM.source.get(), BUCKET));
-    /** 鈇桶 */
+    /** 𫓧桶 */
     public static final DeferredItem<BucketItem> FLEROVIUM_BUCKET = ITEMS_REGISTER.register("flerovium_bucket", () -> new BucketItem(ECFluids.FLEROVIUM.source.get(), BUCKET));
     /** 镆桶 */
     public static final DeferredItem<BucketItem> MOSCOVIUM_BUCKET = ITEMS_REGISTER.register("moscovium_bucket", () -> new BucketItem(ECFluids.MOSCOVIUM.source.get(), BUCKET));
-    /** 鉝桶 */
+    /** 𫟷桶 */
     public static final DeferredItem<BucketItem> LIVERMORIUM_BUCKET = ITEMS_REGISTER.register("livermorium_bucket", () -> new BucketItem(ECFluids.LIVERMORIUM.source.get(), BUCKET));
     /** 鿬桶 */
     public static final DeferredItem<BucketItem> TENNESSINE_BUCKET = ITEMS_REGISTER.register("tennessine_bucket", () -> new BucketItem(ECFluids.TENNESSINE.source.get(), BUCKET));
@@ -726,13 +726,13 @@ public class ECMaterialItems {
     public static final DeferredItem<GasBucketItem> ROENTGENIUM_GAS_BUCKET = ITEMS_REGISTER.register("roentgenium_gas_bucket", () -> new GasBucketItem(ECGases.ROENTGENIUM_GAS.get(), BUCKET));
     /** 鿔气桶 */
     public static final DeferredItem<GasBucketItem> COPERNICIUM_GAS_BUCKET = ITEMS_REGISTER.register("copernicium_gas_bucket", () -> new GasBucketItem(ECGases.COPERNICIUM_GAS.get(), BUCKET));
-    /** 鉨气桶 */
+    /** 鿭气桶 */
     public static final DeferredItem<GasBucketItem> NIHONIUM_GAS_BUCKET = ITEMS_REGISTER.register("nihonium_gas_bucket", () -> new GasBucketItem(ECGases.NIHONIUM_GAS.get(), BUCKET));
-    /** 鈇气桶 */
+    /** 𫓧气桶 */
     public static final DeferredItem<GasBucketItem> FLEROVIUM_GAS_BUCKET = ITEMS_REGISTER.register("flerovium_gas_bucket", () -> new GasBucketItem(ECGases.FLEROVIUM_GAS.get(), BUCKET));
     /** 镆气桶 */
     public static final DeferredItem<GasBucketItem> MOSCOVIUM_GAS_BUCKET = ITEMS_REGISTER.register("moscovium_gas_bucket", () -> new GasBucketItem(ECGases.MOSCOVIUM_GAS.get(), BUCKET));
-    /** 鉝气桶 */
+    /** 𫟷气桶 */
     public static final DeferredItem<GasBucketItem> LIVERMORIUM_GAS_BUCKET = ITEMS_REGISTER.register("livermorium_gas_bucket", () -> new GasBucketItem(ECGases.LIVERMORIUM_GAS.get(), BUCKET));
     /** 鿬气桶 */
     public static final DeferredItem<GasBucketItem> TENNESSINE_GAS_BUCKET = ITEMS_REGISTER.register("tennessine_gas_bucket", () -> new GasBucketItem(ECGases.TENNESSINE_GAS.get(), BUCKET));

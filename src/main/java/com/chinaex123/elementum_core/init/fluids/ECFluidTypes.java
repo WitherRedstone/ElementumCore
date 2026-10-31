@@ -233,15 +233,15 @@ public interface ECFluidTypes {
     DeferredHolder<FluidType, FluidType> DARMSTADTIUM_TYPE = registerElement("darmstadtium", 0, 0, 26, 300, 100, 0.014, false, false, false, false, false, false, false);
     /** 𬬭 */
     DeferredHolder<FluidType, FluidType> ROENTGENIUM_TYPE = registerElement("roentgenium", 0, 0, 26, 300, 100, 0.014, false, false, false, false, false, false, false);
-    /** 鎶 */
+    /** 鿔 */
     DeferredHolder<FluidType, FluidType> COPERNICIUM_TYPE = registerElement("copernicium", 0, 0, 14, 300, 1000, 0.01, false, false, true, false, true, true, true);
-    /** 鉨 */
+    /** 鿭 */
     DeferredHolder<FluidType, FluidType> NIHONIUM_TYPE = registerElement("nihonium", 0, 0, 16, 300, 100, 0.014, false, false, false, false, false, false, false);
     /** 𫓧 */
     DeferredHolder<FluidType, FluidType> FLEROVIUM_TYPE = registerElement("flerovium", 0, 0, 14, 300, 100, 0.014, false, false, false, false, false, false, false);
     /** 镆 */
     DeferredHolder<FluidType, FluidType> MOSCOVIUM_TYPE = registerElement("moscovium", 0, 0, 13, 300, 100, 0.014, false, false, false, false, false, false, false);
-    /** 鉝 */
+    /** 𫟷 */
     DeferredHolder<FluidType, FluidType> LIVERMORIUM_TYPE = registerElement("livermorium", 0, 0, 12, 300, 100, 0.014, false, false, false, false, false, false, false);
     /** 鿬 */
     DeferredHolder<FluidType, FluidType> TENNESSINE_TYPE = registerElement("tennessine", 0, 0, 7, 300, 100, 0.014, false, false, false, false, false, false, false);

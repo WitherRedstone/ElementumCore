@@ -12,45 +12,72 @@ public abstract class ModLangProvider extends LanguageProvider {
 
     // ==================== 数据表 ====================
     protected abstract String[][] elements();
+
     protected abstract String[][] minerals();
 
     // ==================== 翻译模板 ====================
     protected abstract String gasCylinder();
+
     protected abstract String ingot(String e);
+
     protected abstract String nugget(String e);
+
     protected abstract String dust(String e);
+
     protected abstract String plate(String e);
+
     protected abstract String rod(String e);
+
     protected abstract String wire(String e);
+
     protected abstract String gear(String e);
+
     protected abstract String crushedRaw(String e);
+
     protected abstract String raw(String e);
+
     protected abstract String cylinder(String e);
 
     protected abstract String block(String e);
+
     protected abstract String rawBlock(String e);
+
     protected abstract String ore(String e);
+
     protected abstract String deepslateOre(String e);
+
     protected abstract String netherOre(String e);
+
     protected abstract String endOre(String e);
 
     protected abstract String fluid(String e);
+
     protected abstract String bucket(String e);
+
     protected abstract String fluidBlock(String e);
 
     protected abstract String gas(String e);
+
     protected abstract String gasBucket(String e);
+
     protected abstract String gasBlock(String e);
 
     protected abstract String mineral(String m);
+
     protected abstract String deepslateMineral(String m);
+
     protected abstract String netherMineral(String m);
+
     protected abstract String endMineral(String m);
 
     protected abstract String tabMaterial();
+
     protected abstract String tabItems();
+
     protected abstract String tabBlocks();
+
     protected abstract String tabFluids();
+
     protected abstract String tabGases();
 
     // ==================== 通用生成逻辑 ====================
@@ -140,49 +167,46 @@ public abstract class ModLangProvider extends LanguageProvider {
     }
 
     protected String fluidLabel(String id, String name) {
-        if (isGas(id)) {
-            return liquidFluidPrefix() + name;
-        }
-        return fluid(name);
+        if (isLiquid(id)) return fluid(name);   // 常态液体 → 直接叫
+        return liquidFluidPrefix() + name;  // 非常态液态 → 加前缀
     }
 
     protected String fluidBlockLabel(String id, String name) {
-        if (isGas(id)) {
-            return liquidFluidPrefix() + name;
-        }
-        return fluidBlock(name);
+        if (isLiquid(id)) return fluidBlock(name);
+        return liquidFluidPrefix() + name;
     }
 
     protected String bucketLabel(String id, String name) {
-        if (isGas(id)) {
-            return liquidFluidPrefix() + bucket(name);
-        }
-        return bucket(name);
+        if (isLiquid(id)) return bucket(name);
+        return bucket(liquidFluidPrefix() + name);  // "液态氢" + "桶" → "液态氢桶"
     }
 
     protected String gasLabel(String id, String name) {
-        if (isGas(id)) {
-            return name; // 常态气体，直接叫元素名
-        }
-        return gas(name);
+        if (isGas(id)) return name; // 常态气体 → 直接叫
+        return name + vaporSuffix();    // 非常态蒸气 → 加后缀
     }
 
     protected String gasBlockLabel(String id, String name) {
-        if (isGas(id)) {
-            return name; // 常态气体方块，直接叫元素名
-        }
-        return gasBlock(name);
+        if (isGas(id)) return name;
+        return name + vaporSuffix();
     }
 
     protected String gasBucketLabel(String id, String name) {
-        if (isGas(id)) {
-            return bucket(name); // 常态气体桶，用普通桶命名（不带"气"）
-        }
-        return gasBucket(name);
+        if (isGas(id)) return bucket(name);
+        return bucket(name + vaporSuffix());    // "铁蒸气" + "桶" → "铁蒸气桶"
     }
 
-    /** 常温气态元素的液态（非常态）前缀。中文"液"，英文"Liquid "。 */
+    /**
+     * 非常态液态的前缀（气态元素液化 / 固态元素熔化）。中文"液态 "，英文"liquid "。
+     */
     protected String liquidFluidPrefix() {
-        return "液";
+        return "液态";
+    }
+
+    /**
+     * 非常态气态的后缀（液态元素蒸发 / 固态元素升华）。中文"蒸气"，英文" vapor"（含前置空格）。
+     */
+    protected String vaporSuffix() {
+        return "蒸气";
     }
 }

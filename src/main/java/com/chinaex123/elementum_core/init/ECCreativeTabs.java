@@ -159,10 +159,10 @@ public class ECCreativeTabs {
                         ECMaterialItems.DARMSTADTIUM.addToCreativeTab(output::accept); // 𫟼
                         ECMaterialItems.ROENTGENIUM.addToCreativeTab(output::accept); // 𬬭
                         ECMaterialItems.COPERNICIUM.addToCreativeTab(output::accept); // 鿔
-                        ECMaterialItems.NIHONIUM.addToCreativeTab(output::accept); // 鉨
-                        ECMaterialItems.FLEROVIUM.addToCreativeTab(output::accept); // 鈇
+                        ECMaterialItems.NIHONIUM.addToCreativeTab(output::accept); // 鿭
+                        ECMaterialItems.FLEROVIUM.addToCreativeTab(output::accept); // 𫓧
                         ECMaterialItems.MOSCOVIUM.addToCreativeTab(output::accept); // 镆
-                        ECMaterialItems.LIVERMORIUM.addToCreativeTab(output::accept); // 鉝
+                        ECMaterialItems.LIVERMORIUM.addToCreativeTab(output::accept); // 𫟷
                         ECMaterialItems.TENNESSINE.addToCreativeTab(output::accept); // 鿬
                         ECMaterialItems.OGANESSON.addToCreativeTab(output::accept); // 鿫
                         ECMaterialItems.LONGIUM.addToCreativeTab(output::accept); // 鑨
@@ -289,7 +289,7 @@ public class ECCreativeTabs {
                         ECElementBlocks.MEITNERIUM.addToCreativeTab(output::accept); // 鿏
                         ECElementBlocks.DARMSTADTIUM.addToCreativeTab(output::accept); // 𬭊
                         ECElementBlocks.ROENTGENIUM.addToCreativeTab(output::accept); // 𬬭
-                        ECElementBlocks.COPERNICIUM.addToCreativeTab(output::accept); // 鎶
+                        ECElementBlocks.COPERNICIUM.addToCreativeTab(output::accept); // 鿔
                         ECElementBlocks.NIHONIUM.addToCreativeTab(output::accept); // 鿭
                         ECElementBlocks.FLEROVIUM.addToCreativeTab(output::accept); // 𫓧
                         ECElementBlocks.MOSCOVIUM.addToCreativeTab(output::accept); // 镆
@@ -449,10 +449,10 @@ public class ECCreativeTabs {
                         output.accept(ECMaterialItems.DARMSTADTIUM_BUCKET.get()); // 𫟼桶
                         output.accept(ECMaterialItems.ROENTGENIUM_BUCKET.get()); // 𬬭桶
                         output.accept(ECMaterialItems.COPERNICIUM_BUCKET.get()); // 鿔桶
-                        output.accept(ECMaterialItems.NIHONIUM_BUCKET.get()); // 鉨桶
-                        output.accept(ECMaterialItems.FLEROVIUM_BUCKET.get()); // 鈇桶
+                        output.accept(ECMaterialItems.NIHONIUM_BUCKET.get()); // 鿭桶
+                        output.accept(ECMaterialItems.FLEROVIUM_BUCKET.get()); // 𫓧桶
                         output.accept(ECMaterialItems.MOSCOVIUM_BUCKET.get()); // 镆桶
-                        output.accept(ECMaterialItems.LIVERMORIUM_BUCKET.get()); // 鉝桶
+                        output.accept(ECMaterialItems.LIVERMORIUM_BUCKET.get()); // 𫟷桶
                         output.accept(ECMaterialItems.TENNESSINE_BUCKET.get()); // 鿬桶
                         output.accept(ECMaterialItems.OGANESSON_BUCKET.get()); // 鿫桶
                         output.accept(ECMaterialItems.LONGIUM_BUCKET.get()); // 鑨桶

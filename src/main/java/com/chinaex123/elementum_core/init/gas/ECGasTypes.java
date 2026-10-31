@@ -231,15 +231,15 @@ public interface ECGasTypes {
     DeferredHolder<FluidType, FluidType> DARMSTADTIUM_GAS_TYPE = registerGas("darmstadtium_gas", 0, 0, -1000, 300, 100, 0.014, false, false, false, false, false, false, false);
     /** 𬬭 */
     DeferredHolder<FluidType, FluidType> ROENTGENIUM_GAS_TYPE = registerGas("roentgenium_gas", 0, 0, -1000, 300, 100, 0.014, false, false, false, false, false, false, false);
-    /** 鎶 */
+    /** 鿔 */
     DeferredHolder<FluidType, FluidType> COPERNICIUM_GAS_TYPE = registerGas("copernicium_gas", 0, 0, -1000, 300, 1000, 0.01, false, false, true, false, true, true, true);
-    /** 鉨 */
+    /** 鿭 */
     DeferredHolder<FluidType, FluidType> NIHONIUM_GAS_TYPE = registerGas("nihonium_gas", 0, 0, -1000, 300, 100, 0.014, false, false, false, false, false, false, false);
     /** 𫓧 */
     DeferredHolder<FluidType, FluidType> FLEROVIUM_GAS_TYPE = registerGas("flerovium_gas", 0, 0, -1000, 300, 100, 0.014, false, false, false, false, false, false, false);
     /** 镆 */
     DeferredHolder<FluidType, FluidType> MOSCOVIUM_GAS_TYPE = registerGas("moscovium_gas", 0, 0, -1000, 300, 100, 0.014, false, false, false, false, false, false, false);
-    /** 鉝 */
+    /** 𫟷 */
     DeferredHolder<FluidType, FluidType> LIVERMORIUM_GAS_TYPE = registerGas("livermorium_gas", 0, 0, -1000, 300, 100, 0.014, false, false, false, false, false, false, false);
     /** 鿬 */
     DeferredHolder<FluidType, FluidType> TENNESSINE_GAS_TYPE = registerGas("tennessine_gas", 0, 0, -1000, 300, 100, 0.014, false, false, false, false, false, false, false);
