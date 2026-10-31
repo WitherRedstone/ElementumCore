@@ -89,13 +89,21 @@ public abstract class ModLangProvider extends LanguageProvider {
             add("block.elementum_core.nether_" + id + "_ore", netherOre(name));
             add("block.elementum_core.end_" + id + "_ore", endOre(name));
 
-            add("fluid_type.elementum_core." + id, fluid(name));
-            add("item.elementum_core." + id + "_bucket", bucket(name));
-            add("block.elementum_core." + id, fluidBlock(name));
+            // --- 常温流体 / 熔化态 --- //
+            String fluidLabel = fluidLabel(id, name);
+            String fluidBlockLabel = fluidBlockLabel(id, name);
+            String bucketLabel = bucketLabel(id, name);
+            add("fluid_type.elementum_core." + id, fluidLabel);
+            add("item.elementum_core." + id + "_bucket", bucketLabel);
+            add("block.elementum_core." + id, fluidBlockLabel);
 
-            add("fluid_type.elementum_core." + id + "_gas", gas(name));
-            add("item.elementum_core." + id + "_gas_bucket", gasBucket(name));
-            add("block.elementum_core." + id + "_gas", gasBlock(name));
+            // --- 气体 --- //
+            String gasLabel = gasLabel(id, name);
+            String gasBlockLabel = gasBlockLabel(id, name);
+            String gasBucketLabel = gasBucketLabel(id, name);
+            add("fluid_type.elementum_core." + id + "_gas", gasLabel);
+            add("item.elementum_core." + id + "_gas_bucket", gasBucketLabel);
+            add("block.elementum_core." + id + "_gas", gasBlockLabel);
         }
 
         for (String[] entry : minerals()) {
@@ -119,4 +127,62 @@ public abstract class ModLangProvider extends LanguageProvider {
             "hydrogen", "helium", "nitrogen", "oxygen", "fluorine", "neon",
             "chlorine", "argon", "krypton", "xenon", "radon", "oganesson"
     };
+
+    protected static final String[] LIQUID_ELEMENTS = {
+            "mercury", "bromine"
+    };
+
+    private static boolean isLiquid(String id) {
+        for (String liquid : LIQUID_ELEMENTS) {
+            if (liquid.equals(id)) return true;
+        }
+        return false;
+    }
+
+    protected String fluidLabel(String id, String name) {
+        if (isGas(id)) {
+            return liquidFluidPrefix() + name;
+        }
+        return fluid(name);
+    }
+
+    protected String fluidBlockLabel(String id, String name) {
+        if (isGas(id)) {
+            return liquidFluidPrefix() + name;
+        }
+        return fluidBlock(name);
+    }
+
+    protected String bucketLabel(String id, String name) {
+        if (isGas(id)) {
+            return liquidFluidPrefix() + bucket(name);
+        }
+        return bucket(name);
+    }
+
+    protected String gasLabel(String id, String name) {
+        if (isGas(id)) {
+            return name; // 常态气体，直接叫元素名
+        }
+        return gas(name);
+    }
+
+    protected String gasBlockLabel(String id, String name) {
+        if (isGas(id)) {
+            return name; // 常态气体方块，直接叫元素名
+        }
+        return gasBlock(name);
+    }
+
+    protected String gasBucketLabel(String id, String name) {
+        if (isGas(id)) {
+            return bucket(name); // 常态气体桶，用普通桶命名（不带"气"）
+        }
+        return gasBucket(name);
+    }
+
+    /** 常温气态元素的液态（非常态）前缀。中文"液"，英文"Liquid "。 */
+    protected String liquidFluidPrefix() {
+        return "液";
+    }
 }

@@ -1,7 +1,7 @@
 package com.chinaex123.elementum_core.init.fluids;
 
 import com.chinaex123.elementum_core.ElementumCore;
-import com.chinaex123.elementum_core.init.blocks.ECElementBlocks;
+import com.chinaex123.elementum_core.init.blocks.ECElementFluidBlocks;
 import com.chinaex123.elementum_core.init.items.ECMaterialItems;
 import com.chinaex123.elementum_core.util.ECColors;
 import com.chinaex123.elementum_core.util.SimpleFluidExtension;
@@ -24,364 +24,364 @@ import java.util.function.Supplier;
 public interface ECFluids {
     DeferredRegister<Fluid> FLUIDS = DeferredRegister.create(BuiltInRegistries.FLUID, ElementumCore.MODID);
 
-    FluidHolder HYDROGEN = registerFluid("hydrogen", () -> ECMaterialItems.HYDROGEN_BUCKET, () -> ECElementBlocks.FluidBlocks.HYDROGEN,
+    FluidHolder HYDROGEN = registerFluid("hydrogen", () -> ECMaterialItems.HYDROGEN_BUCKET, () -> ECElementFluidBlocks.HYDROGEN,
             ECFluidTypes.HYDROGEN_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder HELIUM = registerFluid("helium", () -> ECMaterialItems.HELIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.HELIUM,
+    FluidHolder HELIUM = registerFluid("helium", () -> ECMaterialItems.HELIUM_BUCKET, () -> ECElementFluidBlocks.HELIUM,
             ECFluidTypes.HELIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder LITHIUM = registerFluid("lithium", () -> ECMaterialItems.LITHIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.LITHIUM,
+    FluidHolder LITHIUM = registerFluid("lithium", () -> ECMaterialItems.LITHIUM_BUCKET, () -> ECElementFluidBlocks.LITHIUM,
             ECFluidTypes.LITHIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder BERYLLIUM = registerFluid("beryllium", () -> ECMaterialItems.BERYLLIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.BERYLLIUM,
+    FluidHolder BERYLLIUM = registerFluid("beryllium", () -> ECMaterialItems.BERYLLIUM_BUCKET, () -> ECElementFluidBlocks.BERYLLIUM,
             ECFluidTypes.BERYLLIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder BORON = registerFluid("boron", () -> ECMaterialItems.BORON_BUCKET, () -> ECElementBlocks.FluidBlocks.BORON,
+    FluidHolder BORON = registerFluid("boron", () -> ECMaterialItems.BORON_BUCKET, () -> ECElementFluidBlocks.BORON,
             ECFluidTypes.BORON_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder CARBON = registerFluid("carbon", () -> ECMaterialItems.CARBON_BUCKET, () -> ECElementBlocks.FluidBlocks.CARBON,
+    FluidHolder CARBON = registerFluid("carbon", () -> ECMaterialItems.CARBON_BUCKET, () -> ECElementFluidBlocks.CARBON,
             ECFluidTypes.CARBON_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder NITROGEN = registerFluid("nitrogen", () -> ECMaterialItems.NITROGEN_BUCKET, () -> ECElementBlocks.FluidBlocks.NITROGEN,
+    FluidHolder NITROGEN = registerFluid("nitrogen", () -> ECMaterialItems.NITROGEN_BUCKET, () -> ECElementFluidBlocks.NITROGEN,
             ECFluidTypes.NITROGEN_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder OXYGEN = registerFluid("oxygen", () -> ECMaterialItems.OXYGEN_BUCKET, () -> ECElementBlocks.FluidBlocks.OXYGEN,
+    FluidHolder OXYGEN = registerFluid("oxygen", () -> ECMaterialItems.OXYGEN_BUCKET, () -> ECElementFluidBlocks.OXYGEN,
             ECFluidTypes.OXYGEN_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder FLUORINE = registerFluid("fluorine", () -> ECMaterialItems.FLUORINE_BUCKET, () -> ECElementBlocks.FluidBlocks.FLUORINE,
+    FluidHolder FLUORINE = registerFluid("fluorine", () -> ECMaterialItems.FLUORINE_BUCKET, () -> ECElementFluidBlocks.FLUORINE,
             ECFluidTypes.FLUORINE_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder NEON = registerFluid("neon", () -> ECMaterialItems.NEON_BUCKET, () -> ECElementBlocks.FluidBlocks.NEON,
+    FluidHolder NEON = registerFluid("neon", () -> ECMaterialItems.NEON_BUCKET, () -> ECElementFluidBlocks.NEON,
             ECFluidTypes.NEON_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder SODIUM = registerFluid("sodium", () -> ECMaterialItems.SODIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.SODIUM,
+    FluidHolder SODIUM = registerFluid("sodium", () -> ECMaterialItems.SODIUM_BUCKET, () -> ECElementFluidBlocks.SODIUM,
             ECFluidTypes.SODIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder MAGNESIUM = registerFluid("magnesium", () -> ECMaterialItems.MAGNESIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.MAGNESIUM,
+    FluidHolder MAGNESIUM = registerFluid("magnesium", () -> ECMaterialItems.MAGNESIUM_BUCKET, () -> ECElementFluidBlocks.MAGNESIUM,
             ECFluidTypes.MAGNESIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder ALUMINUM = registerFluid("aluminum", () -> ECMaterialItems.ALUMINUM_BUCKET, () -> ECElementBlocks.FluidBlocks.ALUMINUM,
+    FluidHolder ALUMINUM = registerFluid("aluminum", () -> ECMaterialItems.ALUMINUM_BUCKET, () -> ECElementFluidBlocks.ALUMINUM,
             ECFluidTypes.ALUMINUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder SILICON = registerFluid("silicon", () -> ECMaterialItems.SILICON_BUCKET, () -> ECElementBlocks.FluidBlocks.SILICON,
+    FluidHolder SILICON = registerFluid("silicon", () -> ECMaterialItems.SILICON_BUCKET, () -> ECElementFluidBlocks.SILICON,
             ECFluidTypes.SILICON_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder PHOSPHORUS = registerFluid("phosphorus", () -> ECMaterialItems.PHOSPHORUS_BUCKET, () -> ECElementBlocks.FluidBlocks.PHOSPHORUS,
+    FluidHolder PHOSPHORUS = registerFluid("phosphorus", () -> ECMaterialItems.PHOSPHORUS_BUCKET, () -> ECElementFluidBlocks.PHOSPHORUS,
             ECFluidTypes.PHOSPHORUS_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder SULFUR = registerFluid("sulfur", () -> ECMaterialItems.SULFUR_BUCKET, () -> ECElementBlocks.FluidBlocks.SULFUR,
+    FluidHolder SULFUR = registerFluid("sulfur", () -> ECMaterialItems.SULFUR_BUCKET, () -> ECElementFluidBlocks.SULFUR,
             ECFluidTypes.SULFUR_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder CHLORINE = registerFluid("chlorine", () -> ECMaterialItems.CHLORINE_BUCKET, () -> ECElementBlocks.FluidBlocks.CHLORINE,
+    FluidHolder CHLORINE = registerFluid("chlorine", () -> ECMaterialItems.CHLORINE_BUCKET, () -> ECElementFluidBlocks.CHLORINE,
             ECFluidTypes.CHLORINE_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder ARGON = registerFluid("argon", () -> ECMaterialItems.ARGON_BUCKET, () -> ECElementBlocks.FluidBlocks.ARGON,
+    FluidHolder ARGON = registerFluid("argon", () -> ECMaterialItems.ARGON_BUCKET, () -> ECElementFluidBlocks.ARGON,
             ECFluidTypes.ARGON_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder POTASSIUM = registerFluid("potassium", () -> ECMaterialItems.POTASSIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.POTASSIUM,
+    FluidHolder POTASSIUM = registerFluid("potassium", () -> ECMaterialItems.POTASSIUM_BUCKET, () -> ECElementFluidBlocks.POTASSIUM,
             ECFluidTypes.POTASSIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder CALCIUM = registerFluid("calcium", () -> ECMaterialItems.CALCIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.CALCIUM,
+    FluidHolder CALCIUM = registerFluid("calcium", () -> ECMaterialItems.CALCIUM_BUCKET, () -> ECElementFluidBlocks.CALCIUM,
             ECFluidTypes.CALCIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder SCANDIUM = registerFluid("scandium", () -> ECMaterialItems.SCANDIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.SCANDIUM,
+    FluidHolder SCANDIUM = registerFluid("scandium", () -> ECMaterialItems.SCANDIUM_BUCKET, () -> ECElementFluidBlocks.SCANDIUM,
             ECFluidTypes.SCANDIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder TITANIUM = registerFluid("titanium", () -> ECMaterialItems.TITANIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.TITANIUM,
+    FluidHolder TITANIUM = registerFluid("titanium", () -> ECMaterialItems.TITANIUM_BUCKET, () -> ECElementFluidBlocks.TITANIUM,
             ECFluidTypes.TITANIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder VANADIUM = registerFluid("vanadium", () -> ECMaterialItems.VANADIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.VANADIUM,
+    FluidHolder VANADIUM = registerFluid("vanadium", () -> ECMaterialItems.VANADIUM_BUCKET, () -> ECElementFluidBlocks.VANADIUM,
             ECFluidTypes.VANADIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder CHROMIUM = registerFluid("chromium", () -> ECMaterialItems.CHROMIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.CHROMIUM,
+    FluidHolder CHROMIUM = registerFluid("chromium", () -> ECMaterialItems.CHROMIUM_BUCKET, () -> ECElementFluidBlocks.CHROMIUM,
             ECFluidTypes.CHROMIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder MANGANESE = registerFluid("manganese", () -> ECMaterialItems.MANGANESE_BUCKET, () -> ECElementBlocks.FluidBlocks.MANGANESE,
+    FluidHolder MANGANESE = registerFluid("manganese", () -> ECMaterialItems.MANGANESE_BUCKET, () -> ECElementFluidBlocks.MANGANESE,
             ECFluidTypes.MANGANESE_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder IRON = registerFluid("iron", () -> ECMaterialItems.IRON_BUCKET, () -> ECElementBlocks.FluidBlocks.IRON,
+    FluidHolder IRON = registerFluid("iron", () -> ECMaterialItems.IRON_BUCKET, () -> ECElementFluidBlocks.IRON,
             ECFluidTypes.IRON_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder COBALT = registerFluid("cobalt", () -> ECMaterialItems.COBALT_BUCKET, () -> ECElementBlocks.FluidBlocks.COBALT,
+    FluidHolder COBALT = registerFluid("cobalt", () -> ECMaterialItems.COBALT_BUCKET, () -> ECElementFluidBlocks.COBALT,
             ECFluidTypes.COBALT_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder NICKEL = registerFluid("nickel", () -> ECMaterialItems.NICKEL_BUCKET, () -> ECElementBlocks.FluidBlocks.NICKEL,
+    FluidHolder NICKEL = registerFluid("nickel", () -> ECMaterialItems.NICKEL_BUCKET, () -> ECElementFluidBlocks.NICKEL,
             ECFluidTypes.NICKEL_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder COPPER = registerFluid("copper", () -> ECMaterialItems.COPPER_BUCKET, () -> ECElementBlocks.FluidBlocks.COPPER,
+    FluidHolder COPPER = registerFluid("copper", () -> ECMaterialItems.COPPER_BUCKET, () -> ECElementFluidBlocks.COPPER,
             ECFluidTypes.COPPER_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder ZINC = registerFluid("zinc", () -> ECMaterialItems.ZINC_BUCKET, () -> ECElementBlocks.FluidBlocks.ZINC,
+    FluidHolder ZINC = registerFluid("zinc", () -> ECMaterialItems.ZINC_BUCKET, () -> ECElementFluidBlocks.ZINC,
             ECFluidTypes.ZINC_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder GALLIUM = registerFluid("gallium", () -> ECMaterialItems.GALLIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.GALLIUM,
+    FluidHolder GALLIUM = registerFluid("gallium", () -> ECMaterialItems.GALLIUM_BUCKET, () -> ECElementFluidBlocks.GALLIUM,
             ECFluidTypes.GALLIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder GERMANIUM = registerFluid("germanium", () -> ECMaterialItems.GERMANIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.GERMANIUM,
+    FluidHolder GERMANIUM = registerFluid("germanium", () -> ECMaterialItems.GERMANIUM_BUCKET, () -> ECElementFluidBlocks.GERMANIUM,
             ECFluidTypes.GERMANIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder ARSENIC = registerFluid("arsenic", () -> ECMaterialItems.ARSENIC_BUCKET, () -> ECElementBlocks.FluidBlocks.ARSENIC,
+    FluidHolder ARSENIC = registerFluid("arsenic", () -> ECMaterialItems.ARSENIC_BUCKET, () -> ECElementFluidBlocks.ARSENIC,
             ECFluidTypes.ARSENIC_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder SELENIUM = registerFluid("selenium", () -> ECMaterialItems.SELENIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.SELENIUM,
+    FluidHolder SELENIUM = registerFluid("selenium", () -> ECMaterialItems.SELENIUM_BUCKET, () -> ECElementFluidBlocks.SELENIUM,
             ECFluidTypes.SELENIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder BROMINE = registerFluid("bromine", () -> ECMaterialItems.BROMINE_BUCKET, () -> ECElementBlocks.FluidBlocks.BROMINE,
+    FluidHolder BROMINE = registerFluid("bromine", () -> ECMaterialItems.BROMINE_BUCKET, () -> ECElementFluidBlocks.BROMINE,
             ECFluidTypes.BROMINE_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder KRYPTON = registerFluid("krypton", () -> ECMaterialItems.KRYPTON_BUCKET, () -> ECElementBlocks.FluidBlocks.KRYPTON,
+    FluidHolder KRYPTON = registerFluid("krypton", () -> ECMaterialItems.KRYPTON_BUCKET, () -> ECElementFluidBlocks.KRYPTON,
             ECFluidTypes.KRYPTON_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder RUBIDIUM = registerFluid("rubidium", () -> ECMaterialItems.RUBIDIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.RUBIDIUM,
+    FluidHolder RUBIDIUM = registerFluid("rubidium", () -> ECMaterialItems.RUBIDIUM_BUCKET, () -> ECElementFluidBlocks.RUBIDIUM,
             ECFluidTypes.RUBIDIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder STRONTIUM = registerFluid("strontium", () -> ECMaterialItems.STRONTIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.STRONTIUM,
+    FluidHolder STRONTIUM = registerFluid("strontium", () -> ECMaterialItems.STRONTIUM_BUCKET, () -> ECElementFluidBlocks.STRONTIUM,
             ECFluidTypes.STRONTIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder YTTRIUM = registerFluid("yttrium", () -> ECMaterialItems.YTTRIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.YTTRIUM,
+    FluidHolder YTTRIUM = registerFluid("yttrium", () -> ECMaterialItems.YTTRIUM_BUCKET, () -> ECElementFluidBlocks.YTTRIUM,
             ECFluidTypes.YTTRIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder ZIRCONIUM = registerFluid("zirconium", () -> ECMaterialItems.ZIRCONIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.ZIRCONIUM,
+    FluidHolder ZIRCONIUM = registerFluid("zirconium", () -> ECMaterialItems.ZIRCONIUM_BUCKET, () -> ECElementFluidBlocks.ZIRCONIUM,
             ECFluidTypes.ZIRCONIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder NIOBIUM = registerFluid("niobium", () -> ECMaterialItems.NIOBIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.NIOBIUM,
+    FluidHolder NIOBIUM = registerFluid("niobium", () -> ECMaterialItems.NIOBIUM_BUCKET, () -> ECElementFluidBlocks.NIOBIUM,
             ECFluidTypes.NIOBIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder MOLYBDENUM = registerFluid("molybdenum", () -> ECMaterialItems.MOLYBDENUM_BUCKET, () -> ECElementBlocks.FluidBlocks.MOLYBDENUM,
+    FluidHolder MOLYBDENUM = registerFluid("molybdenum", () -> ECMaterialItems.MOLYBDENUM_BUCKET, () -> ECElementFluidBlocks.MOLYBDENUM,
             ECFluidTypes.MOLYBDENUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder TECHNETIUM = registerFluid("technetium", () -> ECMaterialItems.TECHNETIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.TECHNETIUM,
+    FluidHolder TECHNETIUM = registerFluid("technetium", () -> ECMaterialItems.TECHNETIUM_BUCKET, () -> ECElementFluidBlocks.TECHNETIUM,
             ECFluidTypes.TECHNETIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder RUTHENIUM = registerFluid("ruthenium", () -> ECMaterialItems.RUTHENIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.RUTHENIUM,
+    FluidHolder RUTHENIUM = registerFluid("ruthenium", () -> ECMaterialItems.RUTHENIUM_BUCKET, () -> ECElementFluidBlocks.RUTHENIUM,
             ECFluidTypes.RUTHENIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder RHODIUM = registerFluid("rhodium", () -> ECMaterialItems.RHODIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.RHODIUM,
+    FluidHolder RHODIUM = registerFluid("rhodium", () -> ECMaterialItems.RHODIUM_BUCKET, () -> ECElementFluidBlocks.RHODIUM,
             ECFluidTypes.RHODIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder PALLADIUM = registerFluid("palladium", () -> ECMaterialItems.PALLADIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.PALLADIUM,
+    FluidHolder PALLADIUM = registerFluid("palladium", () -> ECMaterialItems.PALLADIUM_BUCKET, () -> ECElementFluidBlocks.PALLADIUM,
             ECFluidTypes.PALLADIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder SILVER = registerFluid("silver", () -> ECMaterialItems.SILVER_BUCKET, () -> ECElementBlocks.FluidBlocks.SILVER,
+    FluidHolder SILVER = registerFluid("silver", () -> ECMaterialItems.SILVER_BUCKET, () -> ECElementFluidBlocks.SILVER,
             ECFluidTypes.SILVER_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder CADMIUM = registerFluid("cadmium", () -> ECMaterialItems.CADMIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.CADMIUM,
+    FluidHolder CADMIUM = registerFluid("cadmium", () -> ECMaterialItems.CADMIUM_BUCKET, () -> ECElementFluidBlocks.CADMIUM,
             ECFluidTypes.CADMIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder INDIUM = registerFluid("indium", () -> ECMaterialItems.INDIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.INDIUM,
+    FluidHolder INDIUM = registerFluid("indium", () -> ECMaterialItems.INDIUM_BUCKET, () -> ECElementFluidBlocks.INDIUM,
             ECFluidTypes.INDIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder TIN = registerFluid("tin", () -> ECMaterialItems.TIN_BUCKET, () -> ECElementBlocks.FluidBlocks.TIN,
+    FluidHolder TIN = registerFluid("tin", () -> ECMaterialItems.TIN_BUCKET, () -> ECElementFluidBlocks.TIN,
             ECFluidTypes.TIN_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder ANTIMONY = registerFluid("antimony", () -> ECMaterialItems.ANTIMONY_BUCKET, () -> ECElementBlocks.FluidBlocks.ANTIMONY,
+    FluidHolder ANTIMONY = registerFluid("antimony", () -> ECMaterialItems.ANTIMONY_BUCKET, () -> ECElementFluidBlocks.ANTIMONY,
             ECFluidTypes.ANTIMONY_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder TELLURIUM = registerFluid("tellurium", () -> ECMaterialItems.TELLURIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.TELLURIUM,
+    FluidHolder TELLURIUM = registerFluid("tellurium", () -> ECMaterialItems.TELLURIUM_BUCKET, () -> ECElementFluidBlocks.TELLURIUM,
             ECFluidTypes.TELLURIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder IODINE = registerFluid("iodine", () -> ECMaterialItems.IODINE_BUCKET, () -> ECElementBlocks.FluidBlocks.IODINE,
+    FluidHolder IODINE = registerFluid("iodine", () -> ECMaterialItems.IODINE_BUCKET, () -> ECElementFluidBlocks.IODINE,
             ECFluidTypes.IODINE_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder XENON = registerFluid("xenon", () -> ECMaterialItems.XENON_BUCKET, () -> ECElementBlocks.FluidBlocks.XENON,
+    FluidHolder XENON = registerFluid("xenon", () -> ECMaterialItems.XENON_BUCKET, () -> ECElementFluidBlocks.XENON,
             ECFluidTypes.XENON_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder CESIUM = registerFluid("cesium", () -> ECMaterialItems.CESIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.CESIUM,
+    FluidHolder CESIUM = registerFluid("cesium", () -> ECMaterialItems.CESIUM_BUCKET, () -> ECElementFluidBlocks.CESIUM,
             ECFluidTypes.CESIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder BARIUM = registerFluid("barium", () -> ECMaterialItems.BARIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.BARIUM,
+    FluidHolder BARIUM = registerFluid("barium", () -> ECMaterialItems.BARIUM_BUCKET, () -> ECElementFluidBlocks.BARIUM,
             ECFluidTypes.BARIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder LANTHANUM = registerFluid("lanthanum", () -> ECMaterialItems.LANTHANUM_BUCKET, () -> ECElementBlocks.FluidBlocks.LANTHANUM,
+    FluidHolder LANTHANUM = registerFluid("lanthanum", () -> ECMaterialItems.LANTHANUM_BUCKET, () -> ECElementFluidBlocks.LANTHANUM,
             ECFluidTypes.LANTHANUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder CERIUM = registerFluid("cerium", () -> ECMaterialItems.CERIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.CERIUM,
+    FluidHolder CERIUM = registerFluid("cerium", () -> ECMaterialItems.CERIUM_BUCKET, () -> ECElementFluidBlocks.CERIUM,
             ECFluidTypes.CERIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder PRASEODYMIUM = registerFluid("praseodymium", () -> ECMaterialItems.PRASEODYMIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.PRASEODYMIUM,
+    FluidHolder PRASEODYMIUM = registerFluid("praseodymium", () -> ECMaterialItems.PRASEODYMIUM_BUCKET, () -> ECElementFluidBlocks.PRASEODYMIUM,
             ECFluidTypes.PRASEODYMIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder NEODYMIUM = registerFluid("neodymium", () -> ECMaterialItems.NEODYMIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.NEODYMIUM,
+    FluidHolder NEODYMIUM = registerFluid("neodymium", () -> ECMaterialItems.NEODYMIUM_BUCKET, () -> ECElementFluidBlocks.NEODYMIUM,
             ECFluidTypes.NEODYMIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder PROMETHIUM = registerFluid("promethium", () -> ECMaterialItems.PROMETHIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.PROMETHIUM,
+    FluidHolder PROMETHIUM = registerFluid("promethium", () -> ECMaterialItems.PROMETHIUM_BUCKET, () -> ECElementFluidBlocks.PROMETHIUM,
             ECFluidTypes.PROMETHIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder SAMARIUM = registerFluid("samarium", () -> ECMaterialItems.SAMARIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.SAMARIUM,
+    FluidHolder SAMARIUM = registerFluid("samarium", () -> ECMaterialItems.SAMARIUM_BUCKET, () -> ECElementFluidBlocks.SAMARIUM,
             ECFluidTypes.SAMARIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder EUROPIUM = registerFluid("europium", () -> ECMaterialItems.EUROPIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.EUROPIUM,
+    FluidHolder EUROPIUM = registerFluid("europium", () -> ECMaterialItems.EUROPIUM_BUCKET, () -> ECElementFluidBlocks.EUROPIUM,
             ECFluidTypes.EUROPIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder GADOLINIUM = registerFluid("gadolinium", () -> ECMaterialItems.GADOLINIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.GADOLINIUM,
+    FluidHolder GADOLINIUM = registerFluid("gadolinium", () -> ECMaterialItems.GADOLINIUM_BUCKET, () -> ECElementFluidBlocks.GADOLINIUM,
             ECFluidTypes.GADOLINIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder TERBIUM = registerFluid("terbium", () -> ECMaterialItems.TERBIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.TERBIUM,
+    FluidHolder TERBIUM = registerFluid("terbium", () -> ECMaterialItems.TERBIUM_BUCKET, () -> ECElementFluidBlocks.TERBIUM,
             ECFluidTypes.TERBIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder DYSPROSIUM = registerFluid("dysprosium", () -> ECMaterialItems.DYSPROSIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.DYSPROSIUM,
+    FluidHolder DYSPROSIUM = registerFluid("dysprosium", () -> ECMaterialItems.DYSPROSIUM_BUCKET, () -> ECElementFluidBlocks.DYSPROSIUM,
             ECFluidTypes.DYSPROSIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder HOLMIUM = registerFluid("holmium", () -> ECMaterialItems.HOLMIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.HOLMIUM,
+    FluidHolder HOLMIUM = registerFluid("holmium", () -> ECMaterialItems.HOLMIUM_BUCKET, () -> ECElementFluidBlocks.HOLMIUM,
             ECFluidTypes.HOLMIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder ERBIUM = registerFluid("erbium", () -> ECMaterialItems.ERBIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.ERBIUM,
+    FluidHolder ERBIUM = registerFluid("erbium", () -> ECMaterialItems.ERBIUM_BUCKET, () -> ECElementFluidBlocks.ERBIUM,
             ECFluidTypes.ERBIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder THULIUM = registerFluid("thulium", () -> ECMaterialItems.THULIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.THULIUM,
+    FluidHolder THULIUM = registerFluid("thulium", () -> ECMaterialItems.THULIUM_BUCKET, () -> ECElementFluidBlocks.THULIUM,
             ECFluidTypes.THULIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder YTTERBIUM = registerFluid("ytterbium", () -> ECMaterialItems.YTTERBIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.YTTERBIUM,
+    FluidHolder YTTERBIUM = registerFluid("ytterbium", () -> ECMaterialItems.YTTERBIUM_BUCKET, () -> ECElementFluidBlocks.YTTERBIUM,
             ECFluidTypes.YTTERBIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder LUTETIUM = registerFluid("lutetium", () -> ECMaterialItems.LUTETIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.LUTETIUM,
+    FluidHolder LUTETIUM = registerFluid("lutetium", () -> ECMaterialItems.LUTETIUM_BUCKET, () -> ECElementFluidBlocks.LUTETIUM,
             ECFluidTypes.LUTETIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder HAFNIUM = registerFluid("hafnium", () -> ECMaterialItems.HAFNIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.HAFNIUM,
+    FluidHolder HAFNIUM = registerFluid("hafnium", () -> ECMaterialItems.HAFNIUM_BUCKET, () -> ECElementFluidBlocks.HAFNIUM,
             ECFluidTypes.HAFNIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder TANTALUM = registerFluid("tantalum", () -> ECMaterialItems.TANTALUM_BUCKET, () -> ECElementBlocks.FluidBlocks.TANTALUM,
+    FluidHolder TANTALUM = registerFluid("tantalum", () -> ECMaterialItems.TANTALUM_BUCKET, () -> ECElementFluidBlocks.TANTALUM,
             ECFluidTypes.TANTALUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder TUNGSTEN = registerFluid("tungsten", () -> ECMaterialItems.TUNGSTEN_BUCKET, () -> ECElementBlocks.FluidBlocks.TUNGSTEN,
+    FluidHolder TUNGSTEN = registerFluid("tungsten", () -> ECMaterialItems.TUNGSTEN_BUCKET, () -> ECElementFluidBlocks.TUNGSTEN,
             ECFluidTypes.TUNGSTEN_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder RHENIUM = registerFluid("rhenium", () -> ECMaterialItems.RHENIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.RHENIUM,
+    FluidHolder RHENIUM = registerFluid("rhenium", () -> ECMaterialItems.RHENIUM_BUCKET, () -> ECElementFluidBlocks.RHENIUM,
             ECFluidTypes.RHENIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder OSMIUM = registerFluid("osmium", () -> ECMaterialItems.OSMIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.OSMIUM,
+    FluidHolder OSMIUM = registerFluid("osmium", () -> ECMaterialItems.OSMIUM_BUCKET, () -> ECElementFluidBlocks.OSMIUM,
             ECFluidTypes.OSMIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder IRIDIUM = registerFluid("iridium", () -> ECMaterialItems.IRIDIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.IRIDIUM,
+    FluidHolder IRIDIUM = registerFluid("iridium", () -> ECMaterialItems.IRIDIUM_BUCKET, () -> ECElementFluidBlocks.IRIDIUM,
             ECFluidTypes.IRIDIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder PLATINUM = registerFluid("platinum", () -> ECMaterialItems.PLATINUM_BUCKET, () -> ECElementBlocks.FluidBlocks.PLATINUM,
+    FluidHolder PLATINUM = registerFluid("platinum", () -> ECMaterialItems.PLATINUM_BUCKET, () -> ECElementFluidBlocks.PLATINUM,
             ECFluidTypes.PLATINUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder GOLD = registerFluid("gold", () -> ECMaterialItems.GOLD_BUCKET, () -> ECElementBlocks.FluidBlocks.GOLD,
+    FluidHolder GOLD = registerFluid("gold", () -> ECMaterialItems.GOLD_BUCKET, () -> ECElementFluidBlocks.GOLD,
             ECFluidTypes.GOLD_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder MERCURY = registerFluid("mercury", () -> ECMaterialItems.MERCURY_BUCKET, () -> ECElementBlocks.FluidBlocks.MERCURY,
+    FluidHolder MERCURY = registerFluid("mercury", () -> ECMaterialItems.MERCURY_BUCKET, () -> ECElementFluidBlocks.MERCURY,
             ECFluidTypes.MERCURY_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder THALLIUM = registerFluid("thallium", () -> ECMaterialItems.THALLIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.THALLIUM,
+    FluidHolder THALLIUM = registerFluid("thallium", () -> ECMaterialItems.THALLIUM_BUCKET, () -> ECElementFluidBlocks.THALLIUM,
             ECFluidTypes.THALLIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder LEAD = registerFluid("lead", () -> ECMaterialItems.LEAD_BUCKET, () -> ECElementBlocks.FluidBlocks.LEAD,
+    FluidHolder LEAD = registerFluid("lead", () -> ECMaterialItems.LEAD_BUCKET, () -> ECElementFluidBlocks.LEAD,
             ECFluidTypes.LEAD_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder BISMUTH = registerFluid("bismuth", () -> ECMaterialItems.BISMUTH_BUCKET, () -> ECElementBlocks.FluidBlocks.BISMUTH,
+    FluidHolder BISMUTH = registerFluid("bismuth", () -> ECMaterialItems.BISMUTH_BUCKET, () -> ECElementFluidBlocks.BISMUTH,
             ECFluidTypes.BISMUTH_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder POLONIUM = registerFluid("polonium", () -> ECMaterialItems.POLONIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.POLONIUM,
+    FluidHolder POLONIUM = registerFluid("polonium", () -> ECMaterialItems.POLONIUM_BUCKET, () -> ECElementFluidBlocks.POLONIUM,
             ECFluidTypes.POLONIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder ASTATINE = registerFluid("astatine", () -> ECMaterialItems.ASTATINE_BUCKET, () -> ECElementBlocks.FluidBlocks.ASTATINE,
+    FluidHolder ASTATINE = registerFluid("astatine", () -> ECMaterialItems.ASTATINE_BUCKET, () -> ECElementFluidBlocks.ASTATINE,
             ECFluidTypes.ASTATINE_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder RADON = registerFluid("radon", () -> ECMaterialItems.RADON_BUCKET, () -> ECElementBlocks.FluidBlocks.RADON,
+    FluidHolder RADON = registerFluid("radon", () -> ECMaterialItems.RADON_BUCKET, () -> ECElementFluidBlocks.RADON,
             ECFluidTypes.RADON_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder FRANCIUM = registerFluid("francium", () -> ECMaterialItems.FRANCIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.FRANCIUM,
+    FluidHolder FRANCIUM = registerFluid("francium", () -> ECMaterialItems.FRANCIUM_BUCKET, () -> ECElementFluidBlocks.FRANCIUM,
             ECFluidTypes.FRANCIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder RADIUM = registerFluid("radium", () -> ECMaterialItems.RADIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.RADIUM,
+    FluidHolder RADIUM = registerFluid("radium", () -> ECMaterialItems.RADIUM_BUCKET, () -> ECElementFluidBlocks.RADIUM,
             ECFluidTypes.RADIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder ACTINIUM = registerFluid("actinium", () -> ECMaterialItems.ACTINIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.ACTINIUM,
+    FluidHolder ACTINIUM = registerFluid("actinium", () -> ECMaterialItems.ACTINIUM_BUCKET, () -> ECElementFluidBlocks.ACTINIUM,
             ECFluidTypes.ACTINIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder THORIUM = registerFluid("thorium", () -> ECMaterialItems.THORIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.THORIUM,
+    FluidHolder THORIUM = registerFluid("thorium", () -> ECMaterialItems.THORIUM_BUCKET, () -> ECElementFluidBlocks.THORIUM,
             ECFluidTypes.THORIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder PROTACTINIUM = registerFluid("protactinium", () -> ECMaterialItems.PROTACTINIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.PROTACTINIUM,
+    FluidHolder PROTACTINIUM = registerFluid("protactinium", () -> ECMaterialItems.PROTACTINIUM_BUCKET, () -> ECElementFluidBlocks.PROTACTINIUM,
             ECFluidTypes.PROTACTINIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder URANIUM = registerFluid("uranium", () -> ECMaterialItems.URANIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.URANIUM,
+    FluidHolder URANIUM = registerFluid("uranium", () -> ECMaterialItems.URANIUM_BUCKET, () -> ECElementFluidBlocks.URANIUM,
             ECFluidTypes.URANIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder NEPTUNIUM = registerFluid("neptunium", () -> ECMaterialItems.NEPTUNIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.NEPTUNIUM,
+    FluidHolder NEPTUNIUM = registerFluid("neptunium", () -> ECMaterialItems.NEPTUNIUM_BUCKET, () -> ECElementFluidBlocks.NEPTUNIUM,
             ECFluidTypes.NEPTUNIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder PLUTONIUM = registerFluid("plutonium", () -> ECMaterialItems.PLUTONIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.PLUTONIUM,
+    FluidHolder PLUTONIUM = registerFluid("plutonium", () -> ECMaterialItems.PLUTONIUM_BUCKET, () -> ECElementFluidBlocks.PLUTONIUM,
             ECFluidTypes.PLUTONIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder AMERICIUM = registerFluid("americium", () -> ECMaterialItems.AMERICIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.AMERICIUM,
+    FluidHolder AMERICIUM = registerFluid("americium", () -> ECMaterialItems.AMERICIUM_BUCKET, () -> ECElementFluidBlocks.AMERICIUM,
             ECFluidTypes.AMERICIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder CURIUM = registerFluid("curium", () -> ECMaterialItems.CURIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.CURIUM,
+    FluidHolder CURIUM = registerFluid("curium", () -> ECMaterialItems.CURIUM_BUCKET, () -> ECElementFluidBlocks.CURIUM,
             ECFluidTypes.CURIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder BERKELIUM = registerFluid("berkelium", () -> ECMaterialItems.BERKELIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.BERKELIUM,
+    FluidHolder BERKELIUM = registerFluid("berkelium", () -> ECMaterialItems.BERKELIUM_BUCKET, () -> ECElementFluidBlocks.BERKELIUM,
             ECFluidTypes.BERKELIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder CALIFORNIUM = registerFluid("californium", () -> ECMaterialItems.CALIFORNIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.CALIFORNIUM,
+    FluidHolder CALIFORNIUM = registerFluid("californium", () -> ECMaterialItems.CALIFORNIUM_BUCKET, () -> ECElementFluidBlocks.CALIFORNIUM,
             ECFluidTypes.CALIFORNIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder EINSTEINIUM = registerFluid("einsteinium", () -> ECMaterialItems.EINSTEINIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.EINSTEINIUM,
+    FluidHolder EINSTEINIUM = registerFluid("einsteinium", () -> ECMaterialItems.EINSTEINIUM_BUCKET, () -> ECElementFluidBlocks.EINSTEINIUM,
             ECFluidTypes.EINSTEINIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder FERMIUM = registerFluid("fermium", () -> ECMaterialItems.FERMIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.FERMIUM,
+    FluidHolder FERMIUM = registerFluid("fermium", () -> ECMaterialItems.FERMIUM_BUCKET, () -> ECElementFluidBlocks.FERMIUM,
             ECFluidTypes.FERMIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder MENDELEVIUM = registerFluid("mendelevium", () -> ECMaterialItems.MENDELEVIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.MENDELEVIUM,
+    FluidHolder MENDELEVIUM = registerFluid("mendelevium", () -> ECMaterialItems.MENDELEVIUM_BUCKET, () -> ECElementFluidBlocks.MENDELEVIUM,
             ECFluidTypes.MENDELEVIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder NOBELIUM = registerFluid("nobelium", () -> ECMaterialItems.NOBELIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.NOBELIUM,
+    FluidHolder NOBELIUM = registerFluid("nobelium", () -> ECMaterialItems.NOBELIUM_BUCKET, () -> ECElementFluidBlocks.NOBELIUM,
             ECFluidTypes.NOBELIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder LAWRENCIUM = registerFluid("lawrencium", () -> ECMaterialItems.LAWRENCIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.LAWRENCIUM,
+    FluidHolder LAWRENCIUM = registerFluid("lawrencium", () -> ECMaterialItems.LAWRENCIUM_BUCKET, () -> ECElementFluidBlocks.LAWRENCIUM,
             ECFluidTypes.LAWRENCIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder RUTHERFORDIUM = registerFluid("rutherfordium", () -> ECMaterialItems.RUTHERFORDIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.RUTHERFORDIUM,
+    FluidHolder RUTHERFORDIUM = registerFluid("rutherfordium", () -> ECMaterialItems.RUTHERFORDIUM_BUCKET, () -> ECElementFluidBlocks.RUTHERFORDIUM,
             ECFluidTypes.RUTHERFORDIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder DUBNIUM = registerFluid("dubnium", () -> ECMaterialItems.DUBNIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.DUBNIUM,
+    FluidHolder DUBNIUM = registerFluid("dubnium", () -> ECMaterialItems.DUBNIUM_BUCKET, () -> ECElementFluidBlocks.DUBNIUM,
             ECFluidTypes.DUBNIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder SEABORGIUM = registerFluid("seaborgium", () -> ECMaterialItems.SEABORGIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.SEABORGIUM,
+    FluidHolder SEABORGIUM = registerFluid("seaborgium", () -> ECMaterialItems.SEABORGIUM_BUCKET, () -> ECElementFluidBlocks.SEABORGIUM,
             ECFluidTypes.SEABORGIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder BOHRIUM = registerFluid("bohrium", () -> ECMaterialItems.BOHRIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.BOHRIUM,
+    FluidHolder BOHRIUM = registerFluid("bohrium", () -> ECMaterialItems.BOHRIUM_BUCKET, () -> ECElementFluidBlocks.BOHRIUM,
             ECFluidTypes.BOHRIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder HASSIUM = registerFluid("hassium", () -> ECMaterialItems.HASSIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.HASSIUM,
+    FluidHolder HASSIUM = registerFluid("hassium", () -> ECMaterialItems.HASSIUM_BUCKET, () -> ECElementFluidBlocks.HASSIUM,
             ECFluidTypes.HASSIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder MEITNERIUM = registerFluid("meitnerium", () -> ECMaterialItems.MEITNERIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.MEITNERIUM,
+    FluidHolder MEITNERIUM = registerFluid("meitnerium", () -> ECMaterialItems.MEITNERIUM_BUCKET, () -> ECElementFluidBlocks.MEITNERIUM,
             ECFluidTypes.MEITNERIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder DARMSTADTIUM = registerFluid("darmstadtium", () -> ECMaterialItems.DARMSTADTIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.DARMSTADTIUM,
+    FluidHolder DARMSTADTIUM = registerFluid("darmstadtium", () -> ECMaterialItems.DARMSTADTIUM_BUCKET, () -> ECElementFluidBlocks.DARMSTADTIUM,
             ECFluidTypes.DARMSTADTIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder ROENTGENIUM = registerFluid("roentgenium", () -> ECMaterialItems.ROENTGENIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.ROENTGENIUM,
+    FluidHolder ROENTGENIUM = registerFluid("roentgenium", () -> ECMaterialItems.ROENTGENIUM_BUCKET, () -> ECElementFluidBlocks.ROENTGENIUM,
             ECFluidTypes.ROENTGENIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder COPERNICIUM = registerFluid("copernicium", () -> ECMaterialItems.COPERNICIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.COPERNICIUM,
+    FluidHolder COPERNICIUM = registerFluid("copernicium", () -> ECMaterialItems.COPERNICIUM_BUCKET, () -> ECElementFluidBlocks.COPERNICIUM,
             ECFluidTypes.COPERNICIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder NIHONIUM = registerFluid("nihonium", () -> ECMaterialItems.NIHONIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.NIHONIUM,
+    FluidHolder NIHONIUM = registerFluid("nihonium", () -> ECMaterialItems.NIHONIUM_BUCKET, () -> ECElementFluidBlocks.NIHONIUM,
             ECFluidTypes.NIHONIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder FLEROVIUM = registerFluid("flerovium", () -> ECMaterialItems.FLEROVIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.FLEROVIUM,
+    FluidHolder FLEROVIUM = registerFluid("flerovium", () -> ECMaterialItems.FLEROVIUM_BUCKET, () -> ECElementFluidBlocks.FLEROVIUM,
             ECFluidTypes.FLEROVIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder MOSCOVIUM = registerFluid("moscovium", () -> ECMaterialItems.MOSCOVIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.MOSCOVIUM,
+    FluidHolder MOSCOVIUM = registerFluid("moscovium", () -> ECMaterialItems.MOSCOVIUM_BUCKET, () -> ECElementFluidBlocks.MOSCOVIUM,
             ECFluidTypes.MOSCOVIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder LIVERMORIUM = registerFluid("livermorium", () -> ECMaterialItems.LIVERMORIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.LIVERMORIUM,
+    FluidHolder LIVERMORIUM = registerFluid("livermorium", () -> ECMaterialItems.LIVERMORIUM_BUCKET, () -> ECElementFluidBlocks.LIVERMORIUM,
             ECFluidTypes.LIVERMORIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder TENNESSINE = registerFluid("tennessine", () -> ECMaterialItems.TENNESSINE_BUCKET, () -> ECElementBlocks.FluidBlocks.TENNESSINE,
+    FluidHolder TENNESSINE = registerFluid("tennessine", () -> ECMaterialItems.TENNESSINE_BUCKET, () -> ECElementFluidBlocks.TENNESSINE,
             ECFluidTypes.TENNESSINE_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder OGANESSON = registerFluid("oganesson", () -> ECMaterialItems.OGANESSON_BUCKET, () -> ECElementBlocks.FluidBlocks.OGANESSON,
+    FluidHolder OGANESSON = registerFluid("oganesson", () -> ECMaterialItems.OGANESSON_BUCKET, () -> ECElementFluidBlocks.OGANESSON,
             ECFluidTypes.OGANESSON_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder LONGIUM = registerFluid("longium", () -> ECMaterialItems.LONGIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.LONGIUM,
+    FluidHolder LONGIUM = registerFluid("longium", () -> ECMaterialItems.LONGIUM_BUCKET, () -> ECElementFluidBlocks.LONGIUM,
             ECFluidTypes.LONGIUM_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder MYSTERIUM = registerFluid("mysterium", () -> ECMaterialItems.MYSTERIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.MYSTERIUM,
+    FluidHolder MYSTERIUM = registerFluid("mysterium", () -> ECMaterialItems.MYSTERIUM_BUCKET, () -> ECElementFluidBlocks.MYSTERIUM,
             ECFluidTypes.MYSTERIUM_TYPE, 100.0F, 4, 1, 10);
 
     /**
