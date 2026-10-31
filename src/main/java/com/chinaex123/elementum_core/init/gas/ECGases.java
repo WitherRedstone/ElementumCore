@@ -96,7 +96,7 @@ public interface ECGases {
     DeferredHolder<Fluid, GasFluid> IRIDIUM_GAS = GASID.register("iridium_gas", () -> new GasFluid(ECGasTypes.IRIDIUM_GAS_TYPE, ECMaterialItems.IRIDIUM_BUCKET));
     DeferredHolder<Fluid, GasFluid> PLATINUM_GAS = GASID.register("platinum_gas", () -> new GasFluid(ECGasTypes.PLATINUM_GAS_TYPE, ECMaterialItems.PLATINUM_BUCKET));
     DeferredHolder<Fluid, GasFluid> GOLD_GAS = GASID.register("gold_gas", () -> new GasFluid(ECGasTypes.GOLD_GAS_TYPE, ECMaterialItems.GOLD_BUCKET));
-    DeferredHolder<Fluid, GasFluid> HYDRARGYRUM_GAS = GASID.register("hydrargyrum_gas", () -> new GasFluid(ECGasTypes.HYDRARGYRUM_GAS_TYPE, ECMaterialItems.HYDRARGYRUM_BUCKET));
+    DeferredHolder<Fluid, GasFluid> MERCURY_GAS = GASID.register("mercury_gas", () -> new GasFluid(ECGasTypes.MERCURY_GAS_TYPE, ECMaterialItems.MERCURY_BUCKET));
     DeferredHolder<Fluid, GasFluid> THALLIUM_GAS = GASID.register("thallium_gas", () -> new GasFluid(ECGasTypes.THALLIUM_GAS_TYPE, ECMaterialItems.THALLIUM_BUCKET));
     DeferredHolder<Fluid, GasFluid> LEAD_GAS = GASID.register("lead_gas", () -> new GasFluid(ECGasTypes.LEAD_GAS_TYPE, ECMaterialItems.LEAD_BUCKET));
     DeferredHolder<Fluid, GasFluid> BISMUTH_GAS = GASID.register("bismuth_gas", () -> new GasFluid(ECGasTypes.BISMUTH_GAS_TYPE, ECMaterialItems.BISMUTH_BUCKET));
@@ -218,7 +218,7 @@ public interface ECGases {
         registerGas(e, ECGasTypes.IRIDIUM_GAS_TYPE, ECColors.IRIDIUM_FOG);
         registerGas(e, ECGasTypes.PLATINUM_GAS_TYPE, ECColors.PLATINUM_FOG);
         registerGas(e, ECGasTypes.GOLD_GAS_TYPE, ECColors.GOLD_FOG);
-        registerGas(e, ECGasTypes.HYDRARGYRUM_GAS_TYPE, ECColors.HYDRARGYRUM_FOG);
+        registerGas(e, ECGasTypes.MERCURY_GAS_TYPE, ECColors.MERCURY_FOG);
         registerGas(e, ECGasTypes.THALLIUM_GAS_TYPE, ECColors.THALLIUM_FOG);
         registerGas(e, ECGasTypes.LEAD_GAS_TYPE, ECColors.LEAD_FOG);
         registerGas(e, ECGasTypes.BISMUTH_GAS_TYPE, ECColors.BISMUTH_FOG);

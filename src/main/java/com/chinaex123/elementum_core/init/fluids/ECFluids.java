@@ -261,8 +261,8 @@ public interface ECFluids {
     FluidHolder GOLD = registerFluid("gold", () -> ECMaterialItems.GOLD_BUCKET, () -> ECElementBlocks.FluidBlocks.GOLD,
             ECFluidTypes.GOLD_TYPE, 100.0F, 4, 1, 10);
 
-    FluidHolder HYDRARGYRUM = registerFluid("hydrargyrum", () -> ECMaterialItems.HYDRARGYRUM_BUCKET, () -> ECElementBlocks.FluidBlocks.HYDRARGYRUM,
-            ECFluidTypes.HYDRARGYRUM_TYPE, 100.0F, 4, 1, 10);
+    FluidHolder MERCURY = registerFluid("mercury", () -> ECMaterialItems.MERCURY_BUCKET, () -> ECElementBlocks.FluidBlocks.MERCURY,
+            ECFluidTypes.MERCURY_TYPE, 100.0F, 4, 1, 10);
 
     FluidHolder THALLIUM = registerFluid("thallium", () -> ECMaterialItems.THALLIUM_BUCKET, () -> ECElementBlocks.FluidBlocks.THALLIUM,
             ECFluidTypes.THALLIUM_TYPE, 100.0F, 4, 1, 10);
@@ -523,7 +523,7 @@ public interface ECFluids {
         registerFluidType(e, ECFluidTypes.IRIDIUM_TYPE, ECColors.IRIDIUM_FOG);
         registerFluidType(e, ECFluidTypes.PLATINUM_TYPE, ECColors.PLATINUM_FOG);
         registerFluidType(e, ECFluidTypes.GOLD_TYPE, ECColors.GOLD_FOG);
-        registerFluidType(e, ECFluidTypes.HYDRARGYRUM_TYPE, ECColors.HYDRARGYRUM_FOG);
+        registerFluidType(e, ECFluidTypes.MERCURY_TYPE, ECColors.MERCURY_FOG);
         registerFluidType(e, ECFluidTypes.THALLIUM_TYPE, ECColors.THALLIUM_FOG);
         registerFluidType(e, ECFluidTypes.LEAD_TYPE, ECColors.LEAD_FOG);
         registerFluidType(e, ECFluidTypes.BISMUTH_TYPE, ECColors.BISMUTH_FOG);

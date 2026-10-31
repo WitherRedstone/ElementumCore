@@ -76,7 +76,7 @@ public class ModZhCnLangProvider extends ModLangProvider {
             {"terbium", "铽"}, {"dysprosium", "镝"}, {"holmium", "钬"}, {"erbium", "铒"},
             {"thulium", "铥"}, {"ytterbium", "镱"}, {"lutetium", "镥"}, {"hafnium", "铪"},
             {"tantalum", "钽"}, {"tungsten", "钨"}, {"rhenium", "铼"}, {"osmium", "锇"},
-            {"iridium", "铱"}, {"platinum", "铂"}, {"gold", "金"}, {"hydrargyrum", "汞"},
+            {"iridium", "铱"}, {"platinum", "铂"}, {"gold", "金"}, {"mercury", "汞"},
             {"thallium", "铊"}, {"lead", "铅"}, {"bismuth", "铋"}, {"polonium", "钋"},
             {"astatine", "砹"}, {"radon", "氡"}, {"francium", "钫"}, {"radium", "镭"},
             {"actinium", "锕"}, {"thorium", "钍"}, {"protactinium", "镤"}, {"uranium", "铀"},

@@ -126,7 +126,7 @@ public class ECCreativeTabs {
                         ECMaterialItems.IRIDIUM.addToCreativeTab(output::accept); // 铱
                         ECMaterialItems.PLATINUM.addToCreativeTab(output::accept); // 铂
                         ECMaterialItems.GOLD.addToCreativeTab(output::accept); // 金
-                        ECMaterialItems.HYDRARGYRUM.addToCreativeTab(output::accept); // 汞
+                        ECMaterialItems.MERCURY.addToCreativeTab(output::accept); // 汞
                         ECMaterialItems.THALLIUM.addToCreativeTab(output::accept); // 铊
                         ECMaterialItems.LEAD.addToCreativeTab(output::accept); // 铅
                         ECMaterialItems.BISMUTH.addToCreativeTab(output::accept); // 铋
@@ -257,7 +257,7 @@ public class ECCreativeTabs {
                         ECElementBlocks.IRIDIUM.addToCreativeTab(output::accept); // 铱
                         ECElementBlocks.PLATINUM.addToCreativeTab(output::accept); // 铂
                         ECElementBlocks.GOLD.addToCreativeTab(output::accept); // 金
-                        ECElementBlocks.HYDRARGYRUM.addToCreativeTab(output::accept); // 汞
+                        ECElementBlocks.MERCURY.addToCreativeTab(output::accept); // 汞
                         ECElementBlocks.THALLIUM.addToCreativeTab(output::accept); // 铊
                         ECElementBlocks.LEAD.addToCreativeTab(output::accept); // 铅
                         ECElementBlocks.BISMUTH.addToCreativeTab(output::accept); // 铋
@@ -416,7 +416,7 @@ public class ECCreativeTabs {
                         output.accept(ECMaterialItems.IRIDIUM_BUCKET.get()); // 铱桶
                         output.accept(ECMaterialItems.PLATINUM_BUCKET.get()); // 铂桶
                         output.accept(ECMaterialItems.GOLD_BUCKET.get()); // 金桶
-                        output.accept(ECMaterialItems.HYDRARGYRUM_BUCKET.get()); // 汞桶
+                        output.accept(ECMaterialItems.MERCURY_BUCKET.get()); // 汞桶
                         output.accept(ECMaterialItems.THALLIUM_BUCKET.get()); // 铊桶
                         output.accept(ECMaterialItems.LEAD_BUCKET.get()); // 铅桶
                         output.accept(ECMaterialItems.BISMUTH_BUCKET.get()); // 铋桶
@@ -548,7 +548,7 @@ public class ECCreativeTabs {
                         output.accept(ECMaterialItems.IRIDIUM_GAS_BUCKET.get());
                         output.accept(ECMaterialItems.PLATINUM_GAS_BUCKET.get());
                         output.accept(ECMaterialItems.GOLD_GAS_BUCKET.get());
-                        output.accept(ECMaterialItems.HYDRARGYRUM_GAS_BUCKET.get());
+                        output.accept(ECMaterialItems.MERCURY_GAS_BUCKET.get());
                         output.accept(ECMaterialItems.THALLIUM_GAS_BUCKET.get());
                         output.accept(ECMaterialItems.LEAD_GAS_BUCKET.get());
                         output.accept(ECMaterialItems.BISMUTH_GAS_BUCKET.get());

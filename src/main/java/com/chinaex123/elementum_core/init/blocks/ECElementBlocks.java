@@ -186,7 +186,7 @@ public class ECElementBlocks {
     /** 金 */
     public static final OreBlocks GOLD = new OreBlocks("gold", 2.4F, 6.0F, Rarity.EPIC);
     /** 汞 */
-    public static final OreBlocks HYDRARGYRUM = new OreBlocks("hydrargyrum", 2.4F, 6.0F, Rarity.EPIC);
+    public static final OreBlocks MERCURY = new OreBlocks("mercury", 2.4F, 6.0F, Rarity.EPIC);
     /** 铊 */
     public static final OreBlocks THALLIUM = new OreBlocks("thallium", 2.4F, 6.0F, Rarity.EPIC);
     /** 铅 */
@@ -499,7 +499,7 @@ public class ECElementBlocks {
         /** 金流体 */
         public static final DeferredBlock<LiquidBlock> GOLD = register("gold", ECFluids.GOLD.source, 100.0F, 0.8F, 0.4F, 0.3F, MapColor.WATER);
         /** 汞流体 */
-        public static final DeferredBlock<LiquidBlock> HYDRARGYRUM = register("hydrargyrum", ECFluids.HYDRARGYRUM.source, 100.0F, 0.8F, 0.4F, 0.3F, MapColor.WATER);
+        public static final DeferredBlock<LiquidBlock> MERCURY = register("mercury", ECFluids.MERCURY.source, 100.0F, 0.8F, 0.4F, 0.3F, MapColor.WATER);
         /** 铊流体 */
         public static final DeferredBlock<LiquidBlock> THALLIUM = register("thallium", ECFluids.THALLIUM.source, 100.0F, 0.8F, 0.4F, 0.3F, MapColor.WATER);
         /** 铅流体 */

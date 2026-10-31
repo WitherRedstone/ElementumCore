@@ -77,7 +77,7 @@ public class ModEnUsLangProvider extends ModLangProvider {
             {"terbium", "Terbium"}, {"dysprosium", "Dysprosium"}, {"holmium", "Holmium"}, {"erbium", "Erbium"},
             {"thulium", "Thulium"}, {"ytterbium", "Ytterbium"}, {"lutetium", "Lutetium"}, {"hafnium", "Hafnium"},
             {"tantalum", "Tantalum"}, {"tungsten", "Tungsten"}, {"rhenium", "Rhenium"}, {"osmium", "Osmium"},
-            {"iridium", "Iridium"}, {"platinum", "Platinum"}, {"gold", "Gold"}, {"hydrargyrum", "Mercury"},
+            {"iridium", "Iridium"}, {"platinum", "Platinum"}, {"gold", "Gold"}, {"mercury", "Mercury"},
             {"thallium", "Thallium"}, {"lead", "Lead"}, {"bismuth", "Bismuth"}, {"polonium", "Polonium"},
             {"astatine", "Astatine"}, {"radon", "Radon"}, {"francium", "Francium"}, {"radium", "Radium"},
             {"actinium", "Actinium"}, {"thorium", "Thorium"}, {"protactinium", "Protactinium"}, {"uranium", "Uranium"},

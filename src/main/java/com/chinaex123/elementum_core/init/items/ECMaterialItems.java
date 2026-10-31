@@ -177,7 +177,7 @@ public class ECMaterialItems {
     /** 金 */
     public static final OreItems GOLD = new OreItems("gold", Rarity.EPIC);
     /** 汞 */
-    public static final OreItems HYDRARGYRUM = new OreItems("hydrargyrum", Rarity.EPIC);
+    public static final OreItems MERCURY = new OreItems("mercury", Rarity.EPIC);
     /** 铊 */
     public static final OreItems THALLIUM = new OreItems("thallium", Rarity.EPIC);
     /** 铅 */
@@ -419,7 +419,7 @@ public class ECMaterialItems {
     /** 金桶 */
     public static final DeferredItem<BucketItem> GOLD_BUCKET = ITEMS_REGISTER.register("gold_bucket", () -> new BucketItem(ECFluids.GOLD.source.get(), BUCKET));
     /** 汞桶 */
-    public static final DeferredItem<BucketItem> HYDRARGYRUM_BUCKET = ITEMS_REGISTER.register("hydrargyrum_bucket", () -> new BucketItem(ECFluids.HYDRARGYRUM.source.get(), BUCKET));
+    public static final DeferredItem<BucketItem> MERCURY_BUCKET = ITEMS_REGISTER.register("mercury_bucket", () -> new BucketItem(ECFluids.MERCURY.source.get(), BUCKET));
     /** 铊桶 */
     public static final DeferredItem<BucketItem> THALLIUM_BUCKET = ITEMS_REGISTER.register("thallium_bucket", () -> new BucketItem(ECFluids.THALLIUM.source.get(), BUCKET));
     /** 铅桶 */
@@ -661,7 +661,7 @@ public class ECMaterialItems {
     /** 金气桶 */
     public static final DeferredItem<GasBucketItem> GOLD_GAS_BUCKET = ITEMS_REGISTER.register("gold_gas_bucket", () -> new GasBucketItem(ECGases.GOLD_GAS.get(), BUCKET));
     /** 汞气桶 */
-    public static final DeferredItem<GasBucketItem> HYDRARGYRUM_GAS_BUCKET = ITEMS_REGISTER.register("hydrargyrum_gas_bucket", () -> new GasBucketItem(ECGases.HYDRARGYRUM_GAS.get(), BUCKET));
+    public static final DeferredItem<GasBucketItem> MERCURY_GAS_BUCKET = ITEMS_REGISTER.register("mercury_gas_bucket", () -> new GasBucketItem(ECGases.MERCURY_GAS.get(), BUCKET));
     /** 铊气桶 */
     public static final DeferredItem<GasBucketItem> THALLIUM_GAS_BUCKET = ITEMS_REGISTER.register("thallium_gas_bucket", () -> new GasBucketItem(ECGases.THALLIUM_GAS.get(), BUCKET));
     /** 铅气桶 */

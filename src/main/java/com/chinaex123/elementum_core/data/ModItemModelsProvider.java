@@ -117,7 +117,7 @@ public class ModItemModelsProvider extends ItemModelProvider {
         ModelProviderUtil.bucketFluids(ECMaterialItems.IRIDIUM_BUCKET, this);
         ModelProviderUtil.bucketFluids(ECMaterialItems.PLATINUM_BUCKET, this);
         ModelProviderUtil.bucketFluids(ECMaterialItems.GOLD_BUCKET, this);
-        ModelProviderUtil.bucketFluids(ECMaterialItems.HYDRARGYRUM_BUCKET, this);
+        ModelProviderUtil.bucketFluids(ECMaterialItems.MERCURY_BUCKET, this);
         ModelProviderUtil.bucketFluids(ECMaterialItems.THALLIUM_BUCKET, this);
         ModelProviderUtil.bucketFluids(ECMaterialItems.LEAD_BUCKET, this);
         ModelProviderUtil.bucketFluids(ECMaterialItems.BISMUTH_BUCKET, this);
@@ -239,7 +239,7 @@ public class ModItemModelsProvider extends ItemModelProvider {
         ModelProviderUtil.bucketGas(ECMaterialItems.IRIDIUM_GAS_BUCKET, this);
         ModelProviderUtil.bucketGas(ECMaterialItems.PLATINUM_GAS_BUCKET, this);
         ModelProviderUtil.bucketGas(ECMaterialItems.GOLD_GAS_BUCKET, this);
-        ModelProviderUtil.bucketGas(ECMaterialItems.HYDRARGYRUM_GAS_BUCKET, this);
+        ModelProviderUtil.bucketGas(ECMaterialItems.MERCURY_GAS_BUCKET, this);
         ModelProviderUtil.bucketGas(ECMaterialItems.THALLIUM_GAS_BUCKET, this);
         ModelProviderUtil.bucketGas(ECMaterialItems.LEAD_GAS_BUCKET, this);
         ModelProviderUtil.bucketGas(ECMaterialItems.BISMUTH_GAS_BUCKET, this);

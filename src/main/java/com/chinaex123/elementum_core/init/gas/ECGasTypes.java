@@ -168,7 +168,7 @@ public interface ECGasTypes {
     /** 金 */
     DeferredHolder<FluidType, FluidType> GOLD_GAS_TYPE = registerGas("gold_gas", 0, 0, -1000, 300, 100, 0.014, false, false, false, false, false, false, false);
     /** 汞（水银） */
-    DeferredHolder<FluidType, FluidType> HYDRARGYRUM_GAS_TYPE = registerGas("hydrargyrum_gas", 0, 0, -1000, 300, 1000, 0.01, false, false, true, true, true, true, true);
+    DeferredHolder<FluidType, FluidType> MERCURY_GAS_TYPE = registerGas("mercury_gas", 0, 0, -1000, 300, 1000, 0.01, false, false, true, true, true, true, true);
     /** 铊 */
     DeferredHolder<FluidType, FluidType> THALLIUM_GAS_TYPE = registerGas("thallium_gas", 0, 0, -1000, 300, 100, 0.014, false, false, false, false, false, false, false);
     /** 铅 */
