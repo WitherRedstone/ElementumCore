@@ -1,9 +1,9 @@
 package com.chinaex123.elementum_core.client;
 
 import com.chinaex123.elementum_core.ElementumCore;
-import com.chinaex123.elementum_core.init.fluids.ECFluids;
-import com.chinaex123.elementum_core.init.gas.ECGases;
-import com.chinaex123.elementum_core.init.items.ECMaterialItems;
+import com.chinaex123.elementum_core.init.ECFluids;
+import com.chinaex123.elementum_core.init.ECGases;
+import com.chinaex123.elementum_core.init.ECItemMaterials;
 import com.chinaex123.elementum_core.item.GasBucketItem;
 import net.minecraft.client.color.item.ItemColor;
 import net.minecraft.world.item.BucketItem;
@@ -29,7 +29,7 @@ public class ECClient {
         ItemColor gasColor = new DynamicFluidContainerModel.Colors();
         ItemColor fluidColor = new DynamicFluidContainerModel.Colors();
 
-        for (var entry : ECMaterialItems.ITEMS_REGISTER.getEntries()) {
+        for (var entry : ECItemMaterials.ITEMS.getEntries()) {
             Item item = entry.get();
             if (item instanceof GasBucketItem) {
                 event.register(gasColor, item);

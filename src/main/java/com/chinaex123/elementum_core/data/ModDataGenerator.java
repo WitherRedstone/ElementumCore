@@ -3,6 +3,8 @@ package com.chinaex123.elementum_core.data;
 import com.chinaex123.elementum_core.ElementumCore;
 import com.chinaex123.elementum_core.data.lang.ModEnUsLangProvider;
 import com.chinaex123.elementum_core.data.lang.ModZhCnLangProvider;
+import com.chinaex123.elementum_core.data.tags.ModBlockTagsProvider;
+import com.chinaex123.elementum_core.data.tags.ModItemTagsProvider;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;

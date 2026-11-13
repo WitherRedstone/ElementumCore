@@ -1,7 +1,6 @@
 package com.chinaex123.elementum_core.init;
 
 import com.chinaex123.elementum_core.ElementumCore;
-import com.chinaex123.elementum_core.init.items.ECMaterialItems;
 import com.chinaex123.elementum_core.item.GasBucketItem;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -16,7 +15,7 @@ public class ECCapabilities {
 
     @SubscribeEvent
     public static void registerCapabilities(RegisterCapabilitiesEvent event) {
-        for (DeferredHolder<Item, ? extends Item> entry : ECMaterialItems.ITEMS_REGISTER.getEntries()) {
+        for (DeferredHolder<Item, ? extends Item> entry : ECItemMaterials.ITEMS.getEntries()) {
             Item item = entry.get();
             if (item instanceof GasBucketItem) {
                 event.registerItem(

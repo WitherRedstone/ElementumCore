@@ -1,11 +1,11 @@
 package com.chinaex123.elementum_core;
 
 import com.chinaex123.elementum_core.init.*;
-import com.chinaex123.elementum_core.init.blocks.ECElementBlocks;
-import com.chinaex123.elementum_core.init.fluids.ECFluids;
-import com.chinaex123.elementum_core.init.gas.ECGases;
-import com.chinaex123.elementum_core.init.items.ECMaterialItems;
-import com.chinaex123.elementum_core.init.items.ECItems;
+import com.chinaex123.elementum_core.init.ECBlockElements;
+import com.chinaex123.elementum_core.init.ECFluids;
+import com.chinaex123.elementum_core.init.ECGases;
+import com.chinaex123.elementum_core.init.ECItemMaterials;
+import com.chinaex123.elementum_core.init.ECItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.resources.ResourceLocation;
 import net.neoforged.bus.api.IEventBus;
@@ -20,8 +20,8 @@ public class ElementumCore {
 
     public ElementumCore(IEventBus modEventBus, ModContainer modContainer) {
 
-        ECElementBlocks.register(modEventBus);
-        ECMaterialItems.register(modEventBus);
+        ECBlockElements.register(modEventBus);
+        ECItemMaterials.register(modEventBus);
         ECItems.register(modEventBus);
         ECFluids.register(modEventBus);
         ECGases.register(modEventBus);

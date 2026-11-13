@@ -1,6 +1,5 @@
-package com.chinaex123.elementum_core.init.blocks;
+package com.chinaex123.elementum_core.init;
 
-import com.chinaex123.elementum_core.init.fluids.ECFluids;
 import net.minecraft.world.level.block.LiquidBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -10,8 +9,7 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 
 import java.util.function.Supplier;
 
-public interface ECElementFluidBlocks {
-
+public interface ECFluidBlockElements {
     /** 氢流体 */
     DeferredBlock<LiquidBlock> LIQUID_HYDROGEN = register("liquid_hydrogen", ECFluids.LIQUID_HYDROGEN.source, 100.0F, 0.8F, 0.4F, 0.3F, MapColor.WATER);
     /** 氦流体 */
@@ -264,7 +262,7 @@ public interface ECElementFluidBlocks {
      * @return             返回延迟注册的 LiquidBlock 方块对象
      */
     private static DeferredBlock<LiquidBlock> register(String name, Supplier<BaseFlowingFluid.Source> fluid, float hardness, float friction, float speedFactor, float jumpFactor, MapColor mapColor) {
-        return ECElementBlocks.BLOCK_REGISTER.register(name, () -> new LiquidBlock(fluid.get(), BlockBehaviour.Properties.of()
+        return ECBlockElements.BLOCKS.register(name, () -> new LiquidBlock(fluid.get(), BlockBehaviour.Properties.of()
                 .noLootTable().liquid().replaceable().noCollission().strength(hardness).friction(friction)
                 .speedFactor(speedFactor).jumpFactor(jumpFactor).mapColor(mapColor).sound(SoundType.EMPTY)));
     }

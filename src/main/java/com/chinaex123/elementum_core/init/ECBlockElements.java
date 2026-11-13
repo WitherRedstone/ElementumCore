@@ -1,7 +1,6 @@
-package com.chinaex123.elementum_core.init.blocks;
+package com.chinaex123.elementum_core.init;
 
 import com.chinaex123.elementum_core.ElementumCore;
-import com.chinaex123.elementum_core.init.items.ECMaterialItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
@@ -18,8 +17,8 @@ import java.util.List;
 import java.util.function.Consumer;
 import java.util.function.Supplier;
 
-public class ECElementBlocks {
-    public static final DeferredRegister.Blocks BLOCK_REGISTER = DeferredRegister.createBlocks(ElementumCore.MODID);
+public class ECBlockElements {
+    public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(ElementumCore.MODID);
 
     // ==================== 120个元素，对应矿块/粗矿块/矿石/深层矿石/下界矿石/末地矿石 ====================
     /** 氢 */
@@ -346,8 +345,8 @@ public class ECElementBlocks {
         }
 
         private DeferredBlock<Block> registerAndAdd(String name, Supplier<Block> blockSupplier, Rarity rarity) {
-            DeferredBlock<Block> block = BLOCK_REGISTER.register(name, blockSupplier);
-            DeferredItem<Item> blockItem = ECMaterialItems.ITEMS_REGISTER.register(name,
+            DeferredBlock<Block> block = BLOCKS.register(name, blockSupplier);
+            DeferredItem<Item> blockItem = ECItemMaterials.ITEMS.register(name,
                     () -> new BlockItem(block.get(), new Item.Properties().rarity(rarity)));
             ALL_ITEMS.add(blockItem);
             ALL_BLOCKS.add(block);
@@ -397,18 +396,18 @@ public class ECElementBlocks {
     }
 
     public static <T extends Block> void registerBlockItems(String name, DeferredBlock<T> block, Rarity rarity) {
-        ECMaterialItems.ITEMS_REGISTER.register(name, () -> new BlockItem(block.get(), new Item.Properties().rarity(rarity)));
+        ECItemMaterials.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties().rarity(rarity)));
     }
 
     public static <T extends Block> DeferredBlock<T> registerBlocks(String name, Supplier<T> block, Rarity rarity) {
-        DeferredBlock<T> blocks = BLOCK_REGISTER.register(name, block);
-        DeferredItem<Item> blockItem = ECMaterialItems.ITEMS_REGISTER.register(name,
+        DeferredBlock<T> blocks = BLOCKS.register(name, block);
+        DeferredItem<Item> blockItem = ECItemMaterials.ITEMS.register(name,
                 () -> new BlockItem(blocks.get(), new Item.Properties().rarity(rarity)));
         OreBlocks.ALL_ITEMS.add(blockItem);
         return blocks;
     }
 
     public static void register(IEventBus eventBus) {
-        BLOCK_REGISTER.register(eventBus);
+        BLOCKS.register(eventBus);
     }
 }

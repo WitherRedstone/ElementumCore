@@ -1,8 +1,8 @@
 package com.chinaex123.elementum_core.data;
 
 import com.chinaex123.elementum_core.ElementumCore;
-import com.chinaex123.elementum_core.init.blocks.ECElementBlocks;
-import com.chinaex123.elementum_core.init.items.ECMaterialItems;
+import com.chinaex123.elementum_core.init.ECBlockElements;
+import com.chinaex123.elementum_core.init.ECItemMaterials;
 import com.chinaex123.elementum_core.init.tags.ECItemTags;
 import net.minecraft.advancements.Criterion;
 import net.minecraft.advancements.critereon.InventoryChangeTrigger;
@@ -28,9 +28,9 @@ public class ModRecipesProvider extends RecipeProvider implements IConditionBuil
 
     @Override
     protected void buildRecipes(@NotNull RecipeOutput recipeOutput) {
-        for (int i = 0; i < ECMaterialItems.OreItems.ALL_ORE_ITEMS.size(); i++) {
-            ECMaterialItems.OreItems oreItem = ECMaterialItems.OreItems.ALL_ORE_ITEMS.get(i);
-            ECElementBlocks.OreBlocks oreBlock = ECElementBlocks.OreBlocks.ALL_ORE_BLOCKS.get(i);
+        for (int i = 0; i < ECItemMaterials.OreItems.ALL_ORE_ITEMS.size(); i++) {
+            ECItemMaterials.OreItems oreItem = ECItemMaterials.OreItems.ALL_ORE_ITEMS.get(i);
+            ECBlockElements.OreBlocks oreBlock = ECBlockElements.OreBlocks.ALL_ORE_BLOCKS.get(i);
             String elementName = oreItem.INGOT.getId().getPath().replace("_ingot", "");
 
             customOreSmelting(recipeOutput, List.of(Ingredient.of(ECItemTags.rawTag(elementName))), RecipeCategory.MISC, oreItem.INGOT.get(), 0.7f, 200, elementName);
@@ -76,9 +76,9 @@ public class ModRecipesProvider extends RecipeProvider implements IConditionBuil
                     .save(recipeOutput, ResourceLocation.fromNamespaceAndPath(ElementumCore.MODID, elementName + "_raw_block_from_raw"));
         }
 
-        for (int i = 0; i < ECElementBlocks.OreBlocks.ALL_ORE_BLOCKS.size(); i++) {
-            ECElementBlocks.OreBlocks oreBlock = ECElementBlocks.OreBlocks.ALL_ORE_BLOCKS.get(i);
-            ECMaterialItems.OreItems oreItem = ECMaterialItems.OreItems.ALL_ORE_ITEMS.get(i);
+        for (int i = 0; i < ECBlockElements.OreBlocks.ALL_ORE_BLOCKS.size(); i++) {
+            ECBlockElements.OreBlocks oreBlock = ECBlockElements.OreBlocks.ALL_ORE_BLOCKS.get(i);
+            ECItemMaterials.OreItems oreItem = ECItemMaterials.OreItems.ALL_ORE_ITEMS.get(i);
             String elementName = oreItem.INGOT.getId().getPath().replace("_ingot", "");
 
             customOreSmelting(recipeOutput, List.of(Ingredient.of(ECItemTags.oreTag(elementName))), RecipeCategory.MISC, oreItem.INGOT.get(), 0.7f, 200, elementName + "_ore");
@@ -89,8 +89,8 @@ public class ModRecipesProvider extends RecipeProvider implements IConditionBuil
         }
     }
 
-    private ECMaterialItems.OreItems getOreItemsByName(String elementName) {
-        for (ECMaterialItems.OreItems oreItem : ECMaterialItems.OreItems.ALL_ORE_ITEMS) {
+    private ECItemMaterials.OreItems getOreItemsByName(String elementName) {
+        for (ECItemMaterials.OreItems oreItem : ECItemMaterials.OreItems.ALL_ORE_ITEMS) {
             if (oreItem.RAW.getId().getPath().equals("raw_" + elementName)) {
                 return oreItem;
             }

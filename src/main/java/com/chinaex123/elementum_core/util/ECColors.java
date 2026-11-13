@@ -1,8 +1,6 @@
 package com.chinaex123.elementum_core.util;
 
 public class ECColors {
-    private ECColors() {
-    }
 
     /**
      * 雾色 + 雾距离。

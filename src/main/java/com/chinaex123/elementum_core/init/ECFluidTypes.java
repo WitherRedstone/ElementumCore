@@ -1,4 +1,4 @@
-package com.chinaex123.elementum_core.init.fluids;
+package com.chinaex123.elementum_core.init;
 
 import com.chinaex123.elementum_core.ElementumCore;
 import net.minecraft.sounds.SoundEvents;

@@ -1,8 +1,8 @@
-package com.chinaex123.elementum_core.data;
+package com.chinaex123.elementum_core.data.tags;
 
 import com.chinaex123.elementum_core.ElementumCore;
-import com.chinaex123.elementum_core.init.blocks.ECElementBlocks;
-import com.chinaex123.elementum_core.init.items.ECMaterialItems;
+import com.chinaex123.elementum_core.init.ECBlockElements;
+import com.chinaex123.elementum_core.init.ECItemMaterials;
 import com.chinaex123.elementum_core.init.tags.ECItemTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
@@ -34,7 +34,7 @@ public class ModItemTagsProvider extends ItemTagsProvider {
         var oresTag = this.tag(Tags.Items.ORES);
         var storageBlocksTag = this.tag(Tags.Items.STORAGE_BLOCKS);
 
-        for (ECMaterialItems.OreItems oreItem : ECMaterialItems.OreItems.ALL_ORE_ITEMS) {
+        for (ECItemMaterials.OreItems oreItem : ECItemMaterials.OreItems.ALL_ORE_ITEMS) {
             String elementName = oreItem.INGOT.getId().getPath().replace("_ingot", "");
 
             ingotsTag.add(oreItem.INGOT.get());
@@ -65,7 +65,7 @@ public class ModItemTagsProvider extends ItemTagsProvider {
             this.tag(ECItemTags.crushedRawTag(elementName)).add(oreItem.CRUSHED_RAW.get());
         }
 
-        for (ECElementBlocks.OreBlocks oreBlock : ECElementBlocks.OreBlocks.ALL_ORE_BLOCKS) {
+        for (ECBlockElements.OreBlocks oreBlock : ECBlockElements.OreBlocks.ALL_ORE_BLOCKS) {
             String elementName = oreBlock.BLOCK.getId().getPath().replace("_block", "");
 
             storageBlocksTag.add(oreBlock.BLOCK.get().asItem());
@@ -97,7 +97,7 @@ public class ModItemTagsProvider extends ItemTagsProvider {
                     .add(oreBlock.RAW_BLOCK.get().asItem());
         }
 
-        for (ECElementBlocks.SpecialOreBlocks specialOre : ECElementBlocks.SpecialOreBlocks.ALL_SPECIAL_ORE_BLOCKS) {
+        for (ECBlockElements.SpecialOreBlocks specialOre : ECBlockElements.SpecialOreBlocks.ALL_SPECIAL_ORE_BLOCKS) {
             String oreName = specialOre.ORE.getId().getPath();
 
             oresTag.add(specialOre.ORE.get().asItem(), specialOre.DEEPSLATE_ORE.get().asItem(),

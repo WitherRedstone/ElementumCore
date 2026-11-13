@@ -1,7 +1,7 @@
-package com.chinaex123.elementum_core.data;
+package com.chinaex123.elementum_core.data.tags;
 
 import com.chinaex123.elementum_core.ElementumCore;
-import com.chinaex123.elementum_core.init.blocks.ECElementBlocks;
+import com.chinaex123.elementum_core.init.ECBlockElements;
 import com.chinaex123.elementum_core.init.tags.ECBlockTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
@@ -29,7 +29,7 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
         var diamondToolTag = this.tag(BlockTags.NEEDS_DIAMOND_TOOL);
         var oresTag = this.tag(Tags.Blocks.ORES);
 
-        for (ECElementBlocks.OreBlocks oreBlock : ECElementBlocks.OreBlocks.ALL_ORE_BLOCKS) {
+        for (ECBlockElements.OreBlocks oreBlock : ECBlockElements.OreBlocks.ALL_ORE_BLOCKS) {
             beaconBaseTag.add(oreBlock.BLOCK.get());
             storageBlockTag.add(oreBlock.BLOCK.get());
             storageBlockTag.add(oreBlock.RAW_BLOCK.get());
@@ -75,7 +75,7 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
             }
         }
 
-        for (ECElementBlocks.SpecialOreBlocks specialOre : ECElementBlocks.SpecialOreBlocks.ALL_SPECIAL_ORE_BLOCKS) {
+        for (ECBlockElements.SpecialOreBlocks specialOre : ECBlockElements.SpecialOreBlocks.ALL_SPECIAL_ORE_BLOCKS) {
             String oreName = specialOre.ORE.getId().getPath();
 
             pickaxeTag.add(specialOre.ORE.get(), specialOre.DEEPSLATE_ORE.get(),
