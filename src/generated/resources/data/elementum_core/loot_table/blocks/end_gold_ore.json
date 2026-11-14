@@ -49,7 +49,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "elementum_core:raw_gold"
+              "name": "minecraft:raw_gold"
             }
           ]
         }

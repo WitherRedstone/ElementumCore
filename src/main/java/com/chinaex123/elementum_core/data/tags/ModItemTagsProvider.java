@@ -1,9 +1,11 @@
 package com.chinaex123.elementum_core.data.tags;
 
 import com.chinaex123.elementum_core.ElementumCore;
-import com.chinaex123.elementum_core.init.ECBlockElements;
-import com.chinaex123.elementum_core.init.ECItemMaterials;
+import com.chinaex123.elementum_core.init.ECElementBlocks;
+import com.chinaex123.elementum_core.init.ECElementItems;
+import com.chinaex123.elementum_core.init.ECMaterialBlocks;
 import com.chinaex123.elementum_core.init.tags.ECItemTags;
+import com.chinaex123.elementum_core.util.ContentRefs;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
@@ -34,14 +36,18 @@ public class ModItemTagsProvider extends ItemTagsProvider {
         var oresTag = this.tag(Tags.Items.ORES);
         var storageBlocksTag = this.tag(Tags.Items.STORAGE_BLOCKS);
 
-        for (ECItemMaterials.OreItems oreItem : ECItemMaterials.OreItems.ALL_ORE_ITEMS) {
+        for (ECElementItems.OreItems oreItem : ECElementItems.OreItems.ALL_ORE_ITEMS) {
             String elementName = oreItem.INGOT.getId().getPath().replace("_ingot", "");
 
-            ingotsTag.add(oreItem.INGOT.get());
-            this.tag(ECItemTags.ingotTag(elementName)).add(oreItem.INGOT.get());
+            if (!ContentRefs.isVanilla(oreItem.INGOT)) {
+                ingotsTag.add(oreItem.INGOT.get());
+                this.tag(ECItemTags.ingotTag(elementName)).add(oreItem.INGOT.get());
+            }
 
-            nuggetsTag.add(oreItem.NUGGET.get());
-            this.tag(ECItemTags.nuggetTag(elementName)).add(oreItem.NUGGET.get());
+            if (!ContentRefs.isVanilla(oreItem.NUGGET)) {
+                nuggetsTag.add(oreItem.NUGGET.get());
+                this.tag(ECItemTags.nuggetTag(elementName)).add(oreItem.NUGGET.get());
+            }
 
             gearsTag.add(oreItem.GEAR.get());
             this.tag(ECItemTags.gearTag(elementName)).add(oreItem.GEAR.get());
@@ -58,46 +64,54 @@ public class ModItemTagsProvider extends ItemTagsProvider {
             wiresTag.add(oreItem.WIRE.get());
             this.tag(ECItemTags.wireTag(elementName)).add(oreItem.WIRE.get());
 
-            rawsTag.add(oreItem.RAW.get());
-            this.tag(ECItemTags.rawTag(elementName)).add(oreItem.RAW.get());
+            if (!ContentRefs.isVanilla(oreItem.RAW)) {
+                rawsTag.add(oreItem.RAW.get());
+                this.tag(ECItemTags.rawTag(elementName)).add(oreItem.RAW.get());
+            }
 
             crushedRawsTag.add(oreItem.CRUSHED_RAW.get());
             this.tag(ECItemTags.crushedRawTag(elementName)).add(oreItem.CRUSHED_RAW.get());
         }
 
-        for (ECBlockElements.OreBlocks oreBlock : ECBlockElements.OreBlocks.ALL_ORE_BLOCKS) {
+        for (ECElementBlocks.OreBlocks oreBlock : ECElementBlocks.OreBlocks.ALL_ORE_BLOCKS) {
             String elementName = oreBlock.BLOCK.getId().getPath().replace("_block", "");
 
-            storageBlocksTag.add(oreBlock.BLOCK.get().asItem());
-            storageBlocksTag.add(oreBlock.RAW_BLOCK.get().asItem());
+            if (!ContentRefs.isVanilla(oreBlock.BLOCK)) {
+                storageBlocksTag.add(oreBlock.BLOCK.get().asItem());
+                this.tag(ECItemTags.storageBlockTag(elementName)).add(oreBlock.BLOCK.get().asItem());
+            }
 
-            oresTag.add(oreBlock.ORE.get().asItem(), oreBlock.DEEPSLATE_ORE.get().asItem(),
-                    oreBlock.NETHER_ORE.get().asItem(), oreBlock.END_ORE.get().asItem());
+            if (!ContentRefs.isVanilla(oreBlock.RAW_BLOCK)) {
+                storageBlocksTag.add(oreBlock.RAW_BLOCK.get().asItem());
+                this.tag(ECItemTags.rawStorageBlockTag(elementName)).add(oreBlock.RAW_BLOCK.get().asItem());
+            }
 
-            this.tag(ECItemTags.oreTag(elementName))
-                    .add(oreBlock.ORE.get().asItem(), oreBlock.DEEPSLATE_ORE.get().asItem(),
-                            oreBlock.NETHER_ORE.get().asItem(), oreBlock.END_ORE.get().asItem());
+            if (!ContentRefs.isVanilla(oreBlock.ORE)) {
+                oresTag.add(oreBlock.ORE.get().asItem());
+                this.tag(ECItemTags.oreTag(elementName)).add(oreBlock.ORE.get().asItem());
+                this.tag(ECItemTags.stoneOreTag()).add(oreBlock.ORE.get().asItem());
+            }
 
-            this.tag(ECItemTags.storageBlockTag(elementName))
-                    .add(oreBlock.BLOCK.get().asItem());
+            if (!ContentRefs.isVanilla(oreBlock.DEEPSLATE_ORE)) {
+                oresTag.add(oreBlock.DEEPSLATE_ORE.get().asItem());
+                this.tag(ECItemTags.oreTag(elementName)).add(oreBlock.DEEPSLATE_ORE.get().asItem());
+                this.tag(ECItemTags.deepslateOreTag()).add(oreBlock.DEEPSLATE_ORE.get().asItem());
+            }
 
-            this.tag(ECItemTags.stoneOreTag())
-                    .add(oreBlock.ORE.get().asItem());
+            if (!ContentRefs.isVanilla(oreBlock.NETHER_ORE)) {
+                oresTag.add(oreBlock.NETHER_ORE.get().asItem());
+                this.tag(ECItemTags.oreTag(elementName)).add(oreBlock.NETHER_ORE.get().asItem());
+                this.tag(ECItemTags.netherOreTag()).add(oreBlock.NETHER_ORE.get().asItem());
+            }
 
-            this.tag(ECItemTags.deepslateOreTag())
-                    .add(oreBlock.DEEPSLATE_ORE.get().asItem());
-
-            this.tag(ECItemTags.netherOreTag())
-                    .add(oreBlock.NETHER_ORE.get().asItem());
-
-            this.tag(ECItemTags.endOreTag())
-                    .add(oreBlock.END_ORE.get().asItem());
-
-            this.tag(ECItemTags.rawStorageBlockTag(elementName))
-                    .add(oreBlock.RAW_BLOCK.get().asItem());
+            if (!ContentRefs.isVanilla(oreBlock.END_ORE)) {
+                oresTag.add(oreBlock.END_ORE.get().asItem());
+                this.tag(ECItemTags.oreTag(elementName)).add(oreBlock.END_ORE.get().asItem());
+                this.tag(ECItemTags.endOreTag()).add(oreBlock.END_ORE.get().asItem());
+            }
         }
 
-        for (ECBlockElements.SpecialOreBlocks specialOre : ECBlockElements.SpecialOreBlocks.ALL_SPECIAL_ORE_BLOCKS) {
+        for (ECMaterialBlocks.SpecialOreBlocks specialOre : ECMaterialBlocks.SpecialOreBlocks.ALL_SPECIAL_ORE_BLOCKS) {
             String oreName = specialOre.ORE.getId().getPath();
 
             oresTag.add(specialOre.ORE.get().asItem(), specialOre.DEEPSLATE_ORE.get().asItem(),

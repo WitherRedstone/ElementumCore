@@ -1,7 +1,9 @@
 package com.chinaex123.elementum_core.data;
 
-import com.chinaex123.elementum_core.init.ECBlockElements;
-import com.chinaex123.elementum_core.init.ECItemMaterials;
+import com.chinaex123.elementum_core.init.ECElementBlocks;
+import com.chinaex123.elementum_core.init.ECElementItems;
+import com.chinaex123.elementum_core.init.ECMaterialBlocks;
+import com.chinaex123.elementum_core.util.ContentRefs;
 import net.minecraft.core.Holder;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.Registries;
@@ -27,21 +29,33 @@ public class ModBlockLootTablesProvider extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
-        for (ECBlockElements.OreBlocks oreBlock : ECBlockElements.OreBlocks.ALL_ORE_BLOCKS) {
-            this.dropSelf(oreBlock.BLOCK.get());
-            this.dropSelf(oreBlock.RAW_BLOCK.get());
-
-            String elementName = oreBlock.BLOCK.getId().getPath().replace("_block", "");
-            ECItemMaterials.OreItems oreItems = getOreItemsByName(elementName);
-
-            if (oreItems != null) {
-                this.add(oreBlock.ORE.get(), block -> customDrops_Fortune(oreBlock.ORE.get(), oreItems.RAW.get(), 1.0F, 1.0F));
-                this.add(oreBlock.DEEPSLATE_ORE.get(), block -> customDrops_Fortune(oreBlock.DEEPSLATE_ORE.get(), oreItems.RAW.get(), 1.0F, 1.0F));
-                this.add(oreBlock.NETHER_ORE.get(), block -> customDrops_Fortune(oreBlock.NETHER_ORE.get(), oreItems.RAW.get(), 2.0F, 1.0F));
-                this.add(oreBlock.END_ORE.get(), block -> customDrops_Fortune(oreBlock.END_ORE.get(), oreItems.RAW.get(), 2.0F, 2.0F));
+        for (ECElementBlocks.OreBlocks oreBlock : ECElementBlocks.OreBlocks.ALL_ORE_BLOCKS) {
+            if (!ContentRefs.isVanilla(oreBlock.BLOCK)) {
+                this.dropSelf(oreBlock.BLOCK.get());
+            }
+            if (!ContentRefs.isVanilla(oreBlock.RAW_BLOCK)) {
+                this.dropSelf(oreBlock.RAW_BLOCK.get());
             }
 
-            for (ECBlockElements.SpecialOreBlocks specialOre : ECBlockElements.SpecialOreBlocks.ALL_SPECIAL_ORE_BLOCKS) {
+            String elementName = oreBlock.BLOCK.getId().getPath().replace("_block", "");
+            ECElementItems.OreItems oreItems = getOreItemsByName(elementName);
+
+            if (oreItems != null) {
+                if (!ContentRefs.isVanilla(oreBlock.ORE)) {
+                    this.add(oreBlock.ORE.get(), block -> customDrops_Fortune(oreBlock.ORE.get(), oreItems.RAW.get(), 1.0F, 1.0F));
+                }
+                if (!ContentRefs.isVanilla(oreBlock.DEEPSLATE_ORE)) {
+                    this.add(oreBlock.DEEPSLATE_ORE.get(), block -> customDrops_Fortune(oreBlock.DEEPSLATE_ORE.get(), oreItems.RAW.get(), 1.0F, 1.0F));
+                }
+                if (!ContentRefs.isVanilla(oreBlock.NETHER_ORE)) {
+                    this.add(oreBlock.NETHER_ORE.get(), block -> customDrops_Fortune(oreBlock.NETHER_ORE.get(), oreItems.RAW.get(), 2.0F, 1.0F));
+                }
+                if (!ContentRefs.isVanilla(oreBlock.END_ORE)) {
+                    this.add(oreBlock.END_ORE.get(), block -> customDrops_Fortune(oreBlock.END_ORE.get(), oreItems.RAW.get(), 2.0F, 2.0F));
+                }
+            }
+
+            for (ECMaterialBlocks.SpecialOreBlocks specialOre : ECMaterialBlocks.SpecialOreBlocks.ALL_SPECIAL_ORE_BLOCKS) {
                 this.dropSelf(specialOre.ORE.get());
                 this.dropSelf(specialOre.DEEPSLATE_ORE.get());
                 this.dropSelf(specialOre.NETHER_ORE.get());
@@ -50,8 +64,8 @@ public class ModBlockLootTablesProvider extends BlockLootSubProvider {
         }
     }
 
-    private ECItemMaterials.OreItems getOreItemsByName(String elementName) {
-        for (ECItemMaterials.OreItems oreItem : ECItemMaterials.OreItems.ALL_ORE_ITEMS) {
+    private ECElementItems.OreItems getOreItemsByName(String elementName) {
+        for (ECElementItems.OreItems oreItem : ECElementItems.OreItems.ALL_ORE_ITEMS) {
             if (oreItem.RAW.getId().getPath().equals("raw_" + elementName)) {
                 return oreItem;
             }
@@ -71,6 +85,6 @@ public class ModBlockLootTablesProvider extends BlockLootSubProvider {
 
     @Override
     protected @NotNull Iterable<Block> getKnownBlocks() {
-        return ECBlockElements.BLOCKS.getEntries().stream().map(Holder::value)::iterator;
+        return ECElementBlocks.BLOCKS.getEntries().stream().map(Holder::value)::iterator;
     }
 }

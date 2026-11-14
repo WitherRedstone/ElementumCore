@@ -1,0 +1,284 @@
+package com.chinaex123.elementum_core.init;
+
+import com.chinaex123.elementum_core.ElementumCore;
+import com.chinaex123.elementum_core.fluid.GasFluid;
+import com.chinaex123.elementum_core.util.ECColors;
+import com.chinaex123.elementum_core.util.SimpleFluidExtension;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.level.material.Fluid;
+import net.neoforged.bus.api.IEventBus;
+import net.neoforged.neoforge.client.extensions.common.RegisterClientExtensionsEvent;
+import net.neoforged.neoforge.fluids.FluidType;
+import net.neoforged.neoforge.registries.DeferredHolder;
+import net.neoforged.neoforge.registries.DeferredRegister;
+
+/** 120个元素气体 */
+public interface ECElementGases {
+    DeferredRegister<Fluid> GASID = DeferredRegister.create(BuiltInRegistries.FLUID, ElementumCore.MODID);
+
+    DeferredHolder<Fluid, GasFluid> HYDROGEN_GAS = GASID.register("hydrogen_gas", () -> new GasFluid(ECElementGasTypes.HYDROGEN_GAS_TYPE, ECElementItems.HYDROGEN_GAS_BUCKET));
+    DeferredHolder<Fluid, GasFluid> HELIUM_GAS = GASID.register("helium_gas", () -> new GasFluid(ECElementGasTypes.HELIUM_GAS_TYPE, ECElementItems.HELIUM_GAS_BUCKET));
+    DeferredHolder<Fluid, GasFluid> LITHIUM_VAPOR = GASID.register("lithium_vapor", () -> new GasFluid(ECElementGasTypes.LITHIUM_VAPOR_TYPE, ECElementItems.LITHIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> BERYLLIUM_VAPOR = GASID.register("beryllium_vapor", () -> new GasFluid(ECElementGasTypes.BERYLLIUM_VAPOR_TYPE, ECElementItems.BERYLLIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> BORON_VAPOR = GASID.register("boron_vapor", () -> new GasFluid(ECElementGasTypes.BORON_VAPOR_TYPE, ECElementItems.BORON_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> CARBON_VAPOR = GASID.register("carbon_vapor", () -> new GasFluid(ECElementGasTypes.CARBON_VAPOR_TYPE, ECElementItems.CARBON_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> NITROGEN_GAS = GASID.register("nitrogen_gas", () -> new GasFluid(ECElementGasTypes.NITROGEN_GAS_TYPE, ECElementItems.NITROGEN_GAS_BUCKET));
+    DeferredHolder<Fluid, GasFluid> OXYGEN_GAS = GASID.register("oxygen_gas", () -> new GasFluid(ECElementGasTypes.OXYGEN_GAS_TYPE, ECElementItems.OXYGEN_GAS_BUCKET));
+    DeferredHolder<Fluid, GasFluid> FLUORINE_GAS = GASID.register("fluorine_gas", () -> new GasFluid(ECElementGasTypes.FLUORINE_GAS_TYPE, ECElementItems.FLUORINE_GAS_BUCKET));
+    DeferredHolder<Fluid, GasFluid> NEON_GAS = GASID.register("neon_gas", () -> new GasFluid(ECElementGasTypes.NEON_GAS_TYPE, ECElementItems.NEON_GAS_BUCKET));
+    DeferredHolder<Fluid, GasFluid> SODIUM_VAPOR = GASID.register("sodium_vapor", () -> new GasFluid(ECElementGasTypes.SODIUM_VAPOR_TYPE, ECElementItems.SODIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> MAGNESIUM_VAPOR = GASID.register("magnesium_vapor", () -> new GasFluid(ECElementGasTypes.MAGNESIUM_VAPOR_TYPE, ECElementItems.MAGNESIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> ALUMINUM_VAPOR = GASID.register("aluminum_vapor", () -> new GasFluid(ECElementGasTypes.ALUMINUM_VAPOR_TYPE, ECElementItems.ALUMINUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> SILICON_VAPOR = GASID.register("silicon_vapor", () -> new GasFluid(ECElementGasTypes.SILICON_VAPOR_TYPE, ECElementItems.SILICON_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> PHOSPHORUS_VAPOR = GASID.register("phosphorus_vapor", () -> new GasFluid(ECElementGasTypes.PHOSPHORUS_VAPOR_TYPE, ECElementItems.PHOSPHORUS_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> SULFUR_VAPOR = GASID.register("sulfur_vapor", () -> new GasFluid(ECElementGasTypes.SULFUR_VAPOR_TYPE, ECElementItems.SULFUR_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> CHLORINE_GAS = GASID.register("chlorine_gas", () -> new GasFluid(ECElementGasTypes.CHLORINE_GAS_TYPE, ECElementItems.CHLORINE_GAS_BUCKET));
+    DeferredHolder<Fluid, GasFluid> ARGON_GAS = GASID.register("argon_gas", () -> new GasFluid(ECElementGasTypes.ARGON_GAS_TYPE, ECElementItems.ARGON_GAS_BUCKET));
+    DeferredHolder<Fluid, GasFluid> POTASSIUM_VAPOR = GASID.register("potassium_vapor", () -> new GasFluid(ECElementGasTypes.POTASSIUM_VAPOR_TYPE, ECElementItems.POTASSIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> CALCIUM_VAPOR = GASID.register("calcium_vapor", () -> new GasFluid(ECElementGasTypes.CALCIUM_VAPOR_TYPE, ECElementItems.CALCIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> SCANDIUM_VAPOR = GASID.register("scandium_vapor", () -> new GasFluid(ECElementGasTypes.SCANDIUM_VAPOR_TYPE, ECElementItems.SCANDIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> TITANIUM_VAPOR = GASID.register("titanium_vapor", () -> new GasFluid(ECElementGasTypes.TITANIUM_VAPOR_TYPE, ECElementItems.TITANIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> VANADIUM_VAPOR = GASID.register("vanadium_vapor", () -> new GasFluid(ECElementGasTypes.VANADIUM_VAPOR_TYPE, ECElementItems.VANADIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> CHROMIUM_VAPOR = GASID.register("chromium_vapor", () -> new GasFluid(ECElementGasTypes.CHROMIUM_VAPOR_TYPE, ECElementItems.CHROMIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> MANGANESE_VAPOR = GASID.register("manganese_vapor", () -> new GasFluid(ECElementGasTypes.MANGANESE_VAPOR_TYPE, ECElementItems.MANGANESE_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> IRON_VAPOR = GASID.register("iron_vapor", () -> new GasFluid(ECElementGasTypes.IRON_VAPOR_TYPE, ECElementItems.IRON_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> COBALT_VAPOR = GASID.register("cobalt_vapor", () -> new GasFluid(ECElementGasTypes.COBALT_VAPOR_TYPE, ECElementItems.COBALT_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> NICKEL_VAPOR = GASID.register("nickel_vapor", () -> new GasFluid(ECElementGasTypes.NICKEL_VAPOR_TYPE, ECElementItems.NICKEL_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> COPPER_VAPOR = GASID.register("copper_vapor", () -> new GasFluid(ECElementGasTypes.COPPER_VAPOR_TYPE, ECElementItems.COPPER_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> ZINC_VAPOR = GASID.register("zinc_vapor", () -> new GasFluid(ECElementGasTypes.ZINC_VAPOR_TYPE, ECElementItems.ZINC_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> GALLIUM_VAPOR = GASID.register("gallium_vapor", () -> new GasFluid(ECElementGasTypes.GALLIUM_VAPOR_TYPE, ECElementItems.GALLIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> GERMANIUM_VAPOR = GASID.register("germanium_vapor", () -> new GasFluid(ECElementGasTypes.GERMANIUM_VAPOR_TYPE, ECElementItems.GERMANIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> ARSENIC_VAPOR = GASID.register("arsenic_vapor", () -> new GasFluid(ECElementGasTypes.ARSENIC_VAPOR_TYPE, ECElementItems.ARSENIC_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> SELENIUM_VAPOR = GASID.register("selenium_vapor", () -> new GasFluid(ECElementGasTypes.SELENIUM_VAPOR_TYPE, ECElementItems.SELENIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> BROMINE_VAPOR = GASID.register("bromine_vapor", () -> new GasFluid(ECElementGasTypes.BROMINE_VAPOR_TYPE, ECElementItems.BROMINE_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> KRYPTON_GAS = GASID.register("krypton_gas", () -> new GasFluid(ECElementGasTypes.KRYPTON_GAS_TYPE, ECElementItems.KRYPTON_GAS_BUCKET));
+    DeferredHolder<Fluid, GasFluid> RUBIDIUM_VAPOR = GASID.register("rubidium_vapor", () -> new GasFluid(ECElementGasTypes.RUBIDIUM_VAPOR_TYPE, ECElementItems.RUBIDIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> STRONTIUM_VAPOR = GASID.register("strontium_vapor", () -> new GasFluid(ECElementGasTypes.STRONTIUM_VAPOR_TYPE, ECElementItems.STRONTIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> YTTRIUM_VAPOR = GASID.register("yttrium_vapor", () -> new GasFluid(ECElementGasTypes.YTTRIUM_VAPOR_TYPE, ECElementItems.YTTRIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> ZIRCONIUM_VAPOR = GASID.register("zirconium_vapor", () -> new GasFluid(ECElementGasTypes.ZIRCONIUM_VAPOR_TYPE, ECElementItems.ZIRCONIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> NIOBIUM_VAPOR = GASID.register("niobium_vapor", () -> new GasFluid(ECElementGasTypes.NIOBIUM_VAPOR_TYPE, ECElementItems.NIOBIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> MOLYBDENUM_VAPOR = GASID.register("molybdenum_vapor", () -> new GasFluid(ECElementGasTypes.MOLYBDENUM_VAPOR_TYPE, ECElementItems.MOLYBDENUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> TECHNETIUM_VAPOR = GASID.register("technetium_vapor", () -> new GasFluid(ECElementGasTypes.TECHNETIUM_VAPOR_TYPE, ECElementItems.TECHNETIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> RUTHENIUM_VAPOR = GASID.register("ruthenium_vapor", () -> new GasFluid(ECElementGasTypes.RUTHENIUM_VAPOR_TYPE, ECElementItems.RUTHENIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> RHODIUM_VAPOR = GASID.register("rhodium_vapor", () -> new GasFluid(ECElementGasTypes.RHODIUM_VAPOR_TYPE, ECElementItems.RHODIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> PALLADIUM_VAPOR = GASID.register("palladium_vapor", () -> new GasFluid(ECElementGasTypes.PALLADIUM_VAPOR_TYPE, ECElementItems.PALLADIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> SILVER_VAPOR = GASID.register("silver_vapor", () -> new GasFluid(ECElementGasTypes.SILVER_VAPOR_TYPE, ECElementItems.SILVER_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> CADMIUM_VAPOR = GASID.register("cadmium_vapor", () -> new GasFluid(ECElementGasTypes.CADMIUM_VAPOR_TYPE, ECElementItems.CADMIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> INDIUM_VAPOR = GASID.register("indium_vapor", () -> new GasFluid(ECElementGasTypes.INDIUM_VAPOR_TYPE, ECElementItems.INDIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> TIN_VAPOR = GASID.register("tin_vapor", () -> new GasFluid(ECElementGasTypes.TIN_VAPOR_TYPE, ECElementItems.TIN_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> ANTIMONY_VAPOR = GASID.register("antimony_vapor", () -> new GasFluid(ECElementGasTypes.ANTIMONY_VAPOR_TYPE, ECElementItems.ANTIMONY_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> TELLURIUM_VAPOR = GASID.register("tellurium_vapor", () -> new GasFluid(ECElementGasTypes.TELLURIUM_VAPOR_TYPE, ECElementItems.TELLURIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> IODINE_VAPOR = GASID.register("iodine_vapor", () -> new GasFluid(ECElementGasTypes.IODINE_VAPOR_TYPE, ECElementItems.IODINE_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> XENON_GAS = GASID.register("xenon_gas", () -> new GasFluid(ECElementGasTypes.XENON_GAS_TYPE, ECElementItems.XENON_GAS_BUCKET));
+    DeferredHolder<Fluid, GasFluid> CESIUM_VAPOR = GASID.register("cesium_vapor", () -> new GasFluid(ECElementGasTypes.CESIUM_VAPOR_TYPE, ECElementItems.CESIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> BARIUM_VAPOR = GASID.register("barium_vapor", () -> new GasFluid(ECElementGasTypes.BARIUM_VAPOR_TYPE, ECElementItems.BARIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> LANTHANUM_VAPOR = GASID.register("lanthanum_vapor", () -> new GasFluid(ECElementGasTypes.LANTHANUM_VAPOR_TYPE, ECElementItems.LANTHANUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> CERIUM_VAPOR = GASID.register("cerium_vapor", () -> new GasFluid(ECElementGasTypes.CERIUM_VAPOR_TYPE, ECElementItems.CERIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> PRASEODYMIUM_VAPOR = GASID.register("praseodymium_vapor", () -> new GasFluid(ECElementGasTypes.PRASEODYMIUM_VAPOR_TYPE, ECElementItems.PRASEODYMIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> NEODYMIUM_VAPOR = GASID.register("neodymium_vapor", () -> new GasFluid(ECElementGasTypes.NEODYMIUM_VAPOR_TYPE, ECElementItems.NEODYMIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> PROMETHIUM_VAPOR = GASID.register("promethium_vapor", () -> new GasFluid(ECElementGasTypes.PROMETHIUM_VAPOR_TYPE, ECElementItems.PROMETHIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> SAMARIUM_VAPOR = GASID.register("samarium_vapor", () -> new GasFluid(ECElementGasTypes.SAMARIUM_VAPOR_TYPE, ECElementItems.SAMARIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> EUROPIUM_VAPOR = GASID.register("europium_vapor", () -> new GasFluid(ECElementGasTypes.EUROPIUM_VAPOR_TYPE, ECElementItems.EUROPIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> GADOLINIUM_VAPOR = GASID.register("gadolinium_vapor", () -> new GasFluid(ECElementGasTypes.GADOLINIUM_VAPOR_TYPE, ECElementItems.GADOLINIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> TERBIUM_VAPOR = GASID.register("terbium_vapor", () -> new GasFluid(ECElementGasTypes.TERBIUM_VAPOR_TYPE, ECElementItems.TERBIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> DYSPROSIUM_VAPOR = GASID.register("dysprosium_vapor", () -> new GasFluid(ECElementGasTypes.DYSPROSIUM_VAPOR_TYPE, ECElementItems.DYSPROSIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> HOLMIUM_VAPOR = GASID.register("holmium_vapor", () -> new GasFluid(ECElementGasTypes.HOLMIUM_VAPOR_TYPE, ECElementItems.HOLMIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> ERBIUM_VAPOR = GASID.register("erbium_vapor", () -> new GasFluid(ECElementGasTypes.ERBIUM_VAPOR_TYPE, ECElementItems.ERBIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> THULIUM_VAPOR = GASID.register("thulium_vapor", () -> new GasFluid(ECElementGasTypes.THULIUM_VAPOR_TYPE, ECElementItems.THULIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> YTTERBIUM_VAPOR = GASID.register("ytterbium_vapor", () -> new GasFluid(ECElementGasTypes.YTTERBIUM_VAPOR_TYPE, ECElementItems.YTTERBIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> LUTETIUM_VAPOR = GASID.register("lutetium_vapor", () -> new GasFluid(ECElementGasTypes.LUTETIUM_VAPOR_TYPE, ECElementItems.LUTETIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> HAFNIUM_VAPOR = GASID.register("hafnium_vapor", () -> new GasFluid(ECElementGasTypes.HAFNIUM_VAPOR_TYPE, ECElementItems.HAFNIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> TANTALUM_VAPOR = GASID.register("tantalum_vapor", () -> new GasFluid(ECElementGasTypes.TANTALUM_VAPOR_TYPE, ECElementItems.TANTALUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> TUNGSTEN_VAPOR = GASID.register("tungsten_vapor", () -> new GasFluid(ECElementGasTypes.TUNGSTEN_VAPOR_TYPE, ECElementItems.TUNGSTEN_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> RHENIUM_VAPOR = GASID.register("rhenium_vapor", () -> new GasFluid(ECElementGasTypes.RHENIUM_VAPOR_TYPE, ECElementItems.RHENIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> OSMIUM_VAPOR = GASID.register("osmium_vapor", () -> new GasFluid(ECElementGasTypes.OSMIUM_VAPOR_TYPE, ECElementItems.OSMIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> IRIDIUM_VAPOR = GASID.register("iridium_vapor", () -> new GasFluid(ECElementGasTypes.IRIDIUM_VAPOR_TYPE, ECElementItems.IRIDIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> PLATINUM_VAPOR = GASID.register("platinum_vapor", () -> new GasFluid(ECElementGasTypes.PLATINUM_VAPOR_TYPE, ECElementItems.PLATINUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> GOLD_VAPOR = GASID.register("gold_vapor", () -> new GasFluid(ECElementGasTypes.GOLD_VAPOR_TYPE, ECElementItems.GOLD_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> MERCURY_VAPOR = GASID.register("mercury_vapor", () -> new GasFluid(ECElementGasTypes.MERCURY_VAPOR_TYPE, ECElementItems.MERCURY_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> THALLIUM_VAPOR = GASID.register("thallium_vapor", () -> new GasFluid(ECElementGasTypes.THALLIUM_VAPOR_TYPE, ECElementItems.THALLIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> LEAD_VAPOR = GASID.register("lead_vapor", () -> new GasFluid(ECElementGasTypes.LEAD_VAPOR_TYPE, ECElementItems.LEAD_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> BISMUTH_VAPOR = GASID.register("bismuth_vapor", () -> new GasFluid(ECElementGasTypes.BISMUTH_VAPOR_TYPE, ECElementItems.BISMUTH_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> POLONIUM_VAPOR = GASID.register("polonium_vapor", () -> new GasFluid(ECElementGasTypes.POLONIUM_VAPOR_TYPE, ECElementItems.POLONIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> ASTATINE_VAPOR = GASID.register("astatine_vapor", () -> new GasFluid(ECElementGasTypes.ASTATINE_VAPOR_TYPE, ECElementItems.ASTATINE_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> RADON_GAS = GASID.register("radon_gas", () -> new GasFluid(ECElementGasTypes.RADON_GAS_TYPE, ECElementItems.RADON_GAS_BUCKET));
+    DeferredHolder<Fluid, GasFluid> FRANCIUM_VAPOR = GASID.register("francium_vapor", () -> new GasFluid(ECElementGasTypes.FRANCIUM_VAPOR_TYPE, ECElementItems.FRANCIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> RADIUM_VAPOR = GASID.register("radium_vapor", () -> new GasFluid(ECElementGasTypes.RADIUM_VAPOR_TYPE, ECElementItems.RADIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> ACTINIUM_VAPOR = GASID.register("actinium_vapor", () -> new GasFluid(ECElementGasTypes.ACTINIUM_VAPOR_TYPE, ECElementItems.ACTINIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> THORIUM_VAPOR = GASID.register("thorium_vapor", () -> new GasFluid(ECElementGasTypes.THORIUM_VAPOR_TYPE, ECElementItems.THORIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> PROTACTINIUM_VAPOR = GASID.register("protactinium_vapor", () -> new GasFluid(ECElementGasTypes.PROTACTINIUM_VAPOR_TYPE, ECElementItems.PROTACTINIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> URANIUM_VAPOR = GASID.register("uranium_vapor", () -> new GasFluid(ECElementGasTypes.URANIUM_VAPOR_TYPE, ECElementItems.URANIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> NEPTUNIUM_VAPOR = GASID.register("neptunium_vapor", () -> new GasFluid(ECElementGasTypes.NEPTUNIUM_VAPOR_TYPE, ECElementItems.NEPTUNIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> PLUTONIUM_VAPOR = GASID.register("plutonium_vapor", () -> new GasFluid(ECElementGasTypes.PLUTONIUM_VAPOR_TYPE, ECElementItems.PLUTONIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> AMERICIUM_VAPOR = GASID.register("americium_vapor", () -> new GasFluid(ECElementGasTypes.AMERICIUM_VAPOR_TYPE, ECElementItems.AMERICIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> CURIUM_VAPOR = GASID.register("curium_vapor", () -> new GasFluid(ECElementGasTypes.CURIUM_VAPOR_TYPE, ECElementItems.CURIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> BERKELIUM_VAPOR = GASID.register("berkelium_vapor", () -> new GasFluid(ECElementGasTypes.BERKELIUM_VAPOR_TYPE, ECElementItems.BERKELIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> CALIFORNIUM_VAPOR = GASID.register("californium_vapor", () -> new GasFluid(ECElementGasTypes.CALIFORNIUM_VAPOR_TYPE, ECElementItems.CALIFORNIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> EINSTEINIUM_VAPOR = GASID.register("einsteinium_vapor", () -> new GasFluid(ECElementGasTypes.EINSTEINIUM_VAPOR_TYPE, ECElementItems.EINSTEINIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> FERMIUM_VAPOR = GASID.register("fermium_vapor", () -> new GasFluid(ECElementGasTypes.FERMIUM_VAPOR_TYPE, ECElementItems.FERMIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> MENDELEVIUM_VAPOR = GASID.register("mendelevium_vapor", () -> new GasFluid(ECElementGasTypes.MENDELEVIUM_VAPOR_TYPE, ECElementItems.MENDELEVIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> NOBELIUM_VAPOR = GASID.register("nobelium_vapor", () -> new GasFluid(ECElementGasTypes.NOBELIUM_VAPOR_TYPE, ECElementItems.NOBELIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> LAWRENCIUM_VAPOR = GASID.register("lawrencium_vapor", () -> new GasFluid(ECElementGasTypes.LAWRENCIUM_VAPOR_TYPE, ECElementItems.LAWRENCIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> RUTHERFORDIUM_VAPOR = GASID.register("rutherfordium_vapor", () -> new GasFluid(ECElementGasTypes.RUTHERFORDIUM_VAPOR_TYPE, ECElementItems.RUTHERFORDIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> DUBNIUM_VAPOR = GASID.register("dubnium_vapor", () -> new GasFluid(ECElementGasTypes.DUBNIUM_VAPOR_TYPE, ECElementItems.DUBNIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> SEABORGIUM_VAPOR = GASID.register("seaborgium_vapor", () -> new GasFluid(ECElementGasTypes.SEABORGIUM_VAPOR_TYPE, ECElementItems.SEABORGIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> BOHRIUM_VAPOR = GASID.register("bohrium_vapor", () -> new GasFluid(ECElementGasTypes.BOHRIUM_VAPOR_TYPE, ECElementItems.BOHRIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> HASSIUM_VAPOR = GASID.register("hassium_vapor", () -> new GasFluid(ECElementGasTypes.HASSIUM_VAPOR_TYPE, ECElementItems.HASSIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> MEITNERIUM_VAPOR = GASID.register("meitnerium_vapor", () -> new GasFluid(ECElementGasTypes.MEITNERIUM_VAPOR_TYPE, ECElementItems.MEITNERIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> DARMSTADTIUM_VAPOR = GASID.register("darmstadtium_vapor", () -> new GasFluid(ECElementGasTypes.DARMSTADTIUM_VAPOR_TYPE, ECElementItems.DARMSTADTIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> ROENTGENIUM_VAPOR = GASID.register("roentgenium_vapor", () -> new GasFluid(ECElementGasTypes.ROENTGENIUM_VAPOR_TYPE, ECElementItems.ROENTGENIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> COPERNICIUM_VAPOR = GASID.register("copernicium_vapor", () -> new GasFluid(ECElementGasTypes.COPERNICIUM_VAPOR_TYPE, ECElementItems.COPERNICIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> NIHONIUM_VAPOR = GASID.register("nihonium_vapor", () -> new GasFluid(ECElementGasTypes.NIHONIUM_VAPOR_TYPE, ECElementItems.NIHONIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> FLEROVIUM_VAPOR = GASID.register("flerovium_vapor", () -> new GasFluid(ECElementGasTypes.FLEROVIUM_VAPOR_TYPE, ECElementItems.FLEROVIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> MOSCOVIUM_VAPOR = GASID.register("moscovium_vapor", () -> new GasFluid(ECElementGasTypes.MOSCOVIUM_VAPOR_TYPE, ECElementItems.MOSCOVIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> LIVERMORIUM_VAPOR = GASID.register("livermorium_vapor", () -> new GasFluid(ECElementGasTypes.LIVERMORIUM_VAPOR_TYPE, ECElementItems.LIVERMORIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> TENNESSINE_VAPOR = GASID.register("tennessine_vapor", () -> new GasFluid(ECElementGasTypes.TENNESSINE_VAPOR_TYPE, ECElementItems.TENNESSINE_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> OGANESSON_GAS = GASID.register("oganesson_gas", () -> new GasFluid(ECElementGasTypes.OGANESSON_GAS_TYPE, ECElementItems.OGANESSON_GAS_BUCKET));
+    DeferredHolder<Fluid, GasFluid> LONGIUM_VAPOR = GASID.register("longium_vapor", () -> new GasFluid(ECElementGasTypes.LONGIUM_VAPOR_TYPE, ECElementItems.LONGIUM_VAPOR_BUCKET));
+    DeferredHolder<Fluid, GasFluid> MYSTERIUM_VAPOR = GASID.register("mysterium_vapor", () -> new GasFluid(ECElementGasTypes.MYSTERIUM_VAPOR_TYPE, ECElementItems.MYSTERIUM_VAPOR_BUCKET));
+
+    static void onRegisterGasType(RegisterClientExtensionsEvent e) {
+        registerGas(e, ECElementGasTypes.HYDROGEN_GAS_TYPE, ECColors.HYDROGEN_FOG);
+        registerGas(e, ECElementGasTypes.HELIUM_GAS_TYPE, ECColors.HELIUM_FOG);
+        registerGas(e, ECElementGasTypes.LITHIUM_VAPOR_TYPE, ECColors.LITHIUM_FOG);
+        registerGas(e, ECElementGasTypes.BERYLLIUM_VAPOR_TYPE, ECColors.BERYLLIUM_FOG);
+        registerGas(e, ECElementGasTypes.BORON_VAPOR_TYPE, ECColors.BORON_FOG);
+        registerGas(e, ECElementGasTypes.CARBON_VAPOR_TYPE, ECColors.CARBON_FOG);
+        registerGas(e, ECElementGasTypes.NITROGEN_GAS_TYPE, ECColors.NITROGEN_FOG);
+        registerGas(e, ECElementGasTypes.OXYGEN_GAS_TYPE, ECColors.OXYGEN_FOG);
+        registerGas(e, ECElementGasTypes.FLUORINE_GAS_TYPE, ECColors.FLUORINE_FOG);
+        registerGas(e, ECElementGasTypes.NEON_GAS_TYPE, ECColors.NEON_FOG);
+        registerGas(e, ECElementGasTypes.SODIUM_VAPOR_TYPE, ECColors.SODIUM_FOG);
+        registerGas(e, ECElementGasTypes.MAGNESIUM_VAPOR_TYPE, ECColors.MAGNESIUM_FOG);
+        registerGas(e, ECElementGasTypes.ALUMINUM_VAPOR_TYPE, ECColors.ALUMINUM_FOG);
+        registerGas(e, ECElementGasTypes.SILICON_VAPOR_TYPE, ECColors.SILICON_FOG);
+        registerGas(e, ECElementGasTypes.PHOSPHORUS_VAPOR_TYPE, ECColors.PHOSPHORUS_FOG);
+        registerGas(e, ECElementGasTypes.SULFUR_VAPOR_TYPE, ECColors.SULFUR_FOG);
+        registerGas(e, ECElementGasTypes.CHLORINE_GAS_TYPE, ECColors.CHLORINE_FOG);
+        registerGas(e, ECElementGasTypes.ARGON_GAS_TYPE, ECColors.ARGON_FOG);
+        registerGas(e, ECElementGasTypes.POTASSIUM_VAPOR_TYPE, ECColors.POTASSIUM_FOG);
+        registerGas(e, ECElementGasTypes.CALCIUM_VAPOR_TYPE, ECColors.CALCIUM_FOG);
+        registerGas(e, ECElementGasTypes.SCANDIUM_VAPOR_TYPE, ECColors.SCANDIUM_FOG);
+        registerGas(e, ECElementGasTypes.TITANIUM_VAPOR_TYPE, ECColors.TITANIUM_FOG);
+        registerGas(e, ECElementGasTypes.VANADIUM_VAPOR_TYPE, ECColors.VANADIUM_FOG);
+        registerGas(e, ECElementGasTypes.CHROMIUM_VAPOR_TYPE, ECColors.CHROMIUM_FOG);
+        registerGas(e, ECElementGasTypes.MANGANESE_VAPOR_TYPE, ECColors.MANGANESE_FOG);
+        registerGas(e, ECElementGasTypes.IRON_VAPOR_TYPE, ECColors.IRON_FOG);
+        registerGas(e, ECElementGasTypes.COBALT_VAPOR_TYPE, ECColors.COBALT_FOG);
+        registerGas(e, ECElementGasTypes.NICKEL_VAPOR_TYPE, ECColors.NICKEL_FOG);
+        registerGas(e, ECElementGasTypes.COPPER_VAPOR_TYPE, ECColors.COPPER_FOG);
+        registerGas(e, ECElementGasTypes.ZINC_VAPOR_TYPE, ECColors.ZINC_FOG);
+        registerGas(e, ECElementGasTypes.GALLIUM_VAPOR_TYPE, ECColors.GALLIUM_FOG);
+        registerGas(e, ECElementGasTypes.GERMANIUM_VAPOR_TYPE, ECColors.GERMANIUM_FOG);
+        registerGas(e, ECElementGasTypes.ARSENIC_VAPOR_TYPE, ECColors.ARSENIC_FOG);
+        registerGas(e, ECElementGasTypes.SELENIUM_VAPOR_TYPE, ECColors.SELENIUM_FOG);
+        registerGas(e, ECElementGasTypes.BROMINE_VAPOR_TYPE, ECColors.BROMINE_FOG);
+        registerGas(e, ECElementGasTypes.KRYPTON_GAS_TYPE, ECColors.KRYPTON_FOG);
+        registerGas(e, ECElementGasTypes.RUBIDIUM_VAPOR_TYPE, ECColors.RUBIDIUM_FOG);
+        registerGas(e, ECElementGasTypes.STRONTIUM_VAPOR_TYPE, ECColors.STRONTIUM_FOG);
+        registerGas(e, ECElementGasTypes.YTTRIUM_VAPOR_TYPE, ECColors.YTTRIUM_FOG);
+        registerGas(e, ECElementGasTypes.ZIRCONIUM_VAPOR_TYPE, ECColors.ZIRCONIUM_FOG);
+        registerGas(e, ECElementGasTypes.NIOBIUM_VAPOR_TYPE, ECColors.NIOBIUM_FOG);
+        registerGas(e, ECElementGasTypes.MOLYBDENUM_VAPOR_TYPE, ECColors.MOLYBDENUM_FOG);
+        registerGas(e, ECElementGasTypes.TECHNETIUM_VAPOR_TYPE, ECColors.TECHNETIUM_FOG);
+        registerGas(e, ECElementGasTypes.RUTHENIUM_VAPOR_TYPE, ECColors.RUTHENIUM_FOG);
+        registerGas(e, ECElementGasTypes.RHODIUM_VAPOR_TYPE, ECColors.RHODIUM_FOG);
+        registerGas(e, ECElementGasTypes.PALLADIUM_VAPOR_TYPE, ECColors.PALLADIUM_FOG);
+        registerGas(e, ECElementGasTypes.SILVER_VAPOR_TYPE, ECColors.SILVER_FOG);
+        registerGas(e, ECElementGasTypes.CADMIUM_VAPOR_TYPE, ECColors.CADMIUM_FOG);
+        registerGas(e, ECElementGasTypes.INDIUM_VAPOR_TYPE, ECColors.INDIUM_FOG);
+        registerGas(e, ECElementGasTypes.TIN_VAPOR_TYPE, ECColors.TIN_FOG);
+        registerGas(e, ECElementGasTypes.ANTIMONY_VAPOR_TYPE, ECColors.ANTIMONY_FOG);
+        registerGas(e, ECElementGasTypes.TELLURIUM_VAPOR_TYPE, ECColors.TELLURIUM_FOG);
+        registerGas(e, ECElementGasTypes.IODINE_VAPOR_TYPE, ECColors.IODINE_FOG);
+        registerGas(e, ECElementGasTypes.XENON_GAS_TYPE, ECColors.XENON_FOG);
+        registerGas(e, ECElementGasTypes.CESIUM_VAPOR_TYPE, ECColors.CESIUM_FOG);
+        registerGas(e, ECElementGasTypes.BARIUM_VAPOR_TYPE, ECColors.BARIUM_FOG);
+        registerGas(e, ECElementGasTypes.LANTHANUM_VAPOR_TYPE, ECColors.LANTHANUM_FOG);
+        registerGas(e, ECElementGasTypes.CERIUM_VAPOR_TYPE, ECColors.CERIUM_FOG);
+        registerGas(e, ECElementGasTypes.PRASEODYMIUM_VAPOR_TYPE, ECColors.PRASEODYMIUM_FOG);
+        registerGas(e, ECElementGasTypes.NEODYMIUM_VAPOR_TYPE, ECColors.NEODYMIUM_FOG);
+        registerGas(e, ECElementGasTypes.PROMETHIUM_VAPOR_TYPE, ECColors.PROMETHIUM_FOG);
+        registerGas(e, ECElementGasTypes.SAMARIUM_VAPOR_TYPE, ECColors.SAMARIUM_FOG);
+        registerGas(e, ECElementGasTypes.EUROPIUM_VAPOR_TYPE, ECColors.EUROPIUM_FOG);
+        registerGas(e, ECElementGasTypes.GADOLINIUM_VAPOR_TYPE, ECColors.GADOLINIUM_FOG);
+        registerGas(e, ECElementGasTypes.TERBIUM_VAPOR_TYPE, ECColors.TERBIUM_FOG);
+        registerGas(e, ECElementGasTypes.DYSPROSIUM_VAPOR_TYPE, ECColors.DYSPROSIUM_FOG);
+        registerGas(e, ECElementGasTypes.HOLMIUM_VAPOR_TYPE, ECColors.HOLMIUM_FOG);
+        registerGas(e, ECElementGasTypes.ERBIUM_VAPOR_TYPE, ECColors.ERBIUM_FOG);
+        registerGas(e, ECElementGasTypes.THULIUM_VAPOR_TYPE, ECColors.THULIUM_FOG);
+        registerGas(e, ECElementGasTypes.YTTERBIUM_VAPOR_TYPE, ECColors.YTTERBIUM_FOG);
+        registerGas(e, ECElementGasTypes.LUTETIUM_VAPOR_TYPE, ECColors.LUTETIUM_FOG);
+        registerGas(e, ECElementGasTypes.HAFNIUM_VAPOR_TYPE, ECColors.HAFNIUM_FOG);
+        registerGas(e, ECElementGasTypes.TANTALUM_VAPOR_TYPE, ECColors.TANTALUM_FOG);
+        registerGas(e, ECElementGasTypes.TUNGSTEN_VAPOR_TYPE, ECColors.TUNGSTEN_FOG);
+        registerGas(e, ECElementGasTypes.RHENIUM_VAPOR_TYPE, ECColors.RHENIUM_FOG);
+        registerGas(e, ECElementGasTypes.OSMIUM_VAPOR_TYPE, ECColors.OSMIUM_FOG);
+        registerGas(e, ECElementGasTypes.IRIDIUM_VAPOR_TYPE, ECColors.IRIDIUM_FOG);
+        registerGas(e, ECElementGasTypes.PLATINUM_VAPOR_TYPE, ECColors.PLATINUM_FOG);
+        registerGas(e, ECElementGasTypes.GOLD_VAPOR_TYPE, ECColors.GOLD_FOG);
+        registerGas(e, ECElementGasTypes.MERCURY_VAPOR_TYPE, ECColors.MERCURY_FOG);
+        registerGas(e, ECElementGasTypes.THALLIUM_VAPOR_TYPE, ECColors.THALLIUM_FOG);
+        registerGas(e, ECElementGasTypes.LEAD_VAPOR_TYPE, ECColors.LEAD_FOG);
+        registerGas(e, ECElementGasTypes.BISMUTH_VAPOR_TYPE, ECColors.BISMUTH_FOG);
+        registerGas(e, ECElementGasTypes.POLONIUM_VAPOR_TYPE, ECColors.POLONIUM_FOG);
+        registerGas(e, ECElementGasTypes.ASTATINE_VAPOR_TYPE, ECColors.ASTATINE_FOG);
+        registerGas(e, ECElementGasTypes.RADON_GAS_TYPE, ECColors.RADON_FOG);
+        registerGas(e, ECElementGasTypes.FRANCIUM_VAPOR_TYPE, ECColors.FRANCIUM_FOG);
+        registerGas(e, ECElementGasTypes.RADIUM_VAPOR_TYPE, ECColors.RADIUM_FOG);
+        registerGas(e, ECElementGasTypes.ACTINIUM_VAPOR_TYPE, ECColors.ACTINIUM_FOG);
+        registerGas(e, ECElementGasTypes.THORIUM_VAPOR_TYPE, ECColors.THORIUM_FOG);
+        registerGas(e, ECElementGasTypes.PROTACTINIUM_VAPOR_TYPE, ECColors.PROTACTINIUM_FOG);
+        registerGas(e, ECElementGasTypes.URANIUM_VAPOR_TYPE, ECColors.URANIUM_FOG);
+        registerGas(e, ECElementGasTypes.NEPTUNIUM_VAPOR_TYPE, ECColors.NEPTUNIUM_FOG);
+        registerGas(e, ECElementGasTypes.PLUTONIUM_VAPOR_TYPE, ECColors.PLUTONIUM_FOG);
+        registerGas(e, ECElementGasTypes.AMERICIUM_VAPOR_TYPE, ECColors.AMERICIUM_FOG);
+        registerGas(e, ECElementGasTypes.CURIUM_VAPOR_TYPE, ECColors.CURIUM_FOG);
+        registerGas(e, ECElementGasTypes.BERKELIUM_VAPOR_TYPE, ECColors.BERKELIUM_FOG);
+        registerGas(e, ECElementGasTypes.CALIFORNIUM_VAPOR_TYPE, ECColors.CALIFORNIUM_FOG);
+        registerGas(e, ECElementGasTypes.EINSTEINIUM_VAPOR_TYPE, ECColors.EINSTEINIUM_FOG);
+        registerGas(e, ECElementGasTypes.FERMIUM_VAPOR_TYPE, ECColors.FERMIUM_FOG);
+        registerGas(e, ECElementGasTypes.MENDELEVIUM_VAPOR_TYPE, ECColors.MENDELEVIUM_FOG);
+        registerGas(e, ECElementGasTypes.NOBELIUM_VAPOR_TYPE, ECColors.NOBELIUM_FOG);
+        registerGas(e, ECElementGasTypes.LAWRENCIUM_VAPOR_TYPE, ECColors.LAWRENCIUM_FOG);
+        registerGas(e, ECElementGasTypes.RUTHERFORDIUM_VAPOR_TYPE, ECColors.RUTHERFORDIUM_FOG);
+        registerGas(e, ECElementGasTypes.DUBNIUM_VAPOR_TYPE, ECColors.DUBNIUM_FOG);
+        registerGas(e, ECElementGasTypes.SEABORGIUM_VAPOR_TYPE, ECColors.SEABORGIUM_FOG);
+        registerGas(e, ECElementGasTypes.BOHRIUM_VAPOR_TYPE, ECColors.BOHRIUM_FOG);
+        registerGas(e, ECElementGasTypes.HASSIUM_VAPOR_TYPE, ECColors.HASSIUM_FOG);
+        registerGas(e, ECElementGasTypes.MEITNERIUM_VAPOR_TYPE, ECColors.MEITNERIUM_FOG);
+        registerGas(e, ECElementGasTypes.DARMSTADTIUM_VAPOR_TYPE, ECColors.DARMSTADTIUM_FOG);
+        registerGas(e, ECElementGasTypes.ROENTGENIUM_VAPOR_TYPE, ECColors.ROENTGENIUM_FOG);
+        registerGas(e, ECElementGasTypes.COPERNICIUM_VAPOR_TYPE, ECColors.COPERNICIUM_FOG);
+        registerGas(e, ECElementGasTypes.NIHONIUM_VAPOR_TYPE, ECColors.NIHONIUM_FOG);
+        registerGas(e, ECElementGasTypes.FLEROVIUM_VAPOR_TYPE, ECColors.FLEROVIUM_FOG);
+        registerGas(e, ECElementGasTypes.MOSCOVIUM_VAPOR_TYPE, ECColors.MOSCOVIUM_FOG);
+        registerGas(e, ECElementGasTypes.LIVERMORIUM_VAPOR_TYPE, ECColors.LIVERMORIUM_FOG);
+        registerGas(e, ECElementGasTypes.TENNESSINE_VAPOR_TYPE, ECColors.TENNESSINE_FOG);
+        registerGas(e, ECElementGasTypes.OGANESSON_GAS_TYPE, ECColors.OGANESSON_FOG);
+        registerGas(e, ECElementGasTypes.LONGIUM_VAPOR_TYPE, ECColors.LONGIUM_FOG);
+        registerGas(e, ECElementGasTypes.MYSTERIUM_VAPOR_TYPE, ECColors.MYSTERIUM_FOG);
+    }
+
+    private static void registerGas(
+            RegisterClientExtensionsEvent e,
+            DeferredHolder<FluidType, FluidType> type,
+            ECColors.Fog fog
+    ) {
+        e.registerFluidType(
+                new SimpleFluidExtension(
+                        ResourceLocation.withDefaultNamespace("block/water_still"),
+                        ResourceLocation.withDefaultNamespace("block/water_flow"),
+                        fog.color(),
+                        fog.distance()
+                ),
+                type
+        );
+    }
+
+    static void register(IEventBus eventBus) {
+        ECElementGasTypes.GAS_TYPES.register(eventBus);
+        GASID.register(eventBus);
+    }
+}

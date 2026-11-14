@@ -1,6 +1,9 @@
 package com.chinaex123.elementum_core.data.lang;
 
 import com.chinaex123.elementum_core.ElementumCore;
+import com.chinaex123.elementum_core.init.ECElementBlocks;
+import com.chinaex123.elementum_core.init.ECElementItems;
+import com.chinaex123.elementum_core.util.ContentRefs;
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.common.data.LanguageProvider;
 
@@ -95,26 +98,48 @@ public abstract class ModLangProvider extends LanguageProvider {
             String id = entry[0];
             String name = entry[1];
 
-            add("item.elementum_core." + id + "_ingot", ingot(name));
-            add("item.elementum_core." + id + "_nugget", nugget(name));
+            // 与原版重复、已改为沿用原版的内容不再生成本模组的翻译键
+            ECElementItems.OreItems oreItems = ECElementItems.OreItems.byName(id);
+            ECElementBlocks.OreBlocks oreBlocks = ECElementBlocks.OreBlocks.byName(id);
+
+            if (oreItems == null || !ContentRefs.isVanilla(oreItems.INGOT)) {
+                add("item.elementum_core." + id + "_ingot", ingot(name));
+            }
+            if (oreItems == null || !ContentRefs.isVanilla(oreItems.NUGGET)) {
+                add("item.elementum_core." + id + "_nugget", nugget(name));
+            }
             add("item.elementum_core." + id + "_dust", dust(name));
             add("item.elementum_core." + id + "_plate", plate(name));
             add("item.elementum_core." + id + "_rod", rod(name));
             add("item.elementum_core." + id + "_wire", wire(name));
             add("item.elementum_core." + id + "_gear", gear(name));
             add("item.elementum_core.crushed_raw_" + id, crushedRaw(name));
-            add("item.elementum_core.raw_" + id, raw(name));
+            if (oreItems == null || !ContentRefs.isVanilla(oreItems.RAW)) {
+                add("item.elementum_core.raw_" + id, raw(name));
+            }
 
             if (isGas(id)) {
                 add("item.elementum_core." + id + "_cylinder", cylinder(name));
             }
 
-            add("block.elementum_core." + id + "_block", block(name));
-            add("block.elementum_core.raw_" + id + "_block", rawBlock(name));
-            add("block.elementum_core." + id + "_ore", ore(name));
-            add("block.elementum_core.deepslate_" + id + "_ore", deepslateOre(name));
-            add("block.elementum_core.nether_" + id + "_ore", netherOre(name));
-            add("block.elementum_core.end_" + id + "_ore", endOre(name));
+            if (oreBlocks == null || !ContentRefs.isVanilla(oreBlocks.BLOCK)) {
+                add("block.elementum_core." + id + "_block", block(name));
+            }
+            if (oreBlocks == null || !ContentRefs.isVanilla(oreBlocks.RAW_BLOCK)) {
+                add("block.elementum_core.raw_" + id + "_block", rawBlock(name));
+            }
+            if (oreBlocks == null || !ContentRefs.isVanilla(oreBlocks.ORE)) {
+                add("block.elementum_core." + id + "_ore", ore(name));
+            }
+            if (oreBlocks == null || !ContentRefs.isVanilla(oreBlocks.DEEPSLATE_ORE)) {
+                add("block.elementum_core.deepslate_" + id + "_ore", deepslateOre(name));
+            }
+            if (oreBlocks == null || !ContentRefs.isVanilla(oreBlocks.NETHER_ORE)) {
+                add("block.elementum_core.nether_" + id + "_ore", netherOre(name));
+            }
+            if (oreBlocks == null || !ContentRefs.isVanilla(oreBlocks.END_ORE)) {
+                add("block.elementum_core.end_" + id + "_ore", endOre(name));
+            }
 
             // --- 常温流体 / 熔化态 --- //
             String fluidLabel = fluidLabel(id, name);

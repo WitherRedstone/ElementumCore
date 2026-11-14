@@ -1,9 +1,9 @@
 package com.chinaex123.elementum_core.client;
 
 import com.chinaex123.elementum_core.ElementumCore;
-import com.chinaex123.elementum_core.init.ECFluids;
-import com.chinaex123.elementum_core.init.ECGases;
-import com.chinaex123.elementum_core.init.ECItemMaterials;
+import com.chinaex123.elementum_core.init.ECElementFluids;
+import com.chinaex123.elementum_core.init.ECElementGases;
+import com.chinaex123.elementum_core.init.ECElementItems;
 import com.chinaex123.elementum_core.item.GasBucketItem;
 import net.minecraft.client.color.item.ItemColor;
 import net.minecraft.world.item.BucketItem;
@@ -19,8 +19,8 @@ import net.neoforged.neoforge.client.model.DynamicFluidContainerModel;
 public class ECClient {
 
     public ECClient(IEventBus modEventBus) {
-        modEventBus.addListener(RegisterClientExtensionsEvent.class, ECFluids::onRegisterFluidType);
-        modEventBus.addListener(RegisterClientExtensionsEvent.class, ECGases::onRegisterGasType);
+        modEventBus.addListener(RegisterClientExtensionsEvent.class, ECElementFluids::onRegisterFluidType);
+        modEventBus.addListener(RegisterClientExtensionsEvent.class, ECElementGases::onRegisterGasType);
 
         modEventBus.addListener(RegisterColorHandlersEvent.Item.class, ECClient::registerItemColors);
     }
@@ -29,7 +29,7 @@ public class ECClient {
         ItemColor gasColor = new DynamicFluidContainerModel.Colors();
         ItemColor fluidColor = new DynamicFluidContainerModel.Colors();
 
-        for (var entry : ECItemMaterials.ITEMS.getEntries()) {
+        for (var entry : ECElementItems.ITEMS.getEntries()) {
             Item item = entry.get();
             if (item instanceof GasBucketItem) {
                 event.register(gasColor, item);

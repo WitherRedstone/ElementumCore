@@ -1,7 +1,7 @@
 package com.chinaex123.elementum_core.data;
 
 import com.chinaex123.elementum_core.ElementumCore;
-import com.chinaex123.elementum_core.init.ECBlockElements;
+import com.chinaex123.elementum_core.init.ECElementBlocks;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
@@ -15,7 +15,7 @@ public class ModBlockStatesProvider extends BlockStateProvider {
     }
 
     protected void registerStatesAndModels() {
-        ECBlockElements.OreBlocks.ALL_BLOCKS.forEach(this::simpleBlock);
+        ECElementBlocks.OreBlocks.ALL_BLOCKS.forEach(this::simpleBlock);
     }
 
     private void simpleBlock(DeferredBlock<?> block) {
